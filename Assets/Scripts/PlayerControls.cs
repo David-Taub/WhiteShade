@@ -50,6 +50,10 @@ public class PlayerControls : MonoBehaviour {
             Debug.Log("path found");
             Debug.Log(p.path[0].position);
         }
+        else
+        {
+            Debug.Log("Error");
+        }
             
     }
 
@@ -60,11 +64,10 @@ public class PlayerControls : MonoBehaviour {
             //right click
             destination = RoundVector3(Camera.main.ScreenToWorldPoint(Input.mousePosition));
             destination.z = 0;
-            AstarPath.StartPath(ABPath.Construct(transform.position, destination, OnPathComplete));
-            Debug.Log("click at");
-            Debug.Log(destination);
-            Debug.Log("current");
-            Debug.Log(transform.position);
+            AstarPath.active.AddWorkItem(() => {
+                // Safe to update graphs here
+                AstarPath.StartPath(ABPath.Construct(transform.position, destination, OnPathComplete));
+            });
         }
         stepOnPath();
         UpdateState();
@@ -78,8 +81,7 @@ public class PlayerControls : MonoBehaviour {
                 GraphNode nextNode = currentPath.Dequeue();
                 GridGraph graph = (GridGraph) AstarPath.active.data.graphs[0];
                 stepTarget = new Vector3(nextNode.position.x, nextNode.position.y, nextNode.position.z);
-                Debug.Log(stepTarget);
-                Debug.Log(currentPath.Count);
+                transform.position = Vector3.MoveTowards(transform.position, stepTarget, Time.deltaTime * speed);
             }
         }
         else
