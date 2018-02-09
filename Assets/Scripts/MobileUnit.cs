@@ -62,6 +62,6 @@ public class MobileUnit: MonoBehaviour
 
     public void Reach(Vector3 wantedDestination)
     {
-        navigationController.TryReachDest(this, wantedDestination, newPath => { path = newPath; });
+        navigationController.TryReachDest(this, wantedDestination, newPath => { path = (newPath.Count > 0) ? newPath : path; });
     }
 }

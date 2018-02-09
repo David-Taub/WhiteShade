@@ -63,8 +63,8 @@ public class MapCreator : MonoBehaviour {
         return (x == 0 || x == columns - 1 || y == 0 || y == rows - 1);
     }
 
-    void Start() {
-    
+    void Start() 
+	{
         BoardSetup();
         PlacePlayers();
     }

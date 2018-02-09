@@ -339,7 +339,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eca0c7d1f1dda384eaede7f57c1f056c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectionCirclePrefab: {fileID: 1962326305425038, guid: 296ef5f66c06d0d49849755c86f0db5c,
+  selectionCirclePrefab: {fileID: 1721951676188030, guid: 3e167430247360a4d95a64f41a80b304,
     type: 2}
   selected: []
 --- !u!114 &917606150
@@ -511,7 +511,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2a3a9ec83f5c17a458b09d13744fe72b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectionCircle: {fileID: 0}
+  selectionCircle: {fileID: 1721951676188030, guid: 3e167430247360a4d95a64f41a80b304,
+    type: 2}
 --- !u!114 &1632647151
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -576,7 +577,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 20
+  orthographic size: 10
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
