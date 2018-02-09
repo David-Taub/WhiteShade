@@ -2,14 +2,13 @@
 using UnityEngine;
 using System;
 
-using System.Threading;
 using System.Collections.Generic; 		//Allows us to use Lists.
 using Random = UnityEngine.Random; 		//Tells Random to use the Unity Engine random number generator.
 
 public class MapCreator : MonoBehaviour {
     public GameObject floorTile;
     public GameObject wallTile;
-    private Transform boardHolder;
+    
     public int columns;
     public int rows;
     public GridGraph graph;
@@ -20,11 +19,11 @@ public class MapCreator : MonoBehaviour {
 
     public void BoardSetup()
     {
+        Transform boardHolder = new GameObject("Board").transform;
         graph = AstarPath.active.data.AddGraph(typeof(GridGraph)) as GridGraph;
         graph.SetDimensions(columns, rows, nodeDistance);
         graph.center = new Vector3(columns / 2.0f - 0.5f, rows / 2.0f - 0.5f, 0);
         graph.rotation = new Vector3(-90, -90, 90);
-
         AstarPath.active.AddWorkItem(new AstarWorkItem(ctx => {
 
             for (int x = 0; x < columns; x++)
@@ -63,14 +62,26 @@ public class MapCreator : MonoBehaviour {
         return (x == 0 || x == columns - 1 || y == 0 || y == rows - 1);
     }
 
-    // Use this for initialization
     void Start() {
-        boardHolder = new GameObject("Board").transform;
+    
         BoardSetup();
-        Vector3 pos = PopRandomPosition();
-        GameObject player = GameObject.Find("Player");
-        player.transform.position = new Vector3(pos.x, pos.y, 0f);
+        PlacePlayers();
     }
+
+    private void PlacePlayers()
+    {
+        Transform playerHolder = new GameObject("Players").transform;
+        GameObject player = GameObject.Find("Player");
+        for (int i = 0; i < 3; i++)
+        {
+            Vector3 pos = PopRandomPosition();
+            GameObject instance =
+                            Instantiate(player, pos, Quaternion.identity) as GameObject;
+            instance.transform.SetParent(playerHolder);
+        }
+        Destroy(player);
+    }
+
 
     Vector3 PopRandomPosition()
     {
