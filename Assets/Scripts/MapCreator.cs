@@ -9,11 +9,12 @@ public class MapCreator : MonoBehaviour {
     public GameObject floorTile;
     public GameObject wallTile;
     
-    public int columns;
-    public int rows;
+    int columns = 50;
+    int rows = 50;
+    int numOfPlayers = 30;
     public GridGraph graph;
-    public float WALL_RATIO = 0.2f;
-    public float nodeDistance = 1.0f;
+    float WALL_RATIO = 0.3f;
+    float nodeDistance = 1.0f;
     private List<Vector3> freeLocations = new List<Vector3>();
 
 
@@ -72,7 +73,7 @@ public class MapCreator : MonoBehaviour {
     {
         Transform playerHolder = new GameObject("Players").transform;
         GameObject player = GameObject.Find("Player");
-        for (int i = 0; i < 3; i++)
+        for (int i = 0; i < numOfPlayers; i++)
         {
             Vector3 pos = PopRandomPosition();
             GameObject instance =

@@ -15,7 +15,7 @@ public class PlayerControls : MonoBehaviour
     Queue<GraphNode> currentPath = new Queue<GraphNode>();
     Animator amin;
     private GridGraph graph;
-    public const int MAX_NEAR_MOVE_RADIUS = 3;
+    public const int MAX_NEAR_MOVE_RADIUS = 100;
 
     private GridNode currentNode 
     {
@@ -99,36 +99,33 @@ public class PlayerControls : MonoBehaviour
     }
     }
 
-    private GridNode GetNearestFreeDest(GridNode node, HashSet<GridNode> visited = null, int depth = MAX_NEAR_MOVE_RADIUS)
+    private Boolean IsGoodDest(GridNode node)
     {
-        //Debug.Log("Looking at " + node.position + "depth " + depth + node.Walkable);
-        if (currentNode.Area != node.Area)
-        {
-            Debug.Log("Not the same connectivity component");
-            return null;
-        }
-        if (node.Walkable && !occupiedDestinations.Contains(node))
-        {
-            return node;
-        }
-        var connections = new List<GraphNode>();
-        node.GetConnections(connections.Add);
-        Debug.Log("not free, trying neighbours..." + connections.Count);
-        if (depth == 0 || connections.Count == 0)
-            return null;
-        visited = visited == null ? new HashSet<GridNode>() : visited;
-        visited.Add(node);
-        foreach (GraphNode connection in connections)
-        {
-            Debug.Log("inside recursive");
-            if (!visited.Contains((GridNode)connection))
-            {
-                GridNode res = GetNearestFreeDest((GridNode)connection, visited, depth - 1);
-                if (res != null)
-                    return res;
-            }
+        return (currentNode.Area == node.Area && node.Walkable && !occupiedDestinations.Contains(node));
+    }
 
+
+    //bfs search for a new destination
+    private GridNode GetNearestFreeDest(GridNode node)
+    {
+        Queue<GridNode> toCheck = new Queue<GridNode>();
+        toCheck.Enqueue(node);
+        HashSet<GridNode> visited = new HashSet<GridNode>();
+        while (toCheck.Count > 0 && toCheck.Count < MAX_NEAR_MOVE_RADIUS*8)
+        {
+            GridNode currentNode = toCheck.Dequeue();
+            if (IsGoodDest(currentNode))
+            {
+                return currentNode;
+            }
+            visited.Add(currentNode);
+            currentNode.GetConnections(connected =>
+            {
+                if (!visited.Contains((GridNode)connected))
+                    toCheck.Enqueue((GridNode)connected);
+            });
         }
+        Debug.Log("max reached?" + toCheck.Count);
         return null;
     }
 
