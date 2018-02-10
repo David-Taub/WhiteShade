@@ -5,12 +5,13 @@ using System;
 using System.Collections.Generic; 		//Allows us to use Lists.
 using Random = UnityEngine.Random; 		//Tells Random to use the Unity Engine random number generator.
 
-public class MapCreator : MonoBehaviour {
-    public GameObject floorTile;
-    public GameObject wallTile;
-    
-    int columns = 50;
-    int rows = 50;
+public class MapController : MonoBehaviour {
+    public GameObject FloorPrefab;
+    public GameObject wallPrefab;
+    public GameObject playerPrefab;
+
+    public int columns = 50;
+    public int rows = 50;
     int numOfPlayers = 30;
     public GridGraph graph;
     float WALL_RATIO = 0.3f;
@@ -31,14 +32,14 @@ public class MapCreator : MonoBehaviour {
             {
                 for (int y = 0; y < rows; y++)
                 {
-                    GameObject toInstantiate = floorTile;
+                    GameObject toInstantiate = FloorPrefab;
 
                     //Check if we current position is at board edge, if so choose a random outer wall prefab from our array of outer wall tiles.
                     GridNode node = (GridNode)graph.GetNode(x, y);
                     node.position = new Int3(x, y, 0);
                     if (isForbiddenPosition(x, y) || (Random.value < WALL_RATIO))
                     {
-                        toInstantiate = wallTile;
+                        toInstantiate = wallPrefab;
                         node.Walkable = false;
                     }
                     else
@@ -72,15 +73,12 @@ public class MapCreator : MonoBehaviour {
     private void PlacePlayers()
     {
         Transform playerHolder = new GameObject("Players").transform;
-        GameObject player = GameObject.Find("Player");
         for (int i = 0; i < numOfPlayers; i++)
         {
             Vector3 pos = PopRandomPosition();
-            GameObject instance =
-                            Instantiate(player, pos, Quaternion.identity) as GameObject;
+            GameObject instance = Instantiate(playerPrefab, pos, Quaternion.identity) as GameObject;
             instance.transform.SetParent(playerHolder);
         }
-        Destroy(player);
     }
 
 
