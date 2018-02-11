@@ -7,32 +7,35 @@ using Pathfinding;
 
 public class MobileUnit: MonoBehaviour
 {
-    NavigationController navigationController;
-    float speed = 10.0f;
+    private NavigationController _navigationController;
+    private AnimatedWalker _animatedWalker;
+    private const float Speed = 10.0f;
 
-    public Vector3 nextStep
+    public Vector3 NextStep
     {
-        get { return (path.Count == 0) ? position: path.First(); }
+        get { return (_path.Count == 0) ? Position: _path.First(); }
     }
 
-    public Vector3 destination
+    public Vector3 Destination
     {
-        get { return (path.Count == 0) ? position: path.Last(); }
+        get { return (_path.Count == 0) ? Position: _path.Last(); }
     }
-    public Vector3 position
+    public Vector3 Position
     {
         get { return transform.position; }
     }
-    private Boolean isMoving
+    public bool IsMoving
     {
-        get { return path.Count > 0; }
+        get { return _path.Count > 0; }
     }
-    Queue<Vector3> path;
+
+    private Queue<Vector3> _path;
 
     public void Start()
     {
-        path = new Queue<Vector3>();
-        navigationController = GameObject.Find("GameController").GetComponent<NavigationController>();
+        _path = new Queue<Vector3>();
+        _navigationController = GameObject.Find("GameController").GetComponent<NavigationController>();
+        _animatedWalker = GetComponent<AnimatedWalker>();
     }
 
     public void Update()
@@ -42,26 +45,27 @@ public class MobileUnit: MonoBehaviour
 
     private void UpdatePosition()
     {
-        if (!isMoving)
+        if (!IsMoving)
         {
             return;
         }
-        if (isMoving && transform.position == nextStep)
+        if (IsMoving && transform.position == NextStep)
         {
-            path.Dequeue();
-            if (!navigationController.IsPositionWalkable(nextStep))
+            _path.Dequeue();
+            _animatedWalker.ChangeAnimation(IsMoving, NextStep);
+            if (!_navigationController.IsPositionWalkable(NextStep))
             {
                 Debug.Log("Blocked, retrying");
                 //blocked by unexpected object, retry
-                Reach(destination);
+                Reach(Destination);
             }
             return;
         }
-        transform.position = Vector3.MoveTowards(transform.position, nextStep, Time.deltaTime * speed);
+        transform.position = Vector3.MoveTowards(transform.position, NextStep, Time.deltaTime * Speed);
     }
 
     public void Reach(Vector3 wantedDestination)
     {
-        navigationController.TryReachDest(this, wantedDestination, newPath => { path = (newPath.Count > 0) ? newPath : path; });
+        _navigationController.TryReachDest(this, wantedDestination, newPath => { _path = (newPath.Count > 0) ? newPath : _path; });
     }
 }

@@ -7,18 +7,20 @@ using UnityEngine;
 
 public class NavigationController : MonoBehaviour {
 
-    private HashSet<GridNode> occupiedDestinations = new HashSet<GridNode>();
-    private object destCalculation = new object();
-    UnitSelector unitSelector;
-    private GridGraph graph
+    private readonly HashSet<GridNode> _occupiedDestinations = new HashSet<GridNode>();
+    private readonly object _destCalculation = new object();
+    private UnitSelector _unitSelector;
+    public const int MaxNearMoveRadius = 500;
+
+    private static GridGraph Graph
     {
-        get { return (GridGraph)AstarPath.active.data.gridGraph; }
+        get { return AstarPath.active.data.gridGraph; }
     }
-    public const int MAX_NEAR_MOVE_RADIUS = 100;
 
     public void Start()
     {
-        unitSelector = GameObject.Find("GameController").GetComponent<UnitSelector>();
+        AstarPath.active.logPathResults = PathLog.OnlyErrors;
+        _unitSelector = GameObject.Find("GameController").GetComponent<UnitSelector>();
         Debug.Log("Navigation Controller Started");
     }
 
@@ -30,7 +32,7 @@ public class NavigationController : MonoBehaviour {
             //right click
             Vector3 click = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             click.z = 0.0f;
-            foreach (var selectedUnit in unitSelector.selected)
+            foreach (var selectedUnit in _unitSelector.Selected)
             {
                 MobileUnit mobileUnit = selectedUnit.GetComponentInParent<MobileUnit>();
                 if (mobileUnit != null)
@@ -44,10 +46,10 @@ public class NavigationController : MonoBehaviour {
     {
         
         Queue<GridNode> toCheck = new Queue<GridNode>();
-        GridNode currentUnitNode = Vector3ToNode(unit.position);
+        GridNode currentUnitNode = Vector3ToNode(unit.Position);
         toCheck.Enqueue(Vector3ToNode(wantedDestination));
         HashSet<int> visited = new HashSet<int>();
-        while (toCheck.Count > 0 && toCheck.Count < MAX_NEAR_MOVE_RADIUS * 8)
+        while (toCheck.Count > 0 && toCheck.Count < MaxNearMoveRadius)
         {
             GridNode checkedDestnation = toCheck.Dequeue();
             if (IsGoodDest(currentUnitNode, checkedDestnation))
@@ -82,10 +84,10 @@ public class NavigationController : MonoBehaviour {
 
     public void TryReachDest(MobileUnit unit, Vector3 wantedDestination, Action<Queue<Vector3>> onPathCalculated)
     {
-        lock (destCalculation)
+        lock (_destCalculation)
         {
 
-            occupiedDestinations.Remove(Vector3ToNode(unit.destination));
+            _occupiedDestinations.Remove(Vector3ToNode(unit.Destination));
             GridNode destination = GetNearestFreeDest(unit, wantedDestination);
             if (destination == null)
             {
@@ -93,7 +95,7 @@ public class NavigationController : MonoBehaviour {
                 onPathCalculated(new Queue<Vector3>());
                 return;
             }
-            occupiedDestinations.Add(destination);
+            _occupiedDestinations.Add(destination);
             var abPath = ABPath.Construct(unit.transform.position, Int3ToVector3(destination.position), (foundPath) =>
             {
                 var convertedPath = new Queue<Vector3>();
@@ -117,13 +119,13 @@ public class NavigationController : MonoBehaviour {
     
     private GridNode Vector3ToNode(Vector3 position)
     {
-        return (GridNode) graph.GetNode((int)Math.Round(position.x), (int)Math.Round(position.y));
+        return (GridNode) Graph.GetNode((int)Math.Round(position.x), (int)Math.Round(position.y));
     }
 
     private Boolean IsGoodDest(GridNode source, GridNode destination)
     {
         //connected, walkable and unoccupied
-        return ((source.Area == destination.Area) && destination.Walkable && !occupiedDestinations.Contains(destination));
+        return ((source.Area == destination.Area) && destination.Walkable && !_occupiedDestinations.Contains(destination));
     }
 
 

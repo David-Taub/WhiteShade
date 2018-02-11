@@ -1,92 +1,104 @@
-﻿using Pathfinding;
+﻿using System.Collections.Generic;
+using Pathfinding;
 using UnityEngine;
-using System;
-
-using System.Collections.Generic; 		//Allows us to use Lists.
-using Random = UnityEngine.Random; 		//Tells Random to use the Unity Engine random number generator.
+using Debug = System.Diagnostics.Debug;
+using Random = UnityEngine.Random;
 
 public class MapController : MonoBehaviour {
     public GameObject FloorPrefab;
-    public GameObject wallPrefab;
-    public GameObject playerPrefab;
+    public GameObject WallPrefab;
+    public GameObject PlayerPrefab;
+    public GameObject EnemyPrefab;
 
-    public int columns = 50;
-    public int rows = 50;
-    int numOfPlayers = 30;
-    public GridGraph graph;
-    float WALL_RATIO = 0.3f;
-    float nodeDistance = 1.0f;
-    private List<Vector3> freeLocations = new List<Vector3>();
+    public int Columns = 50;
+    public int Rows = 50;
+    private const int NumOfPlayers = 30;
+    public GridGraph Graph;
+    private const float WallRatio = 0.3f;
+    private const float NodeDistance = 1.0f;
+    private readonly List<Vector3> _freeLocations = new List<Vector3>();
 
 
     public void BoardSetup()
     {
-        Transform boardHolder = new GameObject("Board").transform;
-        graph = AstarPath.active.data.AddGraph(typeof(GridGraph)) as GridGraph;
-        graph.SetDimensions(columns, rows, nodeDistance);
-        graph.center = new Vector3(columns / 2.0f - 0.5f, rows / 2.0f - 0.5f, 0);
-        graph.rotation = new Vector3(-90, -90, 90);
+        var boardHolder = new GameObject("Board").transform;
+        Graph = AstarPath.active.data.AddGraph(typeof(GridGraph)) as GridGraph;
+        Debug.Assert(Graph != null, "Graph != null");
+        Graph.SetDimensions(Columns, Rows, NodeDistance);
+        Graph.center = new Vector3(Columns / 2.0f - 0.5f, Rows / 2.0f - 0.5f, 0);
+        Graph.rotation = new Vector3(-90, -90, 90);
         AstarPath.active.AddWorkItem(new AstarWorkItem(ctx => {
 
-            for (int x = 0; x < columns; x++)
+            for (var x = 0; x < Columns; x++)
             {
-                for (int y = 0; y < rows; y++)
+                for (var y = 0; y < Rows; y++)
                 {
                     GameObject toInstantiate = FloorPrefab;
 
                     //Check if we current position is at board edge, if so choose a random outer wall prefab from our array of outer wall tiles.
-                    GridNode node = (GridNode)graph.GetNode(x, y);
+                    GridNode node = (GridNode)Graph.GetNode(x, y);
                     node.position = new Int3(x, y, 0);
-                    if (isForbiddenPosition(x, y) || (Random.value < WALL_RATIO))
+                    if (IsForbiddenPosition(x, y) || (Random.value < WallRatio))
                     {
-                        toInstantiate = wallPrefab;
+                        toInstantiate = WallPrefab;
                         node.Walkable = false;
                     }
                     else
                     {
-                        freeLocations.Add(new Vector3(x, y, 0));
+                        _freeLocations.Add(new Vector3(x, y, 0));
                         node.Walkable = true;
                     }
 
-                    GameObject instance =
-                        Instantiate(toInstantiate, new Vector3(x, y, 0f), Quaternion.identity) as GameObject;
+                    var instance = Instantiate(toInstantiate, new Vector3(x, y, 0f), Quaternion.identity);
                     instance.transform.SetParent(boardHolder);
                 }
             }
-            graph.GetNodes(node => graph.CalculateConnections((GridNodeBase)node));
+            Graph.GetNodes(node => Graph.CalculateConnections((GridNodeBase)node));
 
         }));
         AstarPath.active.Scan();
     }
 
-    private Boolean isForbiddenPosition(int x, int y)
+    private bool IsForbiddenPosition(int x, int y)
     {
-        return (x == 0 || x == columns - 1 || y == 0 || y == rows - 1);
+        return (x == 0 || x == Columns - 1 || y == 0 || y == Rows - 1);
     }
 
     void Start() 
-	{
+    {
         BoardSetup();
         PlacePlayers();
+        PlaceEnemies();
     }
 
     private void PlacePlayers()
     {
         Transform playerHolder = new GameObject("Players").transform;
-        for (int i = 0; i < numOfPlayers; i++)
+        for (int i = 0; i < NumOfPlayers; i++)
         {
             Vector3 pos = PopRandomPosition();
-            GameObject instance = Instantiate(playerPrefab, pos, Quaternion.identity) as GameObject;
+            GameObject instance = Instantiate(PlayerPrefab, pos, Quaternion.identity);
             instance.transform.SetParent(playerHolder);
+        }
+    }
+
+    private void PlaceEnemies()
+    {
+        Transform enemiesHolder = new GameObject("Enemies").transform;
+        for (int i = 0; i < NumOfPlayers; i++)
+        {
+            Vector3 pos = PopRandomPosition();
+            GameObject instance = Instantiate(EnemyPrefab, pos, Quaternion.identity);
+            instance.transform.SetParent(enemiesHolder);
         }
     }
 
 
     Vector3 PopRandomPosition()
     {
-        int randomIndex = Random.Range(0, freeLocations.Count);
-        Vector3 randomPosition = freeLocations[randomIndex];
-        freeLocations.RemoveAt(randomIndex);
+        int randomIndex = Random.Range(0, _freeLocations.Count);
+        Vector3 randomPosition = _freeLocations[randomIndex];
+        _freeLocations.RemoveAt(randomIndex);
         return randomPosition;
     }
 }

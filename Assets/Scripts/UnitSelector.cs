@@ -5,16 +5,16 @@ using UnityEngine;
 
 public class UnitSelector : MonoBehaviour
 {
-    public GameObject selectionCirclePrefab;
-    public List<SelectableUnit> selected;
-    private bool isSelecting;
-    private Vector3 selectionStart;
+    public GameObject SelectionCirclePrefab;
+    public List<SelectableUnit> Selected;
+    private bool _isSelecting;
+    private Vector3 _selectionStart;
 
     // Use this for initialization
     void Start()
     {
         Debug.Log("Unit Selector Started");
-        selected = new List<SelectableUnit>();
+        Selected = new List<SelectableUnit>();
     }
 
     // Update is called once per frame
@@ -23,17 +23,17 @@ public class UnitSelector : MonoBehaviour
         if (Input.GetMouseButtonDown(0))
         {
             UnselectAllUnits();
-            isSelecting = true;
-            selectionStart = Input.mousePosition;
+            _isSelecting = true;
+            _selectionStart = Input.mousePosition;
         }
         // If we let go of the left mouse button, end selection
         if (Input.GetMouseButtonUp(0))
         {
-            selected = SelectUnits(SelectionBox);
-            isSelecting = false;
-            Debug.Log("Selected" + selected.Count);
+            Selected = SelectUnits(SelectionBox);
+            _isSelecting = false;
+            //Debug.Log("Selected" + Selected.Count);
         }
-        if (isSelecting)
+        if (_isSelecting)
         {
             SelectBoxHover(SelectionBox);
         }
@@ -43,7 +43,7 @@ public class UnitSelector : MonoBehaviour
     {
         get
         {
-            var point1 = Camera.main.ScreenToWorldPoint(selectionStart);
+            var point1 = Camera.main.ScreenToWorldPoint(_selectionStart);
             var point2 = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             var topLeft = Vector3.Min(point1, point2);
             var bottomRight = Vector3.Max(point1, point2);
@@ -65,19 +65,21 @@ public class UnitSelector : MonoBehaviour
             if (selectionBox.Contains(selectableObject.transform.position))
             {
                 //in box
-                if (selectableObject.selectionCircle == null)
+                if (selectableObject.SelectionCircle != null)
                 {
-                    selectableObject.selectionCircle = Instantiate(selectionCirclePrefab, selectableObject.transform.position, Quaternion.identity);
-                    selectableObject.selectionCircle.transform.SetParent(selectableObject.transform);
+                    selectableObject.SelectionCircle.SetActive(true);
+                    //selectableObject.selectionCircle = Instantiate(selectionCirclePrefab, selectableObject.transform.position, Quaternion.identity);
+                    //selectableObject.selectionCircle.transform.SetParent(selectableObject.transform);
                 }
             }
             else
             {
                 //out of box
-                if (selectableObject.selectionCircle != null)
+                if (selectableObject.SelectionCircle != null)
                 {
-                    Destroy(selectableObject.selectionCircle.gameObject);
-                    selectableObject.selectionCircle = null;
+                    selectableObject.SelectionCircle.SetActive(false);
+                    //Destroy(selectableObject.selectionCircle.gameObject);
+                    //selectableObject.selectionCircle = null;
                 }
             }
         }
@@ -85,23 +87,15 @@ public class UnitSelector : MonoBehaviour
 
     private void UnselectAllUnits()
     {
-        //foreach (var selectableObject in FindObjectsOfType<SelectableUnit>())
-        //{
-        //    if (selectableObject.selectionCircle != null)
-        //    {
-        selected.ForEach((x)=> 
-        {
-            Destroy(x.selectionCircle.gameObject);
-            x.selectionCircle = null;
-        });
-        Debug.Log("Selected clear" + selected.Count);
-        selected.Clear();
+        Selected.ForEach((x) => x.SelectionCircle.SetActive(false));
+        //Debug.Log("Selected clear" + selected.Count);
+        Selected.Clear();
     }
     private void OnGUI()
     {
-        if (isSelecting)
+        if (_isSelecting)
         {
-            var rect = Utils.GetScreenRect(selectionStart, Input.mousePosition);
+            var rect = Utils.GetScreenRect(_selectionStart, Input.mousePosition);
             Utils.DrawScreenRect(rect, new Color(0.8f, 0.8f, 0.95f, 0.25f));
             Utils.DrawScreenRectBorder(rect, 2, new Color(0.8f, 0.8f, 0.95f));
         }

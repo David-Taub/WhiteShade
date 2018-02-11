@@ -1,0 +1,5456 @@
+fileFormatVersion: 2
+guid: c986b6fa44fec8f4684521772cc1daf4
+timeCreated: 1518288882
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: police_sprites_0
+    21300002: police_sprites_1
+    21300004: police_sprites_2
+    21300006: police_sprites_3
+    21300008: police_sprites_4
+    21300010: police_sprites_5
+    21300012: police_sprites_6
+    21300014: police_sprites_7
+    21300016: police_sprites_8
+    21300018: police_sprites_9
+    21300020: police_sprites_10
+    21300022: police_sprites_11
+    21300024: police_sprites_12
+    21300026: police_sprites_13
+    21300028: police_sprites_14
+    21300030: police_sprites_15
+    21300032: police_sprites_16
+    21300034: police_sprites_17
+    21300036: police_sprites_18
+    21300038: police_sprites_19
+    21300040: police_sprites_20
+    21300042: police_sprites_21
+    21300044: police_sprites_22
+    21300046: police_sprites_23
+    21300048: police_sprites_24
+    21300050: police_sprites_25
+    21300052: police_sprites_26
+    21300054: police_sprites_27
+    21300056: police_sprites_28
+    21300058: police_sprites_29
+    21300060: police_sprites_30
+    21300062: police_sprites_31
+    21300064: police_sprites_32
+    21300066: police_sprites_33
+    21300068: police_sprites_34
+    21300070: police_sprites_35
+    21300072: police_sprites_36
+    21300074: police_sprites_37
+    21300076: police_sprites_38
+    21300078: police_sprites_39
+    21300080: police_sprites_40
+    21300082: police_sprites_41
+    21300084: police_sprites_42
+    21300086: police_sprites_43
+    21300088: police_sprites_44
+    21300090: police_sprites_45
+    21300092: police_sprites_46
+    21300094: police_sprites_47
+    21300096: police_sprites_48
+    21300098: police_sprites_49
+    21300100: police_sprites_50
+    21300102: police_sprites_51
+    21300104: police_sprites_52
+    21300106: police_sprites_53
+    21300108: police_sprites_54
+    21300110: police_sprites_55
+    21300112: police_sprites_56
+    21300114: police_sprites_57
+    21300116: police_sprites_58
+    21300118: police_sprites_59
+    21300120: police_sprites_60
+    21300122: police_sprites_61
+    21300124: police_sprites_62
+    21300126: police_sprites_63
+    21300128: police_sprites_64
+    21300130: police_sprites_65
+    21300132: police_sprites_66
+    21300134: police_sprites_67
+    21300136: police_sprites_68
+    21300138: police_sprites_69
+    21300140: police_sprites_70
+    21300142: police_sprites_71
+    21300144: police_sprites_72
+    21300146: police_sprites_73
+    21300148: police_sprites_74
+    21300150: police_sprites_75
+    21300152: police_sprites_76
+    21300154: police_sprites_77
+    21300156: police_sprites_78
+    21300158: police_sprites_79
+    21300160: police_sprites_80
+    21300162: police_sprites_81
+    21300164: police_sprites_82
+    21300166: police_sprites_83
+    21300168: police_sprites_84
+    21300170: police_sprites_85
+    21300172: police_sprites_86
+    21300174: police_sprites_87
+    21300176: police_sprites_88
+    21300178: police_sprites_89
+    21300180: police_sprites_90
+    21300182: police_sprites_91
+    21300184: police_sprites_92
+    21300186: police_sprites_93
+    21300188: police_sprites_94
+    21300190: police_sprites_95
+    21300192: police_sprites_96
+    21300194: police_sprites_97
+    21300196: police_sprites_98
+    21300198: police_sprites_99
+    21300200: police_sprites_100
+    21300202: police_sprites_101
+    21300204: police_sprites_102
+    21300206: police_sprites_103
+    21300208: police_sprites_104
+    21300210: police_sprites_105
+    21300212: police_sprites_106
+    21300214: police_sprites_107
+    21300216: police_sprites_108
+    21300218: police_sprites_109
+    21300220: police_sprites_110
+    21300222: police_sprites_111
+    21300224: police_sprites_112
+    21300226: police_sprites_113
+    21300228: police_sprites_114
+    21300230: police_sprites_115
+    21300232: police_sprites_116
+    21300234: police_sprites_117
+    21300236: police_sprites_118
+    21300238: police_sprites_119
+    21300240: police_sprites_120
+    21300242: police_sprites_121
+    21300244: police_sprites_122
+    21300246: police_sprites_123
+    21300248: police_sprites_124
+    21300250: police_sprites_125
+    21300252: police_sprites_126
+    21300254: police_sprites_127
+    21300256: police_sprites_128
+    21300258: police_sprites_129
+    21300260: police_sprites_130
+    21300262: police_sprites_131
+    21300264: police_sprites_132
+    21300266: police_sprites_133
+    21300268: police_sprites_134
+    21300270: police_sprites_135
+    21300272: police_sprites_136
+    21300274: police_sprites_137
+    21300276: police_sprites_138
+    21300278: police_sprites_139
+    21300280: police_sprites_140
+    21300282: police_sprites_141
+    21300284: police_sprites_142
+    21300286: police_sprites_143
+    21300288: police_sprites_144
+    21300290: police_sprites_145
+    21300292: police_sprites_146
+    21300294: police_sprites_147
+    21300296: police_sprites_148
+    21300298: police_sprites_149
+    21300300: police_sprites_150
+    21300302: police_sprites_151
+    21300304: police_sprites_152
+    21300306: police_sprites_153
+    21300308: police_sprites_154
+    21300310: police_sprites_155
+    21300312: police_sprites_156
+    21300314: police_sprites_157
+    21300316: police_sprites_158
+    21300318: police_sprites_159
+    21300320: police_sprites_160
+    21300322: police_sprites_161
+    21300324: police_sprites_162
+    21300326: police_sprites_163
+    21300328: police_sprites_164
+    21300330: police_sprites_165
+    21300332: police_sprites_166
+    21300334: police_sprites_167
+    21300336: police_sprites_168
+    21300338: police_sprites_169
+    21300340: police_sprites_170
+    21300342: police_sprites_171
+    21300344: police_sprites_172
+    21300346: police_sprites_173
+    21300348: police_sprites_174
+    21300350: police_sprites_175
+    21300352: police_sprites_176
+    21300354: police_sprites_177
+    21300356: police_sprites_178
+    21300358: police_sprites_179
+    21300360: police_sprites_180
+    21300362: police_sprites_181
+    21300364: police_sprites_182
+    21300366: police_sprites_183
+    21300368: police_sprites_184
+    21300370: police_sprites_185
+    21300372: police_sprites_186
+    21300374: police_sprites_187
+    21300376: police_sprites_188
+    21300378: police_sprites_189
+    21300380: police_sprites_190
+    21300382: police_sprites_191
+    21300384: police_sprites_192
+    21300386: police_sprites_193
+    21300388: police_sprites_194
+    21300390: police_sprites_195
+    21300392: police_sprites_196
+    21300394: police_sprites_197
+    21300396: police_sprites_198
+    21300398: police_sprites_199
+    21300400: police_sprites_200
+    21300402: police_sprites_201
+    21300404: police_sprites_202
+    21300406: police_sprites_203
+    21300408: police_sprites_204
+    21300410: police_sprites_205
+    21300412: police_sprites_206
+    21300414: police_sprites_207
+    21300416: police_sprites_208
+    21300418: police_sprites_209
+    21300420: police_sprites_210
+    21300422: police_sprites_211
+    21300424: police_sprites_212
+    21300426: police_sprites_213
+    21300428: police_sprites_214
+    21300430: police_sprites_215
+    21300432: police_sprites_216
+    21300434: police_sprites_217
+    21300436: police_sprites_218
+    21300438: police_sprites_219
+    21300440: police_sprites_220
+    21300442: police_sprites_221
+    21300444: police_sprites_222
+    21300446: police_sprites_223
+    21300448: police_sprites_224
+    21300450: police_sprites_225
+    21300452: police_sprites_226
+    21300454: police_sprites_227
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 0
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 16
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: police_sprites_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 352
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8, y: 8}
+        - {x: 6, y: 11}
+        - {x: -4, y: 11}
+        - {x: -10, y: 9}
+        - {x: -10, y: -7}
+        - {x: -6, y: -16}
+        - {x: 3, y: -16}
+        - {x: 5, y: -15}
+        - {x: 12, y: -10}
+        - {x: 12, y: -4}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_1
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 352
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 12}
+        - {x: -9, y: 10}
+        - {x: -11, y: -3}
+        - {x: -11, y: -9}
+        - {x: -8, y: -16}
+        - {x: 10, y: -16}
+        - {x: 11, y: -15}
+        - {x: 11, y: 3}
+        - {x: 7, y: 12}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_2
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 352
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5, y: 11}
+        - {x: -3, y: 11}
+        - {x: -10, y: 9}
+        - {x: -12, y: 0}
+        - {x: -12, y: -11}
+        - {x: -5, y: -16}
+        - {x: 6, y: -16}
+        - {x: 10, y: -10}
+        - {x: 10, y: -4}
+        - {x: 7, y: 7}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_3
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 352
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9, y: 6}
+        - {x: 4, y: 13}
+        - {x: -4, y: 13}
+        - {x: -9, y: 6}
+        - {x: -9, y: -7}
+        - {x: -5, y: -16}
+        - {x: 2, y: -16}
+        - {x: 11, y: -9}
+        - {x: 11, y: -6}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_4
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 352
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 14}
+        - {x: -10, y: 8}
+        - {x: -10, y: -10}
+        - {x: -6, y: -16}
+        - {x: 5, y: -16}
+        - {x: 10, y: -9}
+        - {x: 10, y: 9}
+        - {x: 2, y: 14}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_5
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 352
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2, y: 13}
+        - {x: -3, y: 13}
+        - {x: -10, y: 6}
+        - {x: -11, y: -3}
+        - {x: -11, y: -10}
+        - {x: -3, y: -16}
+        - {x: 4, y: -16}
+        - {x: 5, y: -15}
+        - {x: 9, y: -9}
+        - {x: 9, y: 9}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_6
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 352
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5, y: 12}
+        - {x: -3, y: 12}
+        - {x: -10, y: 11}
+        - {x: -11, y: 2}
+        - {x: -11, y: -9}
+        - {x: -8, y: -16}
+        - {x: 7, y: -16}
+        - {x: 12, y: -14}
+        - {x: 12, y: -2}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_7
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 352
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5, y: 13}
+        - {x: -7, y: 13}
+        - {x: -12, y: -2}
+        - {x: -12, y: -11}
+        - {x: -7, y: -16}
+        - {x: 6, y: -16}
+        - {x: 12, y: -9}
+        - {x: 12, y: -3}
+        - {x: 9, y: 11}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_8
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 352
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 12}
+        - {x: -12, y: -1}
+        - {x: -12, y: -11}
+        - {x: -11, y: -13}
+        - {x: -5, y: -16}
+        - {x: 8, y: -16}
+        - {x: 11, y: -9}
+        - {x: 11, y: 1}
+        - {x: 5, y: 12}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_9
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 352
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10, y: 6}
+        - {x: 2, y: 13}
+        - {x: -3, y: 13}
+        - {x: -10, y: 8}
+        - {x: -10, y: -9}
+        - {x: -6, y: -16}
+        - {x: 3, y: -16}
+        - {x: 5, y: -15}
+        - {x: 12, y: -11}
+        - {x: 12, y: -1}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_10
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 352
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11, y: 1}
+        - {x: 10, y: 8}
+        - {x: 3, y: 14}
+        - {x: -5, y: 14}
+        - {x: -11, y: 8}
+        - {x: -11, y: -10}
+        - {x: -9, y: -16}
+        - {x: 5, y: -16}
+        - {x: 8, y: -15}
+        - {x: 11, y: -7}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_11
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 352
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5, y: 11}
+        - {x: -2, y: 13}
+        - {x: -9, y: 7}
+        - {x: -12, y: -2}
+        - {x: -12, y: -11}
+        - {x: -5, y: -16}
+        - {x: 6, y: -16}
+        - {x: 10, y: -10}
+        - {x: 10, y: 0}
+        - {x: 9, y: 6}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_12
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 352
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7, y: 12}
+        - {x: -3, y: 12}
+        - {x: -9, y: 9}
+        - {x: -10, y: -4}
+        - {x: -10, y: -8}
+        - {x: -6, y: -16}
+        - {x: 3, y: -16}
+        - {x: 5, y: -15}
+        - {x: 12, y: -12}
+        - {x: 12, y: 0}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_13
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 352
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: 13}
+        - {x: -9, y: 9}
+        - {x: -11, y: -4}
+        - {x: -11, y: -9}
+        - {x: -8, y: -16}
+        - {x: 10, y: -16}
+        - {x: 11, y: -15}
+        - {x: 11, y: 5}
+        - {x: 8, y: 13}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_14
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 352
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 12}
+        - {x: -12, y: -4}
+        - {x: -12, y: -10}
+        - {x: -5, y: -16}
+        - {x: 7, y: -16}
+        - {x: 10, y: -13}
+        - {x: 10, y: 2}
+        - {x: 6, y: 12}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_15
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 352
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2, y: 13}
+        - {x: -4, y: 13}
+        - {x: -9, y: 8}
+        - {x: -9, y: -10}
+        - {x: -5, y: -16}
+        - {x: 2, y: -16}
+        - {x: 11, y: -9}
+        - {x: 11, y: -3}
+        - {x: 10, y: 9}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_16
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 352
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: 14}
+        - {x: -9, y: 9}
+        - {x: -10, y: 2}
+        - {x: -10, y: -11}
+        - {x: -7, y: -16}
+        - {x: 8, y: -16}
+        - {x: 10, y: -10}
+        - {x: 10, y: 13}
+        - {x: 6, y: 14}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_17
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 352
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 13}
+        - {x: -10, y: 9}
+        - {x: -11, y: 5}
+        - {x: -11, y: -11}
+        - {x: -4, y: -16}
+        - {x: 5, y: -16}
+        - {x: 9, y: -10}
+        - {x: 9, y: 9}
+        - {x: 1, y: 13}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_18
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 352
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5, y: 12}
+        - {x: -3, y: 12}
+        - {x: -10, y: 11}
+        - {x: -11, y: 2}
+        - {x: -11, y: -9}
+        - {x: -8, y: -16}
+        - {x: 7, y: -16}
+        - {x: 12, y: -14}
+        - {x: 12, y: -2}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_19
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 352
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5, y: 13}
+        - {x: -7, y: 13}
+        - {x: -12, y: -2}
+        - {x: -12, y: -11}
+        - {x: -7, y: -16}
+        - {x: 6, y: -16}
+        - {x: 12, y: -9}
+        - {x: 12, y: -3}
+        - {x: 9, y: 11}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_20
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 352
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 12}
+        - {x: -12, y: -1}
+        - {x: -12, y: -11}
+        - {x: -11, y: -13}
+        - {x: -5, y: -16}
+        - {x: 8, y: -16}
+        - {x: 11, y: -9}
+        - {x: 11, y: 1}
+        - {x: 5, y: 12}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 320
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: 11}
+        - {x: -7, y: 10}
+        - {x: -7, y: -13}
+        - {x: -3, y: -16}
+        - {x: 4, y: -16}
+        - {x: 8, y: -15}
+        - {x: 8, y: -1}
+        - {x: 7, y: 11}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_22
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 320
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6, y: 12}
+        - {x: -3, y: 12}
+        - {x: -7, y: 11}
+        - {x: -7, y: -10}
+        - {x: -6, y: -16}
+        - {x: 5, y: -16}
+        - {x: 6, y: -14}
+        - {x: 8, y: 5}
+        - {x: 8, y: 9}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_23
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 320
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: 11}
+        - {x: -7, y: 10}
+        - {x: -7, y: -16}
+        - {x: 8, y: -16}
+        - {x: 8, y: 10}
+        - {x: 7, y: 11}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_24
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 320
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 13}
+        - {x: -8, y: 9}
+        - {x: -10, y: 3}
+        - {x: -10, y: 0}
+        - {x: -7, y: -13}
+        - {x: -3, y: -15}
+        - {x: 0, y: -16}
+        - {x: 7, y: -16}
+        - {x: 9, y: -5}
+        - {x: 9, y: 9}
+        - {x: 2, y: 13}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_25
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 320
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1, y: 14}
+        - {x: -3, y: 13}
+        - {x: -7, y: 10}
+        - {x: -9, y: 6}
+        - {x: -9, y: -3}
+        - {x: -3, y: -16}
+        - {x: 6, y: -16}
+        - {x: 9, y: -2}
+        - {x: 9, y: 11}
+        - {x: 3, y: 14}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_26
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 320
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6, y: 13}
+        - {x: -5, y: 13}
+        - {x: -10, y: 5}
+        - {x: -10, y: -7}
+        - {x: -8, y: -14}
+        - {x: -5, y: -16}
+        - {x: 6, y: -16}
+        - {x: 8, y: -14}
+        - {x: 9, y: -7}
+        - {x: 9, y: 8}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_27
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 320
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 12}
+        - {x: -7, y: 7}
+        - {x: -7, y: -14}
+        - {x: -3, y: -16}
+        - {x: 3, y: -16}
+        - {x: 8, y: -14}
+        - {x: 8, y: 11}
+        - {x: 4, y: 12}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_28
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 320
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 13}
+        - {x: -7, y: 11}
+        - {x: -7, y: -16}
+        - {x: 7, y: -16}
+        - {x: 8, y: -10}
+        - {x: 8, y: 13}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_29
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 320
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 12}
+        - {x: -7, y: 10}
+        - {x: -7, y: -15}
+        - {x: -6, y: -16}
+        - {x: 3, y: -16}
+        - {x: 8, y: -15}
+        - {x: 8, y: 11}
+        - {x: 5, y: 12}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_30
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 320
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 13}
+        - {x: -9, y: 8}
+        - {x: -9, y: -4}
+        - {x: -7, y: -13}
+        - {x: -4, y: -15}
+        - {x: -3, y: -16}
+        - {x: 4, y: -16}
+        - {x: 9, y: -14}
+        - {x: 9, y: 12}
+        - {x: 8, y: 13}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_31
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 320
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1, y: 14}
+        - {x: -9, y: 9}
+        - {x: -9, y: 0}
+        - {x: -6, y: -16}
+        - {x: 6, y: -16}
+        - {x: 9, y: -1}
+        - {x: 9, y: 10}
+        - {x: 1, y: 14}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_32
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 320
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 13}
+        - {x: -9, y: 9}
+        - {x: -9, y: 3}
+        - {x: -6, y: -15}
+        - {x: -4, y: -16}
+        - {x: 9, y: -16}
+        - {x: 9, y: 11}
+        - {x: 5, y: 13}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_33
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 320
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 12}
+        - {x: -7, y: 11}
+        - {x: -7, y: -12}
+        - {x: -6, y: -16}
+        - {x: 4, y: -16}
+        - {x: 9, y: -14}
+        - {x: 9, y: 9}
+        - {x: 3, y: 12}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_34
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 320
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: 13}
+        - {x: -7, y: 10}
+        - {x: -7, y: -3}
+        - {x: -5, y: -15}
+        - {x: -3, y: -16}
+        - {x: 7, y: -16}
+        - {x: 9, y: -4}
+        - {x: 9, y: 10}
+        - {x: 6, y: 13}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_35
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 320
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 12}
+        - {x: -7, y: 11}
+        - {x: -7, y: -15}
+        - {x: -4, y: -16}
+        - {x: 9, y: -16}
+        - {x: 9, y: 12}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_36
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 320
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 13}
+        - {x: -11, y: 9}
+        - {x: -11, y: -5}
+        - {x: -9, y: -14}
+        - {x: -2, y: -16}
+        - {x: 7, y: -16}
+        - {x: 9, y: -11}
+        - {x: 9, y: 11}
+        - {x: 6, y: 13}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_37
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 320
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 14}
+        - {x: -8, y: 14}
+        - {x: -10, y: 13}
+        - {x: -10, y: -10}
+        - {x: -9, y: -16}
+        - {x: 5, y: -16}
+        - {x: 9, y: 5}
+        - {x: 9, y: 8}
+        - {x: 7, y: 12}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_38
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 320
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7, y: 12}
+        - {x: 1, y: 13}
+        - {x: -8, y: 13}
+        - {x: -9, y: 12}
+        - {x: -9, y: -4}
+        - {x: -7, y: -14}
+        - {x: -5, y: -16}
+        - {x: 6, y: -16}
+        - {x: 8, y: -14}
+        - {x: 9, y: 0}
+        - {x: 9, y: 8}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_39
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 320
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 12}
+        - {x: -7, y: 7}
+        - {x: -7, y: -14}
+        - {x: -3, y: -16}
+        - {x: 3, y: -16}
+        - {x: 8, y: -14}
+        - {x: 9, y: -4}
+        - {x: 9, y: 9}
+        - {x: 5, y: 12}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_40
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 320
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: 13}
+        - {x: -7, y: 12}
+        - {x: -7, y: -16}
+        - {x: 8, y: -16}
+        - {x: 9, y: -11}
+        - {x: 9, y: 13}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_41
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 320
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 12}
+        - {x: -7, y: 11}
+        - {x: -7, y: -15}
+        - {x: -6, y: -16}
+        - {x: 3, y: -16}
+        - {x: 9, y: -15}
+        - {x: 9, y: 8}
+        - {x: 8, y: 12}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 288
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: 11}
+        - {x: -10, y: 9}
+        - {x: -10, y: -7}
+        - {x: -6, y: -16}
+        - {x: 2, y: -16}
+        - {x: 9, y: -10}
+        - {x: 9, y: 7}
+        - {x: 6, y: 11}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_43
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 288
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 12}
+        - {x: -9, y: 10}
+        - {x: -11, y: -3}
+        - {x: -11, y: -9}
+        - {x: -8, y: -16}
+        - {x: 10, y: -16}
+        - {x: 11, y: -15}
+        - {x: 11, y: 3}
+        - {x: 7, y: 12}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_44
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 288
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6, y: 11}
+        - {x: -9, y: 11}
+        - {x: -9, y: -11}
+        - {x: -8, y: -16}
+        - {x: 6, y: -16}
+        - {x: 10, y: -10}
+        - {x: 10, y: -4}
+        - {x: 7, y: 7}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_45
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 288
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2, y: 13}
+        - {x: -3, y: 13}
+        - {x: -9, y: 8}
+        - {x: -9, y: -7}
+        - {x: -5, y: -16}
+        - {x: 2, y: -16}
+        - {x: 9, y: -9}
+        - {x: 9, y: 7}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_46
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 288
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 14}
+        - {x: -10, y: 7}
+        - {x: -10, y: -7}
+        - {x: -6, y: -16}
+        - {x: 9, y: -16}
+        - {x: 10, y: -14}
+        - {x: 10, y: 12}
+        - {x: 1, y: 14}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_47
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 288
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1, y: 13}
+        - {x: -2, y: 13}
+        - {x: -5, y: 11}
+        - {x: -9, y: 7}
+        - {x: -8, y: -8}
+        - {x: -6, y: -11}
+        - {x: -1, y: -16}
+        - {x: 5, y: -16}
+        - {x: 9, y: -10}
+        - {x: 9, y: 8}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_48
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 288
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4, y: 12}
+        - {x: -6, y: 12}
+        - {x: -9, y: 9}
+        - {x: -11, y: -2}
+        - {x: -11, y: -8}
+        - {x: -6, y: -16}
+        - {x: 6, y: -16}
+        - {x: 10, y: -11}
+        - {x: 10, y: 10}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_49
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 288
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5, y: 13}
+        - {x: -7, y: 13}
+        - {x: -12, y: -2}
+        - {x: -12, y: -11}
+        - {x: -7, y: -16}
+        - {x: 6, y: -16}
+        - {x: 12, y: -9}
+        - {x: 12, y: -3}
+        - {x: 9, y: 11}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_50
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 288
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: -13}
+        - {x: -8, y: -16}
+        - {x: 9, y: -16}
+        - {x: 11, y: -14}
+        - {x: 11, y: 5}
+        - {x: 7, y: 12}
+        - {x: -6, y: 12}
+        - {x: -10, y: 10}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_51
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 288
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9, y: 8}
+        - {x: 6, y: 11}
+        - {x: 1, y: 13}
+        - {x: -2, y: 13}
+        - {x: -8, y: 8}
+        - {x: -9, y: 4}
+        - {x: -10, y: -2}
+        - {x: -10, y: -9}
+        - {x: -6, y: -16}
+        - {x: 1, y: -16}
+        - {x: 6, y: -12}
+        - {x: 9, y: -8}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_52
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 288
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2, y: 14}
+        - {x: -4, y: 14}
+        - {x: -11, y: 10}
+        - {x: -11, y: -9}
+        - {x: -10, y: -16}
+        - {x: 7, y: -16}
+        - {x: 11, y: -12}
+        - {x: 11, y: 6}
+        - {x: 10, y: 9}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_53
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 288
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5, y: 13}
+        - {x: -4, y: 13}
+        - {x: -9, y: 9}
+        - {x: -9, y: -8}
+        - {x: -3, y: -15}
+        - {x: -2, y: -16}
+        - {x: 6, y: -16}
+        - {x: 10, y: -10}
+        - {x: 10, y: 0}
+        - {x: 9, y: 7}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_54
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 288
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5, y: 12}
+        - {x: -5, y: 12}
+        - {x: -10, y: 11}
+        - {x: -10, y: -7}
+        - {x: -6, y: -16}
+        - {x: 2, y: -16}
+        - {x: 9, y: -10}
+        - {x: 9, y: 3}
+        - {x: 8, y: 8}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_55
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 288
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4, y: 13}
+        - {x: -7, y: 13}
+        - {x: -11, y: 2}
+        - {x: -11, y: -14}
+        - {x: -9, y: -16}
+        - {x: 10, y: -16}
+        - {x: 11, y: -13}
+        - {x: 11, y: 0}
+        - {x: 9, y: 10}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_56
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 288
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5, y: 12}
+        - {x: -7, y: 12}
+        - {x: -9, y: 8}
+        - {x: -9, y: -8}
+        - {x: -3, y: -15}
+        - {x: -2, y: -16}
+        - {x: 6, y: -16}
+        - {x: 10, y: -10}
+        - {x: 10, y: -4}
+        - {x: 7, y: 7}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_57
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 288
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: 13}
+        - {x: -9, y: 8}
+        - {x: -9, y: -10}
+        - {x: -5, y: -16}
+        - {x: 2, y: -16}
+        - {x: 9, y: -10}
+        - {x: 9, y: 10}
+        - {x: 2, y: 13}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_58
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 288
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10, y: 3}
+        - {x: 9, y: 10}
+        - {x: 1, y: 14}
+        - {x: -3, y: 14}
+        - {x: -8, y: 7}
+        - {x: -10, y: -7}
+        - {x: -6, y: -16}
+        - {x: 5, y: -16}
+        - {x: 6, y: -14}
+        - {x: 10, y: -7}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_59
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 288
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 13}
+        - {x: -9, y: 11}
+        - {x: -9, y: -8}
+        - {x: -5, y: -16}
+        - {x: 5, y: -16}
+        - {x: 9, y: -10}
+        - {x: 9, y: 8}
+        - {x: 1, y: 13}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_60
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 288
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4, y: 12}
+        - {x: -6, y: 12}
+        - {x: -9, y: 9}
+        - {x: -11, y: -2}
+        - {x: -11, y: -8}
+        - {x: -6, y: -16}
+        - {x: 6, y: -16}
+        - {x: 10, y: -11}
+        - {x: 10, y: 10}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_61
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 288
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5, y: 13}
+        - {x: -7, y: 13}
+        - {x: -12, y: -2}
+        - {x: -12, y: -11}
+        - {x: -7, y: -16}
+        - {x: 6, y: -16}
+        - {x: 12, y: -9}
+        - {x: 12, y: -3}
+        - {x: 9, y: 11}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_62
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 288
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: -16}
+        - {x: 8, y: -16}
+        - {x: 11, y: -13}
+        - {x: 11, y: 4}
+        - {x: 7, y: 12}
+        - {x: -6, y: 12}
+        - {x: -10, y: 10}
+        - {x: -10, y: -13}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_63
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 11}
+        - {x: -9, y: 8}
+        - {x: -9, y: -14}
+        - {x: -6, y: -16}
+        - {x: 4, y: -16}
+        - {x: 7, y: -15}
+        - {x: 7, y: 10}
+        - {x: 3, y: 11}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_64
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 256
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: 12}
+        - {x: -8, y: 11}
+        - {x: -8, y: -10}
+        - {x: -7, y: -15}
+        - {x: -6, y: -16}
+        - {x: 4, y: -16}
+        - {x: 6, y: -15}
+        - {x: 7, y: 2}
+        - {x: 7, y: 9}
+        - {x: 6, y: 12}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_65
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 256
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 8}
+        - {x: -8, y: -3}
+        - {x: -8, y: -15}
+        - {x: -6, y: -16}
+        - {x: 1, y: -16}
+        - {x: 7, y: -14}
+        - {x: 7, y: 7}
+        - {x: 3, y: 11}
+        - {x: -4, y: 11}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_66
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 256
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 13}
+        - {x: -9, y: -15}
+        - {x: -6, y: -16}
+        - {x: 6, y: -16}
+        - {x: 10, y: -12}
+        - {x: 10, y: 13}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_67
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 256
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9, y: 11}
+        - {x: 1, y: 14}
+        - {x: -4, y: 14}
+        - {x: -9, y: 10}
+        - {x: -9, y: 2}
+        - {x: -6, y: -15}
+        - {x: -4, y: -16}
+        - {x: 3, y: -16}
+        - {x: 4, y: -13}
+        - {x: 9, y: -1}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_68
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 256
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 13}
+        - {x: -9, y: 11}
+        - {x: -9, y: -16}
+        - {x: 1, y: -16}
+        - {x: 8, y: -13}
+        - {x: 10, y: -8}
+        - {x: 10, y: 7}
+        - {x: 5, y: 13}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_69
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 256
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 12}
+        - {x: -8, y: 9}
+        - {x: -8, y: -14}
+        - {x: -4, y: -16}
+        - {x: 7, y: -16}
+        - {x: 7, y: 10}
+        - {x: 2, y: 12}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_70
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 256
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 13}
+        - {x: -8, y: 11}
+        - {x: -8, y: -9}
+        - {x: -6, y: -16}
+        - {x: 7, y: -16}
+        - {x: 7, y: 11}
+        - {x: 2, y: 13}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_71
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 256
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 12}
+        - {x: -8, y: 11}
+        - {x: -8, y: -14}
+        - {x: -5, y: -16}
+        - {x: 7, y: -16}
+        - {x: 7, y: 11}
+        - {x: 2, y: 12}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_72
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 256
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: 13}
+        - {x: -9, y: 9}
+        - {x: -9, y: -14}
+        - {x: -6, y: -16}
+        - {x: 4, y: -16}
+        - {x: 7, y: -15}
+        - {x: 9, y: 1}
+        - {x: 9, y: 9}
+        - {x: -1, y: 13}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_73
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 256
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2, y: 14}
+        - {x: -4, y: 14}
+        - {x: -9, y: 10}
+        - {x: -9, y: -5}
+        - {x: -8, y: -15}
+        - {x: -4, y: -16}
+        - {x: 3, y: -16}
+        - {x: 4, y: -14}
+        - {x: 9, y: 3}
+        - {x: 9, y: 9}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_74
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 256
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 13}
+        - {x: -6, y: 11}
+        - {x: -9, y: 8}
+        - {x: -9, y: -14}
+        - {x: -6, y: -16}
+        - {x: 1, y: -16}
+        - {x: 9, y: -13}
+        - {x: 9, y: 6}
+        - {x: 4, y: 13}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_75
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 256
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: -16}
+        - {x: 7, y: -16}
+        - {x: 7, y: 12}
+        - {x: -8, y: 12}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_76
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 256
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 13}
+        - {x: -9, y: 7}
+        - {x: -9, y: 0}
+        - {x: -7, y: -15}
+        - {x: -6, y: -16}
+        - {x: 3, y: -16}
+        - {x: 6, y: -15}
+        - {x: 7, y: -2}
+        - {x: 7, y: 10}
+        - {x: 2, y: 13}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_77
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 256
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: -14}
+        - {x: -6, y: -16}
+        - {x: 1, y: -16}
+        - {x: 7, y: -14}
+        - {x: 7, y: 7}
+        - {x: 5, y: 12}
+        - {x: -9, y: 12}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_78
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 256
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 13}
+        - {x: -9, y: 10}
+        - {x: -9, y: -6}
+        - {x: -7, y: -16}
+        - {x: 8, y: -16}
+        - {x: 9, y: -11}
+        - {x: 9, y: 13}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_79
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 256
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6, y: 14}
+        - {x: -3, y: 14}
+        - {x: -9, y: 10}
+        - {x: -9, y: -4}
+        - {x: -6, y: -15}
+        - {x: -4, y: -16}
+        - {x: 3, y: -16}
+        - {x: 4, y: -14}
+        - {x: 10, y: 2}
+        - {x: 10, y: 11}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_80
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 256
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 13}
+        - {x: -9, y: -16}
+        - {x: 5, y: -16}
+        - {x: 11, y: -6}
+        - {x: 11, y: 8}
+        - {x: 8, y: 13}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_81
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 256
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 12}
+        - {x: -9, y: 11}
+        - {x: -9, y: -11}
+        - {x: -8, y: -14}
+        - {x: -5, y: -16}
+        - {x: 7, y: -16}
+        - {x: 7, y: 9}
+        - {x: 5, y: 12}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_82
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 256
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 13}
+        - {x: -9, y: 12}
+        - {x: -9, y: -7}
+        - {x: -6, y: -16}
+        - {x: 7, y: -16}
+        - {x: 7, y: 11}
+        - {x: 5, y: 13}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_83
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 256
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2, y: 12}
+        - {x: -5, y: 12}
+        - {x: -9, y: 9}
+        - {x: -9, y: -14}
+        - {x: -5, y: -16}
+        - {x: 6, y: -16}
+        - {x: 7, y: -13}
+        - {x: 7, y: 7}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_84
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 224
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10, y: 8}
+        - {x: 4, y: 13}
+        - {x: -8, y: 13}
+        - {x: -10, y: 5}
+        - {x: -10, y: -12}
+        - {x: -7, y: -16}
+        - {x: 3, y: -16}
+        - {x: 5, y: -15}
+        - {x: 12, y: -10}
+        - {x: 12, y: -2}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_85
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 224
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 14}
+        - {x: -11, y: 11}
+        - {x: -11, y: -7}
+        - {x: -10, y: -16}
+        - {x: 10, y: -16}
+        - {x: 11, y: -13}
+        - {x: 11, y: 11}
+        - {x: 4, y: 14}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_86
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 224
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 13}
+        - {x: -12, y: 2}
+        - {x: -12, y: -13}
+        - {x: -5, y: -16}
+        - {x: 7, y: -16}
+        - {x: 10, y: -14}
+        - {x: 10, y: 8}
+        - {x: 8, y: 13}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_87
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 224
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10, y: 8}
+        - {x: 3, y: 13}
+        - {x: -3, y: 13}
+        - {x: -9, y: 8}
+        - {x: -9, y: -7}
+        - {x: -5, y: -16}
+        - {x: 2, y: -16}
+        - {x: 11, y: -9}
+        - {x: 11, y: -6}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_88
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 224
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 14}
+        - {x: -10, y: 8}
+        - {x: -10, y: -7}
+        - {x: -6, y: -16}
+        - {x: 5, y: -16}
+        - {x: 10, y: -9}
+        - {x: 10, y: 11}
+        - {x: 4, y: 14}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_89
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 224
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 3, y: 13}
+        - {x: -6, y: 13}
+        - {x: -10, y: 8}
+        - {x: -11, y: -2}
+        - {x: -11, y: -10}
+        - {x: -3, y: -16}
+        - {x: 4, y: -16}
+        - {x: 5, y: -15}
+        - {x: 9, y: -9}
+        - {x: 9, y: 10}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_90
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 224
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 14}
+        - {x: -10, y: 9}
+        - {x: -11, y: 1}
+        - {x: -11, y: -8}
+        - {x: -6, y: -16}
+        - {x: 12, y: -16}
+        - {x: 12, y: 13}
+        - {x: 6, y: 14}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_91
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 224
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4, y: 15}
+        - {x: -7, y: 15}
+        - {x: -12, y: 7}
+        - {x: -12, y: -9}
+        - {x: -7, y: -16}
+        - {x: 6, y: -16}
+        - {x: 12, y: -11}
+        - {x: 12, y: 7}
+        - {x: 11, y: 10}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_92
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 224
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 14}
+        - {x: -5, y: 13}
+        - {x: -9, y: 8}
+        - {x: -12, y: 0}
+        - {x: -12, y: -11}
+        - {x: -4, y: -16}
+        - {x: 7, y: -16}
+        - {x: 11, y: -10}
+        - {x: 11, y: 10}
+        - {x: 4, y: 14}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_93
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 224
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: 13}
+        - {x: -10, y: 8}
+        - {x: -10, y: -7}
+        - {x: -6, y: -16}
+        - {x: 5, y: -16}
+        - {x: 12, y: -9}
+        - {x: 12, y: 2}
+        - {x: 7, y: 13}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_94
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 224
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 14}
+        - {x: -10, y: 8}
+        - {x: -11, y: 3}
+        - {x: -11, y: -11}
+        - {x: -6, y: -16}
+        - {x: 9, y: -16}
+        - {x: 11, y: -13}
+        - {x: 11, y: 11}
+        - {x: 4, y: 14}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_95
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 224
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6, y: 13}
+        - {x: -12, y: 13}
+        - {x: -12, y: -13}
+        - {x: -11, y: -16}
+        - {x: 6, y: -16}
+        - {x: 10, y: -10}
+        - {x: 10, y: 0}
+        - {x: 9, y: 7}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_96
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 224
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10, y: 8}
+        - {x: 4, y: 13}
+        - {x: -8, y: 13}
+        - {x: -10, y: 5}
+        - {x: -10, y: -12}
+        - {x: -7, y: -16}
+        - {x: 3, y: -16}
+        - {x: 5, y: -15}
+        - {x: 12, y: -10}
+        - {x: 12, y: -2}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_97
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 224
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 14}
+        - {x: -11, y: 11}
+        - {x: -11, y: -7}
+        - {x: -10, y: -16}
+        - {x: 10, y: -16}
+        - {x: 11, y: -13}
+        - {x: 11, y: 11}
+        - {x: 4, y: 14}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_98
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 224
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 13}
+        - {x: -12, y: 2}
+        - {x: -12, y: -13}
+        - {x: -5, y: -16}
+        - {x: 7, y: -16}
+        - {x: 10, y: -14}
+        - {x: 10, y: 8}
+        - {x: 8, y: 13}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_99
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 224
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10, y: 8}
+        - {x: 3, y: 13}
+        - {x: -3, y: 13}
+        - {x: -9, y: 8}
+        - {x: -9, y: -7}
+        - {x: -5, y: -16}
+        - {x: 2, y: -16}
+        - {x: 11, y: -9}
+        - {x: 11, y: -6}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_100
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 224
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: 14}
+        - {x: -10, y: 11}
+        - {x: -10, y: -7}
+        - {x: -8, y: -16}
+        - {x: 10, y: -16}
+        - {x: 10, y: 13}
+        - {x: 5, y: 14}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_101
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 224
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: 13}
+        - {x: -10, y: 8}
+        - {x: -11, y: 0}
+        - {x: -11, y: -10}
+        - {x: -3, y: -16}
+        - {x: 5, y: -16}
+        - {x: 9, y: -10}
+        - {x: 9, y: 8}
+        - {x: 3, y: 13}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_102
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 224
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 14}
+        - {x: -10, y: 9}
+        - {x: -11, y: 1}
+        - {x: -11, y: -8}
+        - {x: -6, y: -16}
+        - {x: 12, y: -16}
+        - {x: 12, y: 13}
+        - {x: 6, y: 14}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_103
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 224
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4, y: 15}
+        - {x: -7, y: 15}
+        - {x: -12, y: 7}
+        - {x: -12, y: -9}
+        - {x: -7, y: -16}
+        - {x: 6, y: -16}
+        - {x: 12, y: -11}
+        - {x: 12, y: 7}
+        - {x: 11, y: 10}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_104
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 224
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 14}
+        - {x: -5, y: 13}
+        - {x: -9, y: 8}
+        - {x: -12, y: 0}
+        - {x: -12, y: -11}
+        - {x: -4, y: -16}
+        - {x: 7, y: -16}
+        - {x: 11, y: -10}
+        - {x: 11, y: 10}
+        - {x: 4, y: 14}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_105
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1, y: 13}
+        - {x: -8, y: 9}
+        - {x: -8, y: -13}
+        - {x: -3, y: -16}
+        - {x: 4, y: -16}
+        - {x: 9, y: -14}
+        - {x: 9, y: 11}
+        - {x: 8, y: 13}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_106
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 192
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1, y: 14}
+        - {x: -5, y: 11}
+        - {x: -8, y: 8}
+        - {x: -8, y: 1}
+        - {x: -5, y: -15}
+        - {x: -2, y: -16}
+        - {x: 6, y: -16}
+        - {x: 9, y: -6}
+        - {x: 9, y: 10}
+        - {x: 7, y: 14}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_107
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 192
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1, y: 13}
+        - {x: -5, y: 10}
+        - {x: -8, y: 7}
+        - {x: -8, y: -5}
+        - {x: -7, y: -15}
+        - {x: -4, y: -16}
+        - {x: 8, y: -16}
+        - {x: 9, y: -11}
+        - {x: 9, y: 10}
+        - {x: 7, y: 13}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_108
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 192
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 13}
+        - {x: -5, y: 11}
+        - {x: -10, y: 3}
+        - {x: -10, y: -2}
+        - {x: -7, y: -13}
+        - {x: -1, y: -16}
+        - {x: 7, y: -16}
+        - {x: 9, y: -10}
+        - {x: 9, y: 11}
+        - {x: 5, y: 13}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_109
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 192
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4, y: 14}
+        - {x: 1, y: 14}
+        - {x: -9, y: 8}
+        - {x: -9, y: 2}
+        - {x: -7, y: -16}
+        - {x: 5, y: -16}
+        - {x: 9, y: 2}
+        - {x: 9, y: 11}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_110
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 192
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 13}
+        - {x: -10, y: -16}
+        - {x: 7, y: -16}
+        - {x: 9, y: -10}
+        - {x: 9, y: 10}
+        - {x: 7, y: 13}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_111
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 192
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1, y: 14}
+        - {x: -7, y: 7}
+        - {x: -7, y: -14}
+        - {x: -3, y: -16}
+        - {x: 3, y: -16}
+        - {x: 9, y: -14}
+        - {x: 10, y: -1}
+        - {x: 10, y: 12}
+        - {x: 6, y: 14}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_112
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 192
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1, y: 15}
+        - {x: -7, y: 14}
+        - {x: -7, y: -13}
+        - {x: -6, y: -16}
+        - {x: 8, y: -16}
+        - {x: 10, y: -8}
+        - {x: 10, y: 11}
+        - {x: 7, y: 15}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_113
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5, y: 14}
+        - {x: -1, y: 14}
+        - {x: -7, y: 9}
+        - {x: -7, y: -16}
+        - {x: 4, y: -16}
+        - {x: 8, y: -14}
+        - {x: 10, y: -5}
+        - {x: 10, y: 12}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_114
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 192
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1, y: 13}
+        - {x: -6, y: 12}
+        - {x: -8, y: 9}
+        - {x: -8, y: -12}
+        - {x: -7, y: -16}
+        - {x: 6, y: -16}
+        - {x: 9, y: -15}
+        - {x: 9, y: 11}
+        - {x: 5, y: 13}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_115
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 192
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: 14}
+        - {x: -6, y: 13}
+        - {x: -8, y: 9}
+        - {x: -8, y: -5}
+        - {x: -3, y: -16}
+        - {x: 6, y: -16}
+        - {x: 9, y: -7}
+        - {x: 9, y: 10}
+        - {x: 7, y: 14}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_116
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 192
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: 13}
+        - {x: -6, y: 12}
+        - {x: -8, y: 9}
+        - {x: -8, y: -9}
+        - {x: -5, y: -16}
+        - {x: 8, y: -16}
+        - {x: 9, y: -11}
+        - {x: 9, y: 10}
+        - {x: 7, y: 13}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_117
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 192
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1, y: 13}
+        - {x: -8, y: 9}
+        - {x: -8, y: -13}
+        - {x: -3, y: -16}
+        - {x: 4, y: -16}
+        - {x: 9, y: -14}
+        - {x: 9, y: 11}
+        - {x: 8, y: 13}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_118
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 192
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1, y: 14}
+        - {x: -5, y: 11}
+        - {x: -8, y: 8}
+        - {x: -8, y: 1}
+        - {x: -5, y: -15}
+        - {x: -2, y: -16}
+        - {x: 6, y: -16}
+        - {x: 9, y: -6}
+        - {x: 9, y: 10}
+        - {x: 7, y: 14}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_119
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 192
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1, y: 13}
+        - {x: -5, y: 10}
+        - {x: -8, y: 7}
+        - {x: -8, y: -5}
+        - {x: -7, y: -15}
+        - {x: -4, y: -16}
+        - {x: 8, y: -16}
+        - {x: 9, y: -11}
+        - {x: 9, y: 10}
+        - {x: 7, y: 13}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_120
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 192
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: 13}
+        - {x: -8, y: 10}
+        - {x: -8, y: -9}
+        - {x: -6, y: -16}
+        - {x: 7, y: -16}
+        - {x: 9, y: -8}
+        - {x: 9, y: 11}
+        - {x: 4, y: 13}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_121
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 192
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4, y: 14}
+        - {x: 1, y: 14}
+        - {x: -5, y: 11}
+        - {x: -8, y: 7}
+        - {x: -6, y: -14}
+        - {x: -2, y: -16}
+        - {x: 5, y: -16}
+        - {x: 9, y: 2}
+        - {x: 9, y: 11}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_122
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 192
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4, y: 13}
+        - {x: 1, y: 13}
+        - {x: -8, y: 10}
+        - {x: -8, y: -16}
+        - {x: 7, y: -16}
+        - {x: 9, y: -10}
+        - {x: 9, y: 10}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_123
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 192
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1, y: 14}
+        - {x: -7, y: 7}
+        - {x: -7, y: -14}
+        - {x: -3, y: -16}
+        - {x: 3, y: -16}
+        - {x: 8, y: -14}
+        - {x: 10, y: -1}
+        - {x: 10, y: 12}
+        - {x: 5, y: 14}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_124
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 192
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10, y: 12}
+        - {x: 5, y: 15}
+        - {x: 2, y: 15}
+        - {x: -4, y: 12}
+        - {x: -7, y: 8}
+        - {x: -6, y: -7}
+        - {x: -5, y: -15}
+        - {x: -3, y: -16}
+        - {x: 6, y: -16}
+        - {x: 9, y: -7}
+        - {x: 10, y: 1}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_125
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 192
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 14}
+        - {x: -7, y: 7}
+        - {x: -7, y: -16}
+        - {x: 3, y: -16}
+        - {x: 9, y: -15}
+        - {x: 10, y: -2}
+        - {x: 10, y: 13}
+        - {x: 9, y: 14}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_126
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9, y: 10}
+        - {x: 4, y: 13}
+        - {x: -6, y: 13}
+        - {x: -10, y: 7}
+        - {x: -10, y: -9}
+        - {x: -6, y: -16}
+        - {x: 1, y: -16}
+        - {x: 6, y: -12}
+        - {x: 9, y: -8}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_127
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 160
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 14}
+        - {x: -11, y: 11}
+        - {x: -11, y: -7}
+        - {x: -10, y: -16}
+        - {x: 10, y: -16}
+        - {x: 11, y: -13}
+        - {x: 11, y: 11}
+        - {x: 4, y: 14}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_128
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 160
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4, y: 13}
+        - {x: -2, y: 13}
+        - {x: -5, y: 12}
+        - {x: -9, y: 10}
+        - {x: -9, y: -8}
+        - {x: -7, y: -16}
+        - {x: 7, y: -16}
+        - {x: 10, y: -10}
+        - {x: 10, y: 8}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_129
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 160
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6, y: 13}
+        - {x: -7, y: 13}
+        - {x: -9, y: 12}
+        - {x: -9, y: -9}
+        - {x: -7, y: -16}
+        - {x: 2, y: -16}
+        - {x: 9, y: -9}
+        - {x: 9, y: 9}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_130
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 160
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 14}
+        - {x: -10, y: 8}
+        - {x: -10, y: -7}
+        - {x: -6, y: -16}
+        - {x: 5, y: -16}
+        - {x: 10, y: -9}
+        - {x: 10, y: 11}
+        - {x: 4, y: 14}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_131
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 160
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 13}
+        - {x: -9, y: 8}
+        - {x: -9, y: 1}
+        - {x: -8, y: -8}
+        - {x: -6, y: -11}
+        - {x: -1, y: -16}
+        - {x: 5, y: -16}
+        - {x: 9, y: -10}
+        - {x: 9, y: 10}
+        - {x: 3, y: 13}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_132
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 160
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: 14}
+        - {x: -10, y: 9}
+        - {x: -11, y: 1}
+        - {x: -11, y: -8}
+        - {x: -6, y: -16}
+        - {x: 6, y: -16}
+        - {x: 10, y: -11}
+        - {x: 10, y: 9}
+        - {x: 3, y: 14}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_133
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 160
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4, y: 15}
+        - {x: -7, y: 15}
+        - {x: -12, y: 7}
+        - {x: -12, y: -9}
+        - {x: -7, y: -16}
+        - {x: 6, y: -16}
+        - {x: 12, y: -11}
+        - {x: 12, y: 7}
+        - {x: 11, y: 10}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_134
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 160
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 14}
+        - {x: -10, y: 9}
+        - {x: -10, y: -10}
+        - {x: -5, y: -16}
+        - {x: 10, y: -16}
+        - {x: 11, y: -9}
+        - {x: 11, y: 13}
+        - {x: 8, y: 14}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_135
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 160
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9, y: 10}
+        - {x: 4, y: 13}
+        - {x: -6, y: 13}
+        - {x: -10, y: 7}
+        - {x: -10, y: -9}
+        - {x: -6, y: -16}
+        - {x: 1, y: -16}
+        - {x: 6, y: -12}
+        - {x: 9, y: -8}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_136
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 160
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 14}
+        - {x: -11, y: 11}
+        - {x: -11, y: -7}
+        - {x: -10, y: -16}
+        - {x: 10, y: -16}
+        - {x: 11, y: -13}
+        - {x: 11, y: 11}
+        - {x: 4, y: 14}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_137
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 160
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4, y: 13}
+        - {x: -2, y: 13}
+        - {x: -5, y: 12}
+        - {x: -9, y: 10}
+        - {x: -9, y: -8}
+        - {x: -7, y: -16}
+        - {x: 7, y: -16}
+        - {x: 10, y: -10}
+        - {x: 10, y: 8}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_138
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 160
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9, y: 10}
+        - {x: 4, y: 13}
+        - {x: -6, y: 13}
+        - {x: -10, y: 7}
+        - {x: -10, y: -9}
+        - {x: -6, y: -16}
+        - {x: 1, y: -16}
+        - {x: 6, y: -12}
+        - {x: 9, y: -8}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_139
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 160
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 14}
+        - {x: -11, y: 11}
+        - {x: -11, y: -7}
+        - {x: -10, y: -16}
+        - {x: 10, y: -16}
+        - {x: 11, y: -13}
+        - {x: 11, y: 11}
+        - {x: 4, y: 14}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_140
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 160
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4, y: 13}
+        - {x: -2, y: 13}
+        - {x: -5, y: 12}
+        - {x: -9, y: 10}
+        - {x: -9, y: -8}
+        - {x: -7, y: -16}
+        - {x: 7, y: -16}
+        - {x: 10, y: -10}
+        - {x: 10, y: 8}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_141
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 160
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 13}
+        - {x: -9, y: 12}
+        - {x: -9, y: -7}
+        - {x: -7, y: -16}
+        - {x: 6, y: -16}
+        - {x: 9, y: -9}
+        - {x: 9, y: 13}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_142
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 160
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: 14}
+        - {x: -10, y: 11}
+        - {x: -10, y: -7}
+        - {x: -8, y: -16}
+        - {x: 10, y: -16}
+        - {x: 10, y: 13}
+        - {x: 5, y: 14}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_143
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 160
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 13}
+        - {x: -9, y: 9}
+        - {x: -9, y: 1}
+        - {x: -7, y: -13}
+        - {x: -2, y: -16}
+        - {x: 6, y: -16}
+        - {x: 9, y: -10}
+        - {x: 9, y: 10}
+        - {x: 4, y: 13}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_144
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 160
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: 14}
+        - {x: -10, y: 9}
+        - {x: -11, y: 1}
+        - {x: -11, y: -8}
+        - {x: -6, y: -16}
+        - {x: 6, y: -16}
+        - {x: 10, y: -11}
+        - {x: 10, y: 9}
+        - {x: 3, y: 14}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_145
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 160
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4, y: 15}
+        - {x: -7, y: 15}
+        - {x: -12, y: 7}
+        - {x: -12, y: -9}
+        - {x: -7, y: -16}
+        - {x: 6, y: -16}
+        - {x: 12, y: -11}
+        - {x: 12, y: 7}
+        - {x: 11, y: 10}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_146
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 160
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 14}
+        - {x: -10, y: 9}
+        - {x: -10, y: -10}
+        - {x: -5, y: -16}
+        - {x: 10, y: -16}
+        - {x: 11, y: -9}
+        - {x: 11, y: 13}
+        - {x: 8, y: 14}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_147
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 13}
+        - {x: -9, y: 11}
+        - {x: -9, y: -16}
+        - {x: 7, y: -16}
+        - {x: 7, y: -15}
+        - {x: 8, y: -4}
+        - {x: 8, y: 7}
+        - {x: 2, y: 13}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_148
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 128
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 14}
+        - {x: -9, y: 12}
+        - {x: -9, y: -4}
+        - {x: -8, y: -15}
+        - {x: -5, y: -16}
+        - {x: 4, y: -16}
+        - {x: 8, y: 2}
+        - {x: 8, y: 9}
+        - {x: 3, y: 14}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_149
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 128
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 13}
+        - {x: -9, y: 11}
+        - {x: -9, y: -14}
+        - {x: -6, y: -16}
+        - {x: 1, y: -16}
+        - {x: 8, y: -14}
+        - {x: 8, y: 8}
+        - {x: 3, y: 13}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_150
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 128
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 13}
+        - {x: -9, y: 11}
+        - {x: -9, y: -6}
+        - {x: -7, y: -16}
+        - {x: 9, y: -16}
+        - {x: 10, y: -13}
+        - {x: 10, y: 6}
+        - {x: 2, y: 13}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_151
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 128
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 14}
+        - {x: -4, y: 14}
+        - {x: -8, y: 10}
+        - {x: -9, y: 5}
+        - {x: -6, y: -15}
+        - {x: -4, y: -16}
+        - {x: 4, y: -16}
+        - {x: 9, y: 0}
+        - {x: 9, y: 8}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_152
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 128
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1, y: 13}
+        - {x: -5, y: 13}
+        - {x: -8, y: 9}
+        - {x: -9, y: 4}
+        - {x: -8, y: -14}
+        - {x: -5, y: -16}
+        - {x: 5, y: -16}
+        - {x: 10, y: -3}
+        - {x: 10, y: 4}
+        - {x: 6, y: 12}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_153
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 128
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 14}
+        - {x: -10, y: 11}
+        - {x: -10, y: 5}
+        - {x: -8, y: -14}
+        - {x: -5, y: -16}
+        - {x: 4, y: -16}
+        - {x: 7, y: -15}
+        - {x: 7, y: 9}
+        - {x: 2, y: 14}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_154
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 128
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 15}
+        - {x: -10, y: 13}
+        - {x: -10, y: -7}
+        - {x: -6, y: -16}
+        - {x: 6, y: -16}
+        - {x: 7, y: -10}
+        - {x: 7, y: 10}
+        - {x: 1, y: 15}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_155
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 14}
+        - {x: -10, y: 11}
+        - {x: -10, y: -15}
+        - {x: -7, y: -16}
+        - {x: 5, y: -16}
+        - {x: 7, y: -15}
+        - {x: 7, y: 10}
+        - {x: 2, y: 14}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_156
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 128
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: 13}
+        - {x: -9, y: 11}
+        - {x: -9, y: -14}
+        - {x: -6, y: -16}
+        - {x: 4, y: -16}
+        - {x: 7, y: -15}
+        - {x: 8, y: -7}
+        - {x: 8, y: 7}
+        - {x: 2, y: 13}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_157
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 128
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: 14}
+        - {x: -9, y: 12}
+        - {x: -9, y: 2}
+        - {x: -8, y: -15}
+        - {x: -5, y: -16}
+        - {x: 4, y: -16}
+        - {x: 8, y: 3}
+        - {x: 8, y: 9}
+        - {x: 1, y: 14}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_158
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 128
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 13}
+        - {x: -9, y: 11}
+        - {x: -9, y: -14}
+        - {x: -6, y: -16}
+        - {x: 1, y: -16}
+        - {x: 8, y: -14}
+        - {x: 8, y: 8}
+        - {x: 3, y: 13}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_159
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 128
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 13}
+        - {x: -9, y: 11}
+        - {x: -9, y: -16}
+        - {x: 7, y: -16}
+        - {x: 7, y: -15}
+        - {x: 8, y: -4}
+        - {x: 8, y: 7}
+        - {x: 2, y: 13}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_160
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 128
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 14}
+        - {x: -9, y: 12}
+        - {x: -9, y: -4}
+        - {x: -8, y: -15}
+        - {x: -5, y: -16}
+        - {x: 4, y: -16}
+        - {x: 8, y: 2}
+        - {x: 8, y: 9}
+        - {x: 3, y: 14}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_161
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 128
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 13}
+        - {x: -9, y: 11}
+        - {x: -9, y: -14}
+        - {x: -6, y: -16}
+        - {x: 1, y: -16}
+        - {x: 8, y: -14}
+        - {x: 8, y: 8}
+        - {x: 3, y: 13}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_162
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 128
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 13}
+        - {x: -9, y: 12}
+        - {x: -9, y: -16}
+        - {x: 8, y: -16}
+        - {x: 8, y: 11}
+        - {x: 4, y: 13}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_163
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 14}
+        - {x: -9, y: 12}
+        - {x: -9, y: 2}
+        - {x: -6, y: -15}
+        - {x: -5, y: -16}
+        - {x: 4, y: -16}
+        - {x: 8, y: -1}
+        - {x: 8, y: 10}
+        - {x: 3, y: 14}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_164
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 128
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: 13}
+        - {x: -8, y: 9}
+        - {x: -9, y: 4}
+        - {x: -8, y: -14}
+        - {x: -7, y: -16}
+        - {x: 1, y: -16}
+        - {x: 8, y: -13}
+        - {x: 8, y: 7}
+        - {x: 1, y: 13}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_165
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 128
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 14}
+        - {x: -10, y: 12}
+        - {x: -10, y: -15}
+        - {x: -8, y: -16}
+        - {x: 7, y: -16}
+        - {x: 7, y: 10}
+        - {x: 2, y: 14}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_166
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 128
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 15}
+        - {x: -10, y: 13}
+        - {x: -10, y: 4}
+        - {x: -6, y: -16}
+        - {x: 6, y: -16}
+        - {x: 7, y: -6}
+        - {x: 7, y: 10}
+        - {x: 1, y: 15}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_167
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 128
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 14}
+        - {x: -10, y: 11}
+        - {x: -10, y: 5}
+        - {x: -9, y: -14}
+        - {x: -5, y: -16}
+        - {x: 1, y: -16}
+        - {x: 7, y: -15}
+        - {x: 7, y: 9}
+        - {x: 2, y: 14}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_168
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12, y: 7}
+        - {x: 2, y: 13}
+        - {x: -4, y: 13}
+        - {x: -10, y: 6}
+        - {x: -10, y: -7}
+        - {x: -6, y: -16}
+        - {x: 3, y: -16}
+        - {x: 5, y: -15}
+        - {x: 12, y: -9}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_169
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 96
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2, y: 14}
+        - {x: -4, y: 14}
+        - {x: -11, y: 10}
+        - {x: -11, y: -9}
+        - {x: -10, y: -16}
+        - {x: 7, y: -16}
+        - {x: 11, y: -12}
+        - {x: 11, y: 6}
+        - {x: 10, y: 9}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_170
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 96
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 13}
+        - {x: -11, y: 7}
+        - {x: -12, y: 4}
+        - {x: -12, y: -11}
+        - {x: -5, y: -16}
+        - {x: 6, y: -16}
+        - {x: 10, y: -10}
+        - {x: 10, y: 8}
+        - {x: 3, y: 13}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_171
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 96
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: 12}
+        - {x: -9, y: 6}
+        - {x: -10, y: -6}
+        - {x: -10, y: -7}
+        - {x: -6, y: -16}
+        - {x: 5, y: -16}
+        - {x: 12, y: -12}
+        - {x: 12, y: -1}
+        - {x: 6, y: 12}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_172
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 13}
+        - {x: -9, y: 11}
+        - {x: -11, y: -7}
+        - {x: -8, y: -16}
+        - {x: 11, y: -16}
+        - {x: 11, y: 6}
+        - {x: 8, y: 13}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_173
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 96
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 12}
+        - {x: -12, y: 0}
+        - {x: -12, y: -12}
+        - {x: -5, y: -16}
+        - {x: 6, y: -16}
+        - {x: 10, y: -10}
+        - {x: 10, y: 3}
+        - {x: 6, y: 12}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_174
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 96
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10, y: 10}
+        - {x: 4, y: 12}
+        - {x: -5, y: 12}
+        - {x: -9, y: 4}
+        - {x: -10, y: -6}
+        - {x: -10, y: -8}
+        - {x: -6, y: -16}
+        - {x: 3, y: -16}
+        - {x: 5, y: -15}
+        - {x: 12, y: -9}
+        - {x: 12, y: -5}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_175
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 96
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 13}
+        - {x: -11, y: 2}
+        - {x: -11, y: -13}
+        - {x: -9, y: -16}
+        - {x: 11, y: -16}
+        - {x: 11, y: 5}
+        - {x: 8, y: 13}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_176
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 96
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 3, y: 12}
+        - {x: -3, y: 12}
+        - {x: -8, y: 9}
+        - {x: -12, y: 0}
+        - {x: -12, y: -12}
+        - {x: -5, y: -16}
+        - {x: 6, y: -16}
+        - {x: 10, y: -10}
+        - {x: 10, y: -3}
+        - {x: 7, y: 8}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_177
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 96
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4, y: 12}
+        - {x: -5, y: 12}
+        - {x: -9, y: 11}
+        - {x: -9, y: -7}
+        - {x: -7, y: -16}
+        - {x: 2, y: -16}
+        - {x: 11, y: -10}
+        - {x: 11, y: -4}
+        - {x: 9, y: 5}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_178
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 96
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10, y: 8}
+        - {x: 2, y: 13}
+        - {x: -5, y: 13}
+        - {x: -10, y: 6}
+        - {x: -10, y: -9}
+        - {x: -6, y: -16}
+        - {x: 5, y: -16}
+        - {x: 6, y: -14}
+        - {x: 10, y: -7}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_179
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 96
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: 12}
+        - {x: -9, y: 8}
+        - {x: -11, y: 4}
+        - {x: -11, y: -10}
+        - {x: -6, y: -16}
+        - {x: 5, y: -16}
+        - {x: 9, y: -10}
+        - {x: 9, y: 8}
+        - {x: 2, y: 12}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_180
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 96
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 12}
+        - {x: -10, y: -13}
+        - {x: -6, y: -16}
+        - {x: 2, y: -16}
+        - {x: 11, y: -10}
+        - {x: 11, y: 10}
+        - {x: 8, y: 12}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_181
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 96
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 13}
+        - {x: -10, y: 6}
+        - {x: -10, y: -13}
+        - {x: -6, y: -16}
+        - {x: 8, y: -16}
+        - {x: 10, y: -10}
+        - {x: 10, y: 8}
+        - {x: 5, y: 13}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_182
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 96
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7, y: 8}
+        - {x: 5, y: 12}
+        - {x: -5, y: 12}
+        - {x: -10, y: 11}
+        - {x: -11, y: 5}
+        - {x: -11, y: -10}
+        - {x: -3, y: -16}
+        - {x: 5, y: -16}
+        - {x: 10, y: -8}
+        - {x: 10, y: -1}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_183
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: 13}
+        - {x: -9, y: 6}
+        - {x: -9, y: -4}
+        - {x: -7, y: -13}
+        - {x: -4, y: -15}
+        - {x: -3, y: -16}
+        - {x: 4, y: -16}
+        - {x: 9, y: -14}
+        - {x: 9, y: 10}
+        - {x: 3, y: 13}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_184
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 64
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9, y: 10}
+        - {x: 2, y: 14}
+        - {x: -2, y: 14}
+        - {x: -9, y: 9}
+        - {x: -9, y: 0}
+        - {x: -6, y: -16}
+        - {x: 5, y: -16}
+        - {x: 6, y: -14}
+        - {x: 8, y: -7}
+        - {x: 9, y: 1}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_185
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 64
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 13}
+        - {x: -9, y: 9}
+        - {x: -9, y: 3}
+        - {x: -6, y: -15}
+        - {x: -4, y: -16}
+        - {x: 9, y: -16}
+        - {x: 9, y: 11}
+        - {x: 4, y: 13}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_186
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 64
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: 12}
+        - {x: -8, y: 10}
+        - {x: -8, y: -12}
+        - {x: -6, y: -16}
+        - {x: 3, y: -16}
+        - {x: 8, y: -15}
+        - {x: 8, y: 10}
+        - {x: 6, y: 12}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_187
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 64
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 13}
+        - {x: -8, y: -16}
+        - {x: 8, y: -16}
+        - {x: 8, y: 11}
+        - {x: 4, y: 13}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_188
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 64
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: 12}
+        - {x: -8, y: 10}
+        - {x: -8, y: -6}
+        - {x: -6, y: -16}
+        - {x: 8, y: -16}
+        - {x: 8, y: 12}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_189
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 64
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: 12}
+        - {x: -7, y: 9}
+        - {x: -7, y: -15}
+        - {x: -5, y: -16}
+        - {x: 8, y: -16}
+        - {x: 9, y: -14}
+        - {x: 9, y: 9}
+        - {x: 6, y: 12}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_190
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 64
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9, y: 7}
+        - {x: 3, y: 13}
+        - {x: -3, y: 13}
+        - {x: -7, y: 11}
+        - {x: -7, y: -3}
+        - {x: -5, y: -15}
+        - {x: -2, y: -16}
+        - {x: 4, y: -16}
+        - {x: 6, y: -14}
+        - {x: 8, y: -7}
+        - {x: 9, y: 4}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_191
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: 12}
+        - {x: -7, y: 11}
+        - {x: -7, y: -16}
+        - {x: 9, y: -16}
+        - {x: 9, y: 9}
+        - {x: 7, y: 12}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_192
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 64
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: 12}
+        - {x: -9, y: 6}
+        - {x: -9, y: -14}
+        - {x: -2, y: -16}
+        - {x: 7, y: -16}
+        - {x: 9, y: 8}
+        - {x: 7, y: 12}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_193
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 64
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 13}
+        - {x: -9, y: 6}
+        - {x: -6, y: -15}
+        - {x: -2, y: -16}
+        - {x: 9, y: -16}
+        - {x: 9, y: 10}
+        - {x: 8, y: 13}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_194
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 64
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: -8}
+        - {x: -7, y: -16}
+        - {x: 8, y: -16}
+        - {x: 8, y: 7}
+        - {x: 7, y: 12}
+        - {x: -3, y: 12}
+        - {x: -9, y: 6}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_195
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 64
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 3, y: 12}
+        - {x: -6, y: 12}
+        - {x: -11, y: 4}
+        - {x: -11, y: -4}
+        - {x: -9, y: -15}
+        - {x: -3, y: -16}
+        - {x: 7, y: -16}
+        - {x: 7, y: -14}
+        - {x: 8, y: -5}
+        - {x: 8, y: 10}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_196
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 64
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 13}
+        - {x: -10, y: 6}
+        - {x: -10, y: -2}
+        - {x: -5, y: -14}
+        - {x: -1, y: -16}
+        - {x: 6, y: -16}
+        - {x: 8, y: -8}
+        - {x: 8, y: 11}
+        - {x: 3, y: 13}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_197
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 64
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4, y: 12}
+        - {x: -9, y: 12}
+        - {x: -9, y: -16}
+        - {x: 7, y: -16}
+        - {x: 8, y: -14}
+        - {x: 8, y: 11}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_198
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9, y: 9}
+        - {x: 4, y: 13}
+        - {x: -10, y: 13}
+        - {x: -10, y: -11}
+        - {x: -6, y: -16}
+        - {x: 1, y: -16}
+        - {x: 6, y: -12}
+        - {x: 9, y: -8}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_199
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 32
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11, y: 1}
+        - {x: 10, y: 8}
+        - {x: 3, y: 14}
+        - {x: -5, y: 14}
+        - {x: -11, y: 8}
+        - {x: -11, y: -10}
+        - {x: -9, y: -16}
+        - {x: 5, y: -16}
+        - {x: 8, y: -15}
+        - {x: 11, y: -7}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_200
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 32
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: 13}
+        - {x: -9, y: 7}
+        - {x: -9, y: -9}
+        - {x: -6, y: -16}
+        - {x: 6, y: -16}
+        - {x: 10, y: -10}
+        - {x: 10, y: 9}
+        - {x: 2, y: 13}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_201
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 32
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 12}
+        - {x: -10, y: 11}
+        - {x: -10, y: -8}
+        - {x: -8, y: -16}
+        - {x: 9, y: -16}
+        - {x: 9, y: 11}
+        - {x: 6, y: 12}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_202
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 13}
+        - {x: -9, y: 11}
+        - {x: -11, y: -7}
+        - {x: -8, y: -16}
+        - {x: 11, y: -16}
+        - {x: 11, y: 6}
+        - {x: 8, y: 13}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_203
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 32
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 3, y: 12}
+        - {x: -9, y: 12}
+        - {x: -9, y: -13}
+        - {x: -8, y: -16}
+        - {x: 6, y: -16}
+        - {x: 10, y: -10}
+        - {x: 10, y: 5}
+        - {x: 9, y: 10}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_204
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 32
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 12}
+        - {x: -9, y: 4}
+        - {x: -10, y: -6}
+        - {x: -10, y: -8}
+        - {x: -6, y: -16}
+        - {x: 2, y: -16}
+        - {x: 9, y: -11}
+        - {x: 9, y: 11}
+        - {x: 3, y: 12}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_205
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 32
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 13}
+        - {x: -11, y: 2}
+        - {x: -11, y: -13}
+        - {x: -9, y: -16}
+        - {x: 11, y: -16}
+        - {x: 11, y: 5}
+        - {x: 8, y: 13}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_206
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 32
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5, y: 12}
+        - {x: -3, y: 12}
+        - {x: -9, y: 10}
+        - {x: -9, y: -8}
+        - {x: -3, y: -15}
+        - {x: -2, y: -16}
+        - {x: 6, y: -16}
+        - {x: 10, y: -10}
+        - {x: 10, y: -3}
+        - {x: 7, y: 8}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_207
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 32
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: 12}
+        - {x: -9, y: 9}
+        - {x: -9, y: -9}
+        - {x: -7, y: -16}
+        - {x: 2, y: -16}
+        - {x: 8, y: -9}
+        - {x: 8, y: 9}
+        - {x: 4, y: 12}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_208
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 32
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 13}
+        - {x: -10, y: 11}
+        - {x: -10, y: -7}
+        - {x: -8, y: -16}
+        - {x: 10, y: -16}
+        - {x: 10, y: 13}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_209
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 32
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4, y: 11}
+        - {x: 0, y: 12}
+        - {x: -6, y: 12}
+        - {x: -8, y: 7}
+        - {x: -8, y: -11}
+        - {x: -7, y: -12}
+        - {x: -2, y: -16}
+        - {x: 5, y: -16}
+        - {x: 9, y: -10}
+        - {x: 9, y: -1}
+        - {x: 8, y: 8}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_210
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 32
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 3, y: 12}
+        - {x: -5, y: 12}
+        - {x: -7, y: 9}
+        - {x: -9, y: 1}
+        - {x: -9, y: -7}
+        - {x: -5, y: -16}
+        - {x: 4, y: -16}
+        - {x: 10, y: -7}
+        - {x: 10, y: 8}
+        - {x: 9, y: 10}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_211
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 32
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 13}
+        - {x: -10, y: 6}
+        - {x: -10, y: -13}
+        - {x: -6, y: -16}
+        - {x: 8, y: -16}
+        - {x: 10, y: -10}
+        - {x: 10, y: 8}
+        - {x: 5, y: 13}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_212
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 32
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 12}
+        - {x: -10, y: 4}
+        - {x: -10, y: -8}
+        - {x: -4, y: -16}
+        - {x: 7, y: -16}
+        - {x: 9, y: -11}
+        - {x: 9, y: 7}
+        - {x: 5, y: 12}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_213
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 13}
+        - {x: -9, y: 9}
+        - {x: -9, y: -11}
+        - {x: -7, y: -16}
+        - {x: 8, y: -16}
+        - {x: 9, y: -14}
+        - {x: 9, y: 9}
+        - {x: 7, y: 13}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_214
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 0
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1, y: 14}
+        - {x: -3, y: 14}
+        - {x: -9, y: 10}
+        - {x: -9, y: -2}
+        - {x: -8, y: -16}
+        - {x: 3, y: -16}
+        - {x: 4, y: -14}
+        - {x: 9, y: 2}
+        - {x: 9, y: 9}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_215
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: 13}
+        - {x: -9, y: 9}
+        - {x: -9, y: -15}
+        - {x: -4, y: -16}
+        - {x: 9, y: -16}
+        - {x: 9, y: 13}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_216
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 0
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5, y: 12}
+        - {x: -6, y: 12}
+        - {x: -8, y: 9}
+        - {x: -8, y: -14}
+        - {x: -6, y: -15}
+        - {x: -2, y: -16}
+        - {x: 4, y: -16}
+        - {x: 7, y: -15}
+        - {x: 8, y: -8}
+        - {x: 8, y: 11}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_217
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4, y: 13}
+        - {x: -6, y: 13}
+        - {x: -8, y: 10}
+        - {x: -8, y: -16}
+        - {x: 4, y: -16}
+        - {x: 4, y: -14}
+        - {x: 8, y: -1}
+        - {x: 8, y: 12}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_218
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 0
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 12}
+        - {x: -8, y: -14}
+        - {x: -7, y: -16}
+        - {x: 5, y: -16}
+        - {x: 8, y: -14}
+        - {x: 8, y: 10}
+        - {x: 3, y: 12}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_219
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 0
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: 12}
+        - {x: -9, y: 7}
+        - {x: -9, y: -7}
+        - {x: -8, y: -14}
+        - {x: -4, y: -16}
+        - {x: 7, y: -16}
+        - {x: 7, y: 8}
+        - {x: 5, y: 12}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_220
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 0
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 13}
+        - {x: -9, y: 6}
+        - {x: -9, y: -8}
+        - {x: -8, y: -15}
+        - {x: -5, y: -16}
+        - {x: 4, y: -16}
+        - {x: 7, y: -8}
+        - {x: 7, y: 10}
+        - {x: 6, y: 13}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_221
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 12}
+        - {x: -9, y: 7}
+        - {x: -9, y: -10}
+        - {x: -8, y: -14}
+        - {x: -5, y: -16}
+        - {x: 1, y: -16}
+        - {x: 7, y: -14}
+        - {x: 7, y: 10}
+        - {x: 3, y: 12}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_222
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 0
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 12}
+        - {x: -8, y: -16}
+        - {x: 7, y: -16}
+        - {x: 9, y: -8}
+        - {x: 9, y: 9}
+        - {x: 2, y: 12}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_223
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 0
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 13}
+        - {x: -9, y: 7}
+        - {x: -9, y: -1}
+        - {x: -6, y: -15}
+        - {x: -5, y: -16}
+        - {x: 4, y: -16}
+        - {x: 9, y: -6}
+        - {x: 9, y: 6}
+        - {x: 5, y: 13}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_224
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 0
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5, y: 10}
+        - {x: -1, y: 12}
+        - {x: -5, y: 12}
+        - {x: -9, y: 9}
+        - {x: -9, y: -1}
+        - {x: -8, y: -14}
+        - {x: -5, y: -16}
+        - {x: 3, y: -15}
+        - {x: 8, y: -13}
+        - {x: 9, y: -5}
+        - {x: 9, y: 7}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_225
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 0
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: 12}
+        - {x: -8, y: 10}
+        - {x: -8, y: -13}
+        - {x: -6, y: -16}
+        - {x: 7, y: -16}
+        - {x: 9, y: -13}
+        - {x: 9, y: 9}
+        - {x: 6, y: 12}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_226
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 0
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6, y: 13}
+        - {x: -4, y: 13}
+        - {x: -8, y: 11}
+        - {x: -8, y: -7}
+        - {x: -5, y: -16}
+        - {x: 3, y: -16}
+        - {x: 10, y: -1}
+        - {x: 10, y: 3}
+        - {x: 9, y: 8}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: police_sprites_227
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 0
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 12}
+        - {x: -8, y: 6}
+        - {x: -8, y: -9}
+        - {x: -7, y: -14}
+        - {x: -6, y: -16}
+        - {x: -2, y: -16}
+        - {x: 8, y: -14}
+        - {x: 11, y: -3}
+        - {x: 11, y: 5}
+        - {x: 4, y: 12}
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

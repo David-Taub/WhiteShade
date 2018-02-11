@@ -18,7 +18,7 @@ public class CameraController : MonoBehaviour
 	    maxZoom = 15;
  	    MapController mapController=  GetComponentInParent<MapController>();
 	    bordersMin = new Vector3(0.0f, 0.0f, cameraZ);
-	    bordersMax = new Vector3(mapController.rows, mapController.columns, cameraZ);
+	    bordersMax = new Vector3(mapController.Rows, mapController.Columns, cameraZ);
 	}
 	
 	// Update is called once per frame
