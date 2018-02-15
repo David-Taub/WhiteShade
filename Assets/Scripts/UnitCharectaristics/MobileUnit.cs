@@ -10,15 +10,22 @@ public class MobileUnit: MonoBehaviour
     private NavigationController _navigationController;
     private AnimatedWalker _animatedWalker;
     private const float Speed = 10.0f;
-
     public Vector3 NextStep
     {
-        get { return (_path.Count == 0) ? Position: _path.First(); }
+        get { return (Path.Count == 0) ? Position: Path.First(); }
+    }
+
+    public void Halt()
+    {
+        if (Path.Count <= 1) return;
+        Vector3 nextStep = new Vector3(NextStep.x, NextStep.y, NextStep.z);
+        Path.Clear();
+        Path.AddLast(nextStep);
     }
 
     public Vector3 Destination
     {
-        get { return (_path.Count == 0) ? Position: _path.Last(); }
+        get { return (Path.Count == 0) ? Position: Path.Last(); }
     }
     public Vector3 Position
     {
@@ -26,14 +33,15 @@ public class MobileUnit: MonoBehaviour
     }
     public bool IsMoving
     {
-        get { return _path.Count > 0; }
+        get { return Path.Count > 0; }
     }
 
-    private Queue<Vector3> _path;
+    public LinkedList<Vector3> Path;
 
     public void Start()
     {
-        _path = new Queue<Vector3>();
+        base.StartCoroutine()
+        Path = new LinkedList<Vector3>();
         _navigationController = GameObject.Find("GameController").GetComponent<NavigationController>();
         _animatedWalker = GetComponent<AnimatedWalker>();
     }
@@ -51,7 +59,12 @@ public class MobileUnit: MonoBehaviour
         }
         if (IsMoving && transform.position == NextStep)
         {
-            _path.Dequeue();
+            Vector3 oldPosition = NextStep;
+            Path.RemoveFirst();
+            if (IsMoving)
+            {
+                GetComponent<MapController>().UpdateObjectPos(gameObject, oldPosition);
+            }
             _animatedWalker.ChangeAnimation(IsMoving, NextStep);
             if (!_navigationController.IsPositionWalkable(NextStep))
             {
@@ -64,8 +77,14 @@ public class MobileUnit: MonoBehaviour
         transform.position = Vector3.MoveTowards(transform.position, NextStep, Time.deltaTime * Speed);
     }
 
-    public void Reach(Vector3 wantedDestination)
+    public void Reach(Vector3 wantedDestination, Action action = null)
     {
-        _navigationController.TryReachDest(this, wantedDestination, newPath => { _path = (newPath.Count > 0) ? newPath : _path; });
+        _navigationController.TryReachDest(this, wantedDestination, newPath =>
+        {
+            //doint that in case a bad click on unwalkable spot midway
+            Path = (newPath.Count > 0) ? newPath : Path;
+            if (action != null)
+                action();
+        });
     }
 }

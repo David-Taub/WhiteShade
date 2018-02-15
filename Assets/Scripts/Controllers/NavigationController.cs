@@ -76,13 +76,13 @@ public class NavigationController : MonoBehaviour {
     }
 
 
-    public Boolean IsPositionWalkable(Vector3 position)
+    public bool IsPositionWalkable(Vector3 position)
     {
         return Vector3ToNode(position).Walkable;
     }
 
 
-    public void TryReachDest(MobileUnit unit, Vector3 wantedDestination, Action<Queue<Vector3>> onPathCalculated)
+    public void TryReachDest(MobileUnit unit, Vector3 wantedDestination, Action<LinkedList<Vector3>> onPathCalculated)
     {
         lock (_destCalculation)
         {
@@ -92,20 +92,20 @@ public class NavigationController : MonoBehaviour {
             if (destination == null)
             {
                 Debug.Log("Can't reach dest " + wantedDestination);
-                onPathCalculated(new Queue<Vector3>());
+                onPathCalculated(new LinkedList<Vector3>());
                 return;
             }
             _occupiedDestinations.Add(destination);
             var abPath = ABPath.Construct(unit.transform.position, Int3ToVector3(destination.position), (foundPath) =>
             {
-                var convertedPath = new Queue<Vector3>();
+                var convertedPath = new LinkedList<Vector3>();
                 if (foundPath.error)
                 {
                     Debug.LogError("Can't reach destination " + destination.position + " from " + transform.position + foundPath.errorLog);
                 }
                 else
                 {
-                    foundPath.path.ForEach(node => convertedPath.Enqueue(Int3ToVector3(node.position)));
+                    foundPath.path.ForEach(node => convertedPath.AddLast(Int3ToVector3(node.position)));
                 }
                 onPathCalculated(convertedPath);
             });

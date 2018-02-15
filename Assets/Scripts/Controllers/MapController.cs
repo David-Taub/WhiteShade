@@ -9,7 +9,7 @@ public class MapController : MonoBehaviour {
     public GameObject WallPrefab;
     public GameObject PlayerPrefab;
     public GameObject EnemyPrefab;
-
+    private List<GameObject>[][] map;
     public int Columns = 50;
     public int Rows = 50;
     private const int NumOfPlayers = 30;
@@ -48,8 +48,8 @@ public class MapController : MonoBehaviour {
                         _freeLocations.Add(new Vector3(x, y, 0));
                         node.Walkable = true;
                     }
-
                     var instance = Instantiate(toInstantiate, new Vector3(x, y, 0f), Quaternion.identity);
+                    AddObjectPos(instance);
                     instance.transform.SetParent(boardHolder);
                 }
             }
@@ -71,14 +71,26 @@ public class MapController : MonoBehaviour {
         PlaceEnemies();
     }
 
+    public void AddObjectPos(GameObject obj)
+    {
+        map[Mathf.RoundToInt(obj.transform.position.x)][Mathf.RoundToInt(obj.transform.position.x)].Add(obj);
+    }
+
+    public void UpdateObjectPos(GameObject obj, Vector3 oldPosition)
+    {
+        map[Mathf.RoundToInt(obj.transform.position.x)][Mathf.RoundToInt(obj.transform.position.x)].Remove(obj);
+        AddObjectPos(obj);
+    }
+
     private void PlacePlayers()
     {
         Transform playerHolder = new GameObject("Players").transform;
         for (int i = 0; i < NumOfPlayers; i++)
         {
             Vector3 pos = PopRandomPosition();
-            GameObject instance = Instantiate(PlayerPrefab, pos, Quaternion.identity);
-            instance.transform.SetParent(playerHolder);
+            GameObject player = Instantiate(PlayerPrefab, pos, Quaternion.identity);
+            AddObjectPos(player);
+            player.transform.SetParent(playerHolder);
         }
     }
 
@@ -88,8 +100,9 @@ public class MapController : MonoBehaviour {
         for (int i = 0; i < NumOfPlayers; i++)
         {
             Vector3 pos = PopRandomPosition();
-            GameObject instance = Instantiate(EnemyPrefab, pos, Quaternion.identity);
-            instance.transform.SetParent(enemiesHolder);
+            GameObject enemy = Instantiate(EnemyPrefab, pos, Quaternion.identity);
+            AddObjectPos(enemy);
+            enemy.transform.SetParent(enemiesHolder);
         }
     }
 
