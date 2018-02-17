@@ -23,7 +23,7 @@ public class BulletControl : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-        var interactionable = other.GetComponentInChildren<InteractionableUnit>();
+        var interactionable = other.GetComponentInChildren<Unit>();
         if (interactionable != null)
         {
             interactionable.ReceiveDamage(DamageImpact);

@@ -21,10 +21,10 @@ GameObject:
   - component: {fileID: 4572260756074796}
   - component: {fileID: 212996430673044132}
   - component: {fileID: 95073291686725712}
-  - component: {fileID: 114306072251780746}
-  - component: {fileID: 114331123586763140}
-  - component: {fileID: 58077494445914666}
-  - component: {fileID: 114608159286596624}
+  - component: {fileID: 58780742172660568}
+  - component: {fileID: 114054673510271796}
+  - component: {fileID: 114824208387254868}
+  - component: {fileID: 50825380742978482}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Untagged
@@ -39,13 +39,33 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1837228238492098}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -13.685724, y: 0.46052057, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!58 &58077494445914666
+--- !u!50 &50825380742978482
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1837228238492098}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 1
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!58 &58780742172660568
 CircleCollider2D:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -77,7 +97,30 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
---- !u!114 &114306072251780746
+--- !u!114 &114054673510271796
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1837228238492098}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f79803a318bc2d1458c6a07de9e7cc20, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SelectionCircle: {fileID: 1745947099529546, guid: 3e167430247360a4d95a64f41a80b304,
+    type: 2}
+  Group: 1
+  MaxHealth: 100
+  BulletPrefab: {fileID: 1532516375794270, guid: 71b9b90841e991d459456d85640791ef,
+    type: 2}
+  ReloadTime: 10
+  AimRange: 10
+  IsSelectable: 0
+  CanReloadWhileWalking: 0
+  CanShootWhileWalking: 0
+  ShouldHoldFire: 0
+--- !u!114 &114824208387254868
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -89,31 +132,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   FlipRight: 0
---- !u!114 &114331123586763140
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1837228238492098}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4dae2d0eb5051ea4cbfe0e30a1b2cd26, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &114608159286596624
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1837228238492098}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cd1c0b78ff777224f87a8524070d705c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Group: 1
-  CurrentHealth: 100
-  MaxHealth: 100
 --- !u!212 &212996430673044132
 SpriteRenderer:
   m_ObjectHideFlags: 1

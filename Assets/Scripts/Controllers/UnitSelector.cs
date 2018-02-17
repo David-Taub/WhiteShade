@@ -5,8 +5,7 @@ using UnityEngine;
 
 public class UnitSelector : MonoBehaviour
 {
-    public GameObject SelectionCirclePrefab;
-    public List<SelectableUnit> Selected;
+    public List<Unit> Selected;
     private bool _isSelecting;
     private Vector3 _selectionStart;
 
@@ -14,7 +13,7 @@ public class UnitSelector : MonoBehaviour
     void Start()
     {
         Debug.Log("Unit Selector Started");
-        Selected = new List<SelectableUnit>();
+        Selected = new List<Unit>();
     }
 
     // Update is called once per frame
@@ -52,15 +51,15 @@ public class UnitSelector : MonoBehaviour
         }   
     }
 
-    private List<SelectableUnit> SelectUnits(Rect selectionBox)
+    private List<Unit> SelectUnits(Rect selectionBox)
     {
-        var selectables = FindObjectsOfType<SelectableUnit>();
-        return selectables.Where(x => selectionBox.Contains(x.transform.position)).ToList();
+        var selectables = FindObjectsOfType<Unit>();
+        return selectables.Where(x => x.IsSelectable && selectionBox.Contains(x.transform.position)).ToList();
     }
 
     private void SelectBoxHover(Rect selectionBox)
     {
-        foreach (var selectableObject in FindObjectsOfType<SelectableUnit>())
+        foreach (var selectableObject in FindObjectsOfType<Unit>())
         {
             if (selectionBox.Contains(selectableObject.transform.position))
             {
@@ -68,8 +67,6 @@ public class UnitSelector : MonoBehaviour
                 if (selectableObject.SelectionCircle != null)
                 {
                     selectableObject.SelectionCircle.SetActive(true);
-                    //selectableObject.selectionCircle = Instantiate(selectionCirclePrefab, selectableObject.transform.position, Quaternion.identity);
-                    //selectableObject.selectionCircle.transform.SetParent(selectableObject.transform);
                 }
             }
             else
@@ -78,8 +75,6 @@ public class UnitSelector : MonoBehaviour
                 if (selectableObject.SelectionCircle != null)
                 {
                     selectableObject.SelectionCircle.SetActive(false);
-                    //Destroy(selectableObject.selectionCircle.gameObject);
-                    //selectableObject.selectionCircle = null;
                 }
             }
         }

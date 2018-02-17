@@ -34,15 +34,13 @@ public class NavigationController : MonoBehaviour {
             click.z = 0.0f;
             foreach (var selectedUnit in _unitSelector.Selected)
             {
-                MobileUnit mobileUnit = selectedUnit.GetComponentInParent<MobileUnit>();
-                if (mobileUnit != null)
-                    mobileUnit.Reach(click);
+                selectedUnit.Reach(click);
             }
         }
     }
     
     //bfs search for a new destination
-    private GridNode GetNearestFreeDest(MobileUnit unit, Vector3 wantedDestination)
+    private GridNode GetNearestFreeDest(Unit unit, Vector3 wantedDestination)
     {
         
         Queue<GridNode> toCheck = new Queue<GridNode>();
@@ -82,7 +80,7 @@ public class NavigationController : MonoBehaviour {
     }
 
 
-    public void TryReachDest(MobileUnit unit, Vector3 wantedDestination, Action<LinkedList<Vector3>> onPathCalculated)
+    public void TryReachDest(Unit unit, Vector3 wantedDestination, Action<LinkedList<Vector3>> onPathCalculated)
     {
         lock (_destCalculation)
         {

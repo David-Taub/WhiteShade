@@ -9,10 +9,10 @@ public class MapController : MonoBehaviour {
     public GameObject WallPrefab;
     public GameObject PlayerPrefab;
     public GameObject EnemyPrefab;
-    private List<GameObject>[][] map;
+    private List<GameObject>[,] _map;
     public int Columns = 50;
     public int Rows = 50;
-    private const int NumOfPlayers = 30;
+    private const int NumOfPlayers = 2;
     public GridGraph Graph;
     private const float WallRatio = 0.3f;
     private const float NodeDistance = 1.0f;
@@ -21,6 +21,7 @@ public class MapController : MonoBehaviour {
 
     public void BoardSetup()
     {
+        _map = new List<GameObject>[Rows, Columns];
         var boardHolder = new GameObject("Board").transform;
         Graph = AstarPath.active.data.AddGraph(typeof(GridGraph)) as GridGraph;
         Debug.Assert(Graph != null, "Graph != null");
@@ -33,6 +34,7 @@ public class MapController : MonoBehaviour {
             {
                 for (var y = 0; y < Rows; y++)
                 {
+                    _map[x,y] = new List<GameObject>();
                     GameObject toInstantiate = FloorPrefab;
 
                     //Check if we current position is at board edge, if so choose a random outer wall prefab from our array of outer wall tiles.
@@ -73,12 +75,12 @@ public class MapController : MonoBehaviour {
 
     public void AddObjectPos(GameObject obj)
     {
-        map[Mathf.RoundToInt(obj.transform.position.x)][Mathf.RoundToInt(obj.transform.position.x)].Add(obj);
+        _map[Mathf.RoundToInt(obj.transform.position.x), Mathf.RoundToInt(obj.transform.position.y)].Add(obj);
     }
 
     public void UpdateObjectPos(GameObject obj, Vector3 oldPosition)
     {
-        map[Mathf.RoundToInt(obj.transform.position.x)][Mathf.RoundToInt(obj.transform.position.x)].Remove(obj);
+        _map[Mathf.RoundToInt(obj.transform.position.x), Mathf.RoundToInt(obj.transform.position.x)].Remove(obj);
         AddObjectPos(obj);
     }
 
