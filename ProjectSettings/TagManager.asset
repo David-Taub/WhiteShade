@@ -13,8 +13,8 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
+  - Units
+  - Bullets
   - 
   - 
   - 
@@ -52,4 +52,7 @@ TagManager:
     locked: 0
   - name: Player
     uniqueID: 3851375047
+    locked: 0
+  - name: Bullets
+    uniqueID: 886955579
     locked: 0

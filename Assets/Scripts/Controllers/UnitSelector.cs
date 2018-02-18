@@ -54,7 +54,7 @@ public class UnitSelector : MonoBehaviour
     private List<Unit> SelectUnits(Rect selectionBox)
     {
         var selectables = FindObjectsOfType<Unit>();
-        return selectables.Where(x => x.IsSelectable && selectionBox.Contains(x.transform.position)).ToList();
+        return selectables.Where(x => x.IsInPlayingGroup && selectionBox.Contains(x.transform.position)).ToList();
     }
 
     private void SelectBoxHover(Rect selectionBox)

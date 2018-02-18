@@ -6,7 +6,7 @@ using System.Collections.Generic;
 using NUnit.Framework;
 using Pathfinding;
 
-public class Unit: MonoBehaviour
+public partial class Unit: MonoBehaviour
 {
     private const float MinimumHealth = 0.0f;
     private NavigationController _navigationController;
@@ -22,14 +22,18 @@ public class Unit: MonoBehaviour
     public int Group;
     public float MaxHealth = 100;
     public GameObject BulletPrefab;
-    public float ReloadTime = 1000.0f;
+    public float ReloadTime = 1.0f;
     public float AimRange = 10.0f;
-    public bool IsSelectable;
     
     public bool CanReloadWhileWalking = false;
     public bool CanShootWhileWalking = false;
     public bool ShouldHoldFire = false;
 
+
+    public bool IsInPlayingGroup
+    {
+        get { return _gameController.PlayerGroup == Group;}
+    }
 
     public Vector3 NextStep
     {
@@ -49,16 +53,25 @@ public class Unit: MonoBehaviour
         get { return Path != null && Path.Count > 0; }
     }
 
+    public void StartSelectionCircle()
+    {
+        SelectionCircle = Instantiate(SelectionCircle, transform.position, Quaternion.identity);
+        SelectionCircle.transform.SetParent(transform);
+    }
 
     public void Start()
     {
+
+        if (IsInPlayingGroup)
+        {
+            StartPathLine();
+        }
         _gameController = FindObjectOfType<GameController>();
         _currentHealth = MaxHealth;
         Path = new LinkedList<Vector3>();
-        if (IsSelectable)
+        if (IsInPlayingGroup)
         {
-            SelectionCircle = Instantiate(SelectionCircle, transform.position, Quaternion.identity);
-            SelectionCircle.transform.SetParent(transform);
+            StartSelectionCircle();
         }
         _navigationController = GameObject.Find("GameController").GetComponent<NavigationController>();
         _animatedWalker = GetComponent<AnimatedWalker>();
@@ -67,6 +80,7 @@ public class Unit: MonoBehaviour
     public void Update()
     {
         UpdatePosition();
+        UpdatePathLines();
         UpdateShooter();
 
     }
@@ -107,6 +121,14 @@ public class Unit: MonoBehaviour
             }
         }
     }
+
+    public void Die()
+    {
+        FindObjectOfType<UnitSelector>().Selected.Remove(this);
+        FindObjectOfType<NavigationController>().ClearPos(transform.position);
+        Destroy(gameObject);
+    }
+
     public void Halt()
     {
         if (Path.Count <= 1) return;
@@ -216,7 +238,7 @@ public class Unit: MonoBehaviour
         Assert.IsTrue(IsReloaded());
 
         GameObject bullet = Instantiate(BulletPrefab, transform.position, Quaternion.identity);
-        bullet.transform.SetParent(transform);
+        //bullet.transform.SetParent(transform);
         BulletControl bulletControl = bullet.GetComponentInChildren<BulletControl>();
         bulletControl.Direction = new Ray(transform.position, (unit.transform.position - transform.position).normalized);
         _timeLeftToReload = ReloadTime;

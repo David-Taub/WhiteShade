@@ -13,16 +13,10 @@ public class AnimatedWalker : MonoBehaviour
 
     //TODO: this should be a FourWayAnimatedWalker that inherits AnimatedWalker with ChangeAnimation method
     public bool FlipRight;
-
-    // Update is called once per frame
-    void Start()
-    {
-        Dictionary<string, Sprite[]> myDict = new Dictionary<string, Sprite[]>();
-	}
+    
 
     public void ChangeAnimation(bool isMoving, Vector3 nextStep)
     {
-        Animator anim = GetComponent<Animator>();
         transform.localScale = new Vector3(1,1,1);
         if (!isMoving)
             GetComponent<Animator>().SetInteger("State", (int)State.IDLE);

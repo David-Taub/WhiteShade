@@ -10,8 +10,8 @@ public class MapController : MonoBehaviour {
     public GameObject PlayerPrefab;
     public GameObject EnemyPrefab;
     private List<GameObject>[,] _map;
-    public int Columns = 50;
-    public int Rows = 50;
+    public int Columns = 12;
+    public int Rows = 12;
     private const int NumOfPlayers = 2;
     public GridGraph Graph;
     private const float WallRatio = 0.3f;

@@ -50,13 +50,11 @@ public class NavigationController : MonoBehaviour {
         while (toCheck.Count > 0 && toCheck.Count < MaxNearMoveRadius)
         {
             GridNode checkedDestnation = toCheck.Dequeue();
+            if (checkedDestnation == null || !checkedDestnation.Walkable)
+                continue;
             if (IsGoodDest(currentUnitNode, checkedDestnation))
             {
                 return checkedDestnation;
-            }
-            if (!checkedDestnation.Walkable)
-            {
-                return null;
             }
             visited.Add(checkedDestnation.NodeIndex);
             //Debug.Log("Visited: " +visited.Count +  currentNode.position + currentNode.NodeIndex);
@@ -69,7 +67,6 @@ public class NavigationController : MonoBehaviour {
                 }
             });
         }
-        Debug.LogError("max reached?" + toCheck.Count);
         return null;
     }
 
@@ -79,6 +76,10 @@ public class NavigationController : MonoBehaviour {
         return Vector3ToNode(position).Walkable;
     }
 
+    public void ClearPos(Vector3 pos)
+    {
+        _occupiedDestinations.Remove(Vector3ToNode(pos));
+    }
 
     public void TryReachDest(Unit unit, Vector3 wantedDestination, Action<LinkedList<Vector3>> onPathCalculated)
     {

@@ -5,9 +5,9 @@ using UnityEngine.Networking.NetworkSystem;
 
 public class BulletControl : MonoBehaviour
 {
-    public float DamageImpact = 10.0f;
+    public float DamageImpact = 1.0f;
     public Ray Direction;
-    public float Speed = 1.0f;
+    public float Speed = 2.0f;
     public float DisappearRange = 20.0f;
 	
     
@@ -21,9 +21,14 @@ public class BulletControl : MonoBehaviour
 	    }
     }
 
-    void OnTriggerEnter(Collider other)
+    void OnTriggerEnter2D(Collider2D other)
     {
-        var interactionable = other.GetComponentInChildren<Unit>();
+        if (transform.parent == other.transform)
+        {
+            //bullet collider with own shooter
+            return;
+        }
+        var interactionable = other.gameObject.GetComponentInChildren<Unit>();
         if (interactionable != null)
         {
             interactionable.ReceiveDamage(DamageImpact);

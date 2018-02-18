@@ -201,8 +201,8 @@ MonoBehaviour:
     type: 2}
   EnemyPrefab: {fileID: 1837228238492098, guid: 064e5cb0b8fb63140bd6649f3a83277c,
     type: 2}
-  Columns: 50
-  Rows: 50
+  Columns: 12
+  Rows: 12
 --- !u!114 &917606152
 MonoBehaviour:
   m_ObjectHideFlags: 0
