@@ -47,7 +47,6 @@ public partial class GameController : MonoBehaviour
         var units = FindObjectsOfType<Unit>();
         for (int i = 0; i < units.Length; i++)
         {
-            Debug.Log((units[i].transform.position - pos).magnitude);
             if ((units[i].transform.position - pos).magnitude < 1.0f)
                 return units[i];
         }

@@ -26,6 +26,7 @@ public partial class GameController : MonoBehaviour {
     {
         foreach (var selectedUnit in Selected)
         {
+            selectedUnit.AcquireTarget(null);
             selectedUnit.Reach(pos);
         }
     }

@@ -220,14 +220,16 @@ public partial class Unit: MonoBehaviour
         return false;
     }
 
-    private void GetInAimPosToTarget(Unit unit)
+    private void GetInAimPosToTarget(Unit target)
     {
-        unit.Reach(_target.transform.position, () =>
+        Reach(target.transform.position, () =>
         {
-            while (unit.Path.Count > 1)
+            Debug.Log("" + Path.Count + target.Position + Path.Last() + CanAimAt(Path.Last(), target));
+            while (Path.Count > 1 && CanAimAt(Path.Last(), target))
             {
-                if (CanAimAt(unit.Path.Last(), _target))
-                    unit.Path.RemoveLast();
+                Debug.Log("" + Path.Count + target.Position + Path.Last() + CanAimAt(Path.Last(), target));
+                Path.RemoveLast();
+                Debug.Log("" + Path.Count + target.Position + Path.Last() + CanAimAt(Path.Last(), target));
             }
         });
     }
@@ -259,10 +261,12 @@ public partial class Unit: MonoBehaviour
 
     private bool HasLineOfSight(Vector3 source, Unit targetUnit)
     {
+        if ((source - targetUnit.Position).magnitude <= 1)
+            return true;
         Vector3 direction = (targetUnit.transform.position - source).normalized;
 
         RaycastHit2D[] hits = new RaycastHit2D[2];
-        int numOfHits = Physics2D.RaycastNonAlloc(source, direction, hits, AimRange);
+        int numOfHits = Physics2D.RaycastNonAlloc(source, direction, hits, AimRange, ~(1 << LayerMask.NameToLayer("Bullets")));
         return numOfHits > 1 && hits[1].collider.gameObject == targetUnit.gameObject;
     }
 
