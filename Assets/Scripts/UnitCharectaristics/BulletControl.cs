@@ -9,6 +9,7 @@ public class BulletControl : MonoBehaviour
     public Ray Direction;
     public float Speed = 2.0f;
     public float DisappearRange = 20.0f;
+    public GameObject Owner;
 	
     
 	// Update is called once per frame
@@ -23,7 +24,7 @@ public class BulletControl : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        if (transform.parent == other.transform)
+        if (Owner == other.gameObject)
         {
             //bullet collider with own shooter
             return;

@@ -15,7 +15,7 @@ public class AnimatedWalker : MonoBehaviour
     public bool FlipRight;
     
 
-    public void ChangeAnimation(bool isMoving, Vector3 nextStep)
+    public void UpdateAnimation(bool isMoving, Vector3 nextStep)
     {
         transform.localScale = new Vector3(1,1,1);
         if (!isMoving)

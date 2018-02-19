@@ -5,11 +5,10 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 
-public class NavigationController : MonoBehaviour {
+public partial class GameController : MonoBehaviour {
 
     private readonly HashSet<GridNode> _occupiedDestinations = new HashSet<GridNode>();
     private readonly object _destCalculation = new object();
-    private UnitSelector _unitSelector;
     public const int MaxNearMoveRadius = 500;
 
     private static GridGraph Graph
@@ -17,25 +16,25 @@ public class NavigationController : MonoBehaviour {
         get { return AstarPath.active.data.gridGraph; }
     }
 
-    public void Start()
+    public void StartNavigation()
     {
         AstarPath.active.logPathResults = PathLog.OnlyErrors;
-        _unitSelector = GameObject.Find("GameController").GetComponent<UnitSelector>();
-        Debug.Log("Navigation Controller Started");
     }
 
     // Update is called once per frame
-    void Update () {
-
-        if (Input.GetMouseButtonDown(1))
+    void OrderGo(Vector3 pos)
+    {
+        foreach (var selectedUnit in Selected)
         {
-            //right click
-            Vector3 click = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-            click.z = 0.0f;
-            foreach (var selectedUnit in _unitSelector.Selected)
-            {
-                selectedUnit.Reach(click);
-            }
+            selectedUnit.Reach(pos);
+        }
+    }
+    
+    void OrderAttack(Unit target)
+    {
+        foreach (var selectedUnit in Selected)
+        {
+            selectedUnit.AcquireTarget(target);
         }
     }
     

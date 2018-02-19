@@ -115,9 +115,8 @@ MonoBehaviour:
   MaxHealth: 100
   BulletPrefab: {fileID: 1532516375794270, guid: 71b9b90841e991d459456d85640791ef,
     type: 2}
-  ReloadTime: 10
+  ReloadTime: 0.5
   AimRange: 10
-  IsSelectable: 1
   CanReloadWhileWalking: 0
   CanShootWhileWalking: 0
   ShouldHoldFire: 0
@@ -167,10 +166,7 @@ LineRenderer:
   m_SortingLayerID: -443592249
   m_SortingLayer: 2
   m_SortingOrder: 0
-  m_Positions:
-  - {x: 0, y: 0, z: 0}
-  - {x: 0, y: 1, z: 0}
-  - {x: 1, y: 1, z: 0}
+  m_Positions: []
   m_Parameters:
     serializedVersion: 2
     widthMultiplier: 0.1

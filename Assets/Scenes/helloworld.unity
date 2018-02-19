@@ -146,6 +146,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bb4bb9a43e499ec4787562e367bd3ae5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PlayerGroup: 0
+  Selected: []
 --- !u!4 &917606148
 Transform:
   m_ObjectHideFlags: 0
@@ -201,8 +203,8 @@ MonoBehaviour:
     type: 2}
   EnemyPrefab: {fileID: 1837228238492098, guid: 064e5cb0b8fb63140bd6649f3a83277c,
     type: 2}
-  Columns: 12
-  Rows: 12
+  Columns: 40
+  Rows: 40
 --- !u!114 &917606152
 MonoBehaviour:
   m_ObjectHideFlags: 0

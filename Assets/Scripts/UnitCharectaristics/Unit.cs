@@ -9,7 +9,6 @@ using Pathfinding;
 public partial class Unit: MonoBehaviour
 {
     private const float MinimumHealth = 0.0f;
-    private NavigationController _navigationController;
     private AnimatedWalker _animatedWalker;
     private const float WalkSpeed = 10.0f;
     private float _timeLeftToReload = 0.0f;
@@ -28,8 +27,7 @@ public partial class Unit: MonoBehaviour
     public bool CanReloadWhileWalking = false;
     public bool CanShootWhileWalking = false;
     public bool ShouldHoldFire = false;
-
-
+    
     public bool IsInPlayingGroup
     {
         get { return _gameController.PlayerGroup == Group;}
@@ -62,18 +60,14 @@ public partial class Unit: MonoBehaviour
     public void Start()
     {
 
-        if (IsInPlayingGroup)
-        {
-            StartPathLine();
-        }
         _gameController = FindObjectOfType<GameController>();
         _currentHealth = MaxHealth;
         Path = new LinkedList<Vector3>();
         if (IsInPlayingGroup)
         {
+            StartPathLine();
             StartSelectionCircle();
         }
-        _navigationController = GameObject.Find("GameController").GetComponent<NavigationController>();
         _animatedWalker = GetComponent<AnimatedWalker>();
     }
 
@@ -124,19 +118,36 @@ public partial class Unit: MonoBehaviour
 
     public void Die()
     {
-        FindObjectOfType<UnitSelector>().Selected.Remove(this);
-        FindObjectOfType<NavigationController>().ClearPos(transform.position);
+        _gameController.Selected.Remove(this);
+        _gameController.ClearPos(transform.position);
         Destroy(gameObject);
     }
 
     public void Halt()
     {
         if (Path.Count <= 1) return;
-        Vector3 nextStep = new Vector3(NextStep.x, NextStep.y, NextStep.z);
+        
+        Vector3 closestPos = new Vector3(Mathf.Round(NextStep.x), Mathf.Round(NextStep.y), Mathf.Round(NextStep.z));
         Path.Clear();
-        Path.AddLast(nextStep);
+        Path.AddLast(closestPos);
     }
 
+    private void FinishedStep()
+    {
+        if (IsMoving)
+        {
+            _gameController.GetComponent<MapController>().UpdateObjectPos(gameObject, transform.position);
+        }
+        _animatedWalker.UpdateAnimation(IsMoving, NextStep);
+        if (!_gameController.IsPositionWalkable(NextStep))
+        {
+            Vector3 originalDest = new Vector3(Destination.x, Destination.y, Destination.z);
+            Halt();
+            Debug.Log("Blocked, retrying");
+            //blocked by unexpected object, retry
+            Reach(originalDest);
+        }
+    }
 
     private void UpdatePosition()
     {
@@ -146,19 +157,8 @@ public partial class Unit: MonoBehaviour
         }
         if (IsMoving && transform.position == NextStep)
         {
-            Vector3 oldPosition = NextStep;
             Path.RemoveFirst();
-            if (IsMoving)
-            {
-                _gameController.GetComponent<MapController>().UpdateObjectPos(gameObject, oldPosition);
-            }
-            _animatedWalker.ChangeAnimation(IsMoving, NextStep);
-            if (!_navigationController.IsPositionWalkable(NextStep))
-            {
-                Debug.Log("Blocked, retrying");
-                //blocked by unexpected object, retry
-                Reach(Destination);
-            }
+            FinishedStep();
             return;
         }
         transform.position = Vector3.MoveTowards(transform.position, NextStep, Time.deltaTime * WalkSpeed);
@@ -166,7 +166,7 @@ public partial class Unit: MonoBehaviour
 
     public void Reach(Vector3 wantedDestination, Action action = null)
     {
-        _navigationController.TryReachDest(this, wantedDestination, newPath =>
+        _gameController.TryReachDest(this, wantedDestination, newPath =>
         {
             //doint that in case a bad click on unwalkable spot midway
             Path = (newPath.Count > 0) ? newPath : Path;
@@ -199,11 +199,12 @@ public partial class Unit: MonoBehaviour
         }
     }
 
-
+    
     private Unit SearchAimableTarget()
     {
         // TODO: replace this foreach with MapController.map search might be faster
-        foreach (var potentialTarget in FindObjectsOfType<Unit>())
+        var units = FindObjectsOfType<Unit>();
+        foreach (var potentialTarget in units)
         {
             if (potentialTarget.Group != Group && CanAimAt(transform.position, potentialTarget))
             {
@@ -240,6 +241,7 @@ public partial class Unit: MonoBehaviour
         GameObject bullet = Instantiate(BulletPrefab, transform.position, Quaternion.identity);
         //bullet.transform.SetParent(transform);
         BulletControl bulletControl = bullet.GetComponentInChildren<BulletControl>();
+        bulletControl.Owner = gameObject;
         bulletControl.Direction = new Ray(transform.position, (unit.transform.position - transform.position).normalized);
         _timeLeftToReload = ReloadTime;
     }

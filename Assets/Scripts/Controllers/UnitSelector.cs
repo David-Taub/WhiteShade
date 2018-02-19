@@ -3,41 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 
-public class UnitSelector : MonoBehaviour
+public partial class GameController : MonoBehaviour
 {
-    public List<Unit> Selected;
+    public List<Unit> Selected = new List<Unit>();
     private bool _isSelecting;
     private Vector3 _selectionStart;
 
     // Use this for initialization
-    void Start()
-    {
-        Debug.Log("Unit Selector Started");
-        Selected = new List<Unit>();
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        if (Input.GetMouseButtonDown(0))
-        {
-            UnselectAllUnits();
-            _isSelecting = true;
-            _selectionStart = Input.mousePosition;
-        }
-        // If we let go of the left mouse button, end selection
-        if (Input.GetMouseButtonUp(0))
-        {
-            Selected = SelectUnits(SelectionBox);
-            _isSelecting = false;
-            //Debug.Log("Selected" + Selected.Count);
-        }
-        if (_isSelecting)
-        {
-            SelectBoxHover(SelectionBox);
-        }
-    }
-
     private Rect SelectionBox
     {
         get
@@ -50,6 +22,29 @@ public class UnitSelector : MonoBehaviour
             return Rect.MinMaxRect(topLeft.x, topLeft.y, bottomRight.x, bottomRight.y);
         }   
     }
+
+       
+    public void SelectDown()
+    {
+        UnselectAllUnits();
+        _isSelecting = true;
+        _selectionStart = Input.mousePosition;
+    }
+
+    public void SelectUp()
+    {
+            Selected = SelectUnits(SelectionBox);
+            _isSelecting = false;
+    }
+    // Update is called once per frame
+    void UpdateUnitSelection()
+    {
+        if (_isSelecting)
+        {
+            SelectBoxHover(SelectionBox);
+        }
+    }
+
 
     private List<Unit> SelectUnits(Rect selectionBox)
     {
