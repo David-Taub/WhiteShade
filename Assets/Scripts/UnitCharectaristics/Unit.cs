@@ -5,6 +5,7 @@ using System.Collections;
 using System.Collections.Generic;
 using NUnit.Framework;
 using Pathfinding;
+using UnityEngine.UI;
 
 public partial class Unit: MonoBehaviour
 {
@@ -17,6 +18,7 @@ public partial class Unit: MonoBehaviour
     private float _currentHealth;
     private GameController _gameController;
 
+    public Slider HealthSlider;
     public LinkedList<Vector3> Path;
     public GameObject SelectionCircle;
     public int Group;
@@ -207,6 +209,8 @@ public partial class Unit: MonoBehaviour
     public void ReceiveDamage(float impact)
     {
         _currentHealth -= impact;
+        if(HealthSlider != null)
+            HealthSlider.value = _currentHealth;
         if (_currentHealth < MinimumHealth)
         {
             Destroy(gameObject);

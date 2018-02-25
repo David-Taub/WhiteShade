@@ -221,6 +221,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DestinationPlaceholder: {fileID: 0}
+  HealthSlider: {fileID: 114570390755847054}
   SelectionCircle: {fileID: 1745947099529546, guid: 3e167430247360a4d95a64f41a80b304,
     type: 2}
   Group: 0
