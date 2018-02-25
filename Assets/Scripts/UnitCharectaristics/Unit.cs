@@ -13,6 +13,7 @@ public partial class Unit: MonoBehaviour
     private const float WalkSpeed = 10.0f;
     private float _timeLeftToReload = 0.0f;
     private Unit _target;
+    public GameObject DestinationPlaceholder;
     private float _currentHealth;
     private GameController _gameController;
 
@@ -63,6 +64,9 @@ public partial class Unit: MonoBehaviour
         _gameController = FindObjectOfType<GameController>();
         _currentHealth = MaxHealth;
         Path = new LinkedList<Vector3>();
+        DestinationPlaceholder = Instantiate(_gameController.DestinationPlaceholderPrefab);
+        DestinationPlaceholder.transform.SetParent(transform);
+        DestinationPlaceholder.GetComponent<DestinationPlaceholder>().Owner = this;
         if (IsInPlayingGroup)
         {
             StartPathLine();
@@ -119,7 +123,9 @@ public partial class Unit: MonoBehaviour
     public void Die()
     {
         _gameController.Selected.Remove(this);
-        _gameController.ClearPos(transform.position);
+        _gameController.ClearPos((int)Position.x, (int)Position.y, gameObject);
+        if (IsInPlayingGroup)
+            _gameController.ClearPos((int)Position.x, (int)Position.y, DestinationPlaceholder);
         Destroy(gameObject);
     }
 
@@ -130,15 +136,11 @@ public partial class Unit: MonoBehaviour
         Vector3 closestPos = new Vector3(Mathf.Round(NextStep.x), Mathf.Round(NextStep.y), Mathf.Round(NextStep.z));
         Path.Clear();
         Path.AddLast(closestPos);
+        _animatedWalker.UpdateAnimation(IsMoving, NextStep);
     }
 
     private void FinishedStep()
     {
-        if (IsMoving)
-        {
-            _gameController.GetComponent<MapController>().UpdateObjectPos(gameObject, transform.position);
-        }
-        _animatedWalker.UpdateAnimation(IsMoving, NextStep);
         if (!_gameController.IsPositionWalkable(NextStep))
         {
             Vector3 originalDest = new Vector3(Destination.x, Destination.y, Destination.z);
@@ -146,7 +148,17 @@ public partial class Unit: MonoBehaviour
             Debug.Log("Blocked, retrying");
             //blocked by unexpected object, retry
             Reach(originalDest);
+            return;
         }
+        if (IsMoving)
+        {
+            _gameController.UpdateObjectPos(gameObject, transform.position, NextStep);
+        }
+        else
+        {
+            _gameController.RemoveObjectPos(DestinationPlaceholder, transform.position);
+        }
+        _animatedWalker.UpdateAnimation(IsMoving, NextStep);
     }
 
     private void UpdatePosition()
@@ -169,7 +181,9 @@ public partial class Unit: MonoBehaviour
         _gameController.TryReachDest(this, wantedDestination, newPath =>
         {
             //doint that in case a bad click on unwalkable spot midway
+            _gameController.RemoveObjectPos(DestinationPlaceholder, Destination);
             Path = (newPath.Count > 0) ? newPath : Path;
+            _gameController.AddObjectPos(DestinationPlaceholder, Destination);
             if (action != null)
                 action();
         });

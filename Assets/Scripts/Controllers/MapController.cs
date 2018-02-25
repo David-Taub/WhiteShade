@@ -4,16 +4,15 @@ using UnityEngine;
 using Debug = System.Diagnostics.Debug;
 using Random = UnityEngine.Random;
 
-public class MapController : MonoBehaviour {
+public partial class GameController: MonoBehaviour {
     public GameObject FloorPrefab;
     public GameObject WallPrefab;
     public GameObject PlayerPrefab;
     public GameObject EnemyPrefab;
     private List<GameObject>[,] _map;
-    public int Columns = 12;
-    public int Rows = 12;
-    private const int NumOfPlayers = 2;
-    public GridGraph Graph;
+    public int Columns = 20;
+    public int Rows = 20;
+    private const int NumOfPlayers = 5;
     private const float WallRatio = 0.3f;
     private const float NodeDistance = 1.0f;
     private readonly List<Vector3> _freeLocations = new List<Vector3>();
@@ -23,7 +22,8 @@ public class MapController : MonoBehaviour {
     {
         _map = new List<GameObject>[Rows, Columns];
         var boardHolder = new GameObject("Board").transform;
-        Graph = AstarPath.active.data.AddGraph(typeof(GridGraph)) as GridGraph;
+
+        AstarPath.active.data.AddGraph(typeof(GridGraph));
         Debug.Assert(Graph != null, "Graph != null");
         Graph.SetDimensions(Columns, Rows, NodeDistance);
         Graph.center = new Vector3(Columns / 2.0f - 0.5f, Rows / 2.0f - 0.5f, 0);
@@ -51,7 +51,7 @@ public class MapController : MonoBehaviour {
                         node.Walkable = true;
                     }
                     var instance = Instantiate(toInstantiate, new Vector3(x, y, 0f), Quaternion.identity);
-                    AddObjectPos(instance);
+                    AddObjectPos(instance, instance.transform.position);
                     instance.transform.SetParent(boardHolder);
                 }
             }
@@ -66,22 +66,28 @@ public class MapController : MonoBehaviour {
         return (x == 0 || x == Columns - 1 || y == 0 || y == Rows - 1);
     }
 
-    void Start() 
+    void MapStart() 
     {
         BoardSetup();
         PlacePlayers();
         PlaceEnemies();
     }
 
-    public void AddObjectPos(GameObject obj)
+    public void AddObjectPos(GameObject obj, Vector3 position)
     {
-        _map[Mathf.RoundToInt(obj.transform.position.x), Mathf.RoundToInt(obj.transform.position.y)].Add(obj);
+        _map[Mathf.RoundToInt(position.x), Mathf.RoundToInt(position.y)].Add(obj);
     }
 
-    public void UpdateObjectPos(GameObject obj, Vector3 oldPosition)
+    public void RemoveObjectPos(GameObject obj, Vector3 position)
     {
-        _map[Mathf.RoundToInt(obj.transform.position.x), Mathf.RoundToInt(obj.transform.position.x)].Remove(obj);
-        AddObjectPos(obj);
+        if (obj != null)
+            _map[Mathf.RoundToInt(position.x), Mathf.RoundToInt(position.y)].Remove(obj);
+    }
+
+    public void UpdateObjectPos(GameObject obj, Vector3 oldPosition, Vector3 newPosition)
+    {
+        RemoveObjectPos(obj, oldPosition);
+        AddObjectPos(obj, newPosition);
     }
 
     private void PlacePlayers()
@@ -91,7 +97,7 @@ public class MapController : MonoBehaviour {
         {
             Vector3 pos = PopRandomPosition();
             GameObject player = Instantiate(PlayerPrefab, pos, Quaternion.identity);
-            AddObjectPos(player);
+            AddObjectPos(player, pos);
             player.transform.SetParent(playerHolder);
         }
     }
@@ -103,7 +109,7 @@ public class MapController : MonoBehaviour {
         {
             Vector3 pos = PopRandomPosition();
             GameObject enemy = Instantiate(EnemyPrefab, pos, Quaternion.identity);
-            AddObjectPos(enemy);
+            AddObjectPos(enemy, pos);
             enemy.transform.SetParent(enemiesHolder);
         }
     }

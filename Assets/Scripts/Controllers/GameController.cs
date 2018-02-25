@@ -9,6 +9,7 @@ public partial class GameController : MonoBehaviour
     void Start()
     {
         StartNavigation();
+        MapStart();
     }
     void Update()
     {

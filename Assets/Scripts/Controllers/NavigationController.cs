@@ -7,6 +7,7 @@ using UnityEngine;
 
 public partial class GameController : MonoBehaviour {
 
+    public GameObject DestinationPlaceholderPrefab;
     private readonly HashSet<GridNode> _occupiedDestinations = new HashSet<GridNode>();
     private readonly object _destCalculation = new object();
     public const int MaxNearMoveRadius = 500;
@@ -52,7 +53,7 @@ public partial class GameController : MonoBehaviour {
             GridNode checkedDestnation = toCheck.Dequeue();
             if (checkedDestnation == null || !checkedDestnation.Walkable)
                 continue;
-            if (IsGoodDest(currentUnitNode, checkedDestnation))
+            if (IsGoodDest(currentUnitNode, checkedDestnation, unit))
             {
                 return checkedDestnation;
             }
@@ -70,23 +71,22 @@ public partial class GameController : MonoBehaviour {
         return null;
     }
 
-
     public bool IsPositionWalkable(Vector3 position)
     {
         return Vector3ToNode(position).Walkable;
     }
 
-    public void ClearPos(Vector3 pos)
+    public void ClearPos(int x, int y, GameObject obj)
     {
-        _occupiedDestinations.Remove(Vector3ToNode(pos));
+        _map[x, y].Remove(obj);
     }
 
     public void TryReachDest(Unit unit, Vector3 wantedDestination, Action<LinkedList<Vector3>> onPathCalculated)
     {
         lock (_destCalculation)
         {
-
-            _occupiedDestinations.Remove(Vector3ToNode(unit.Destination));
+            if (unit.IsInPlayingGroup)
+                _map[(int)unit.Destination.x, (int)unit.Destination.y].Remove(unit.DestinationPlaceholder);
             GridNode destination = GetNearestFreeDest(unit, wantedDestination);
             if (destination == null)
             {
@@ -94,7 +94,8 @@ public partial class GameController : MonoBehaviour {
                 onPathCalculated(new LinkedList<Vector3>());
                 return;
             }
-            _occupiedDestinations.Add(destination);
+            if (unit.IsInPlayingGroup)
+                _map[destination.position.x, destination.position.y].Add(unit.DestinationPlaceholder);
             var abPath = ABPath.Construct(unit.transform.position, Int3ToVector3(destination.position), (foundPath) =>
             {
                 var convertedPath = new LinkedList<Vector3>();
@@ -121,10 +122,18 @@ public partial class GameController : MonoBehaviour {
         return (GridNode) Graph.GetNode((int)Math.Round(position.x), (int)Math.Round(position.y));
     }
 
-    private Boolean IsGoodDest(GridNode source, GridNode destination)
+    private Boolean IsGoodDest(GridNode source, GridNode destination, Unit unit)
     {
         //connected, walkable and unoccupied
-        return ((source.Area == destination.Area) && destination.Walkable && !_occupiedDestinations.Contains(destination));
+        if (!((source.Area == destination.Area) && destination.Walkable))
+            return false;
+        //return if someone is there 
+        return !_map[destination.position.x, destination.position.y].Any((foundUnit) =>
+        {
+            return  foundUnit.GetComponent<Unit>() != null ||
+            (foundUnit.GetComponent<DestinationPlaceholder>() != null &&
+            foundUnit.GetComponent<DestinationPlaceholder>().Owner.Group == unit.Group);
+        });
     }
 
 
