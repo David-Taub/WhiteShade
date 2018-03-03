@@ -1,0 +1,5866 @@
+fileFormatVersion: 2
+guid: ec57309883e36d747985cfcdb7f8ac84
+timeCreated: 1520106364
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: obj_misk_atlas_0
+    21300002: obj_misk_atlas_1
+    21300004: obj_misk_atlas_2
+    21300006: obj_misk_atlas_3
+    21300008: obj_misk_atlas_4
+    21300010: obj_misk_atlas_5
+    21300012: obj_misk_atlas_6
+    21300014: obj_misk_atlas_7
+    21300016: obj_misk_atlas_8
+    21300018: obj_misk_atlas_9
+    21300020: obj_misk_atlas_10
+    21300022: obj_misk_atlas_11
+    21300024: obj_misk_atlas_12
+    21300026: obj_misk_atlas_13
+    21300028: obj_misk_atlas_14
+    21300030: obj_misk_atlas_15
+    21300032: obj_misk_atlas_16
+    21300034: obj_misk_atlas_17
+    21300036: obj_misk_atlas_18
+    21300038: obj_misk_atlas_19
+    21300040: obj_misk_atlas_20
+    21300042: obj_misk_atlas_21
+    21300044: obj_misk_atlas_22
+    21300046: obj_misk_atlas_23
+    21300048: obj_misk_atlas_24
+    21300050: obj_misk_atlas_25
+    21300052: obj_misk_atlas_26
+    21300054: obj_misk_atlas_27
+    21300056: obj_misk_atlas_28
+    21300058: obj_misk_atlas_29
+    21300060: obj_misk_atlas_30
+    21300062: obj_misk_atlas_31
+    21300064: obj_misk_atlas_32
+    21300066: obj_misk_atlas_33
+    21300068: obj_misk_atlas_34
+    21300070: obj_misk_atlas_35
+    21300072: obj_misk_atlas_36
+    21300074: obj_misk_atlas_37
+    21300076: obj_misk_atlas_38
+    21300078: obj_misk_atlas_39
+    21300080: obj_misk_atlas_40
+    21300082: obj_misk_atlas_41
+    21300084: obj_misk_atlas_42
+    21300086: obj_misk_atlas_43
+    21300088: obj_misk_atlas_44
+    21300090: obj_misk_atlas_45
+    21300092: obj_misk_atlas_46
+    21300094: obj_misk_atlas_47
+    21300096: obj_misk_atlas_48
+    21300098: obj_misk_atlas_49
+    21300100: obj_misk_atlas_50
+    21300102: obj_misk_atlas_51
+    21300104: obj_misk_atlas_52
+    21300106: obj_misk_atlas_53
+    21300108: obj_misk_atlas_54
+    21300110: obj_misk_atlas_55
+    21300112: obj_misk_atlas_56
+    21300114: obj_misk_atlas_57
+    21300116: obj_misk_atlas_58
+    21300118: obj_misk_atlas_59
+    21300120: obj_misk_atlas_60
+    21300122: obj_misk_atlas_61
+    21300124: obj_misk_atlas_62
+    21300126: obj_misk_atlas_63
+    21300128: obj_misk_atlas_64
+    21300130: obj_misk_atlas_65
+    21300132: obj_misk_atlas_66
+    21300134: obj_misk_atlas_67
+    21300136: obj_misk_atlas_68
+    21300138: obj_misk_atlas_69
+    21300140: obj_misk_atlas_70
+    21300142: obj_misk_atlas_71
+    21300144: obj_misk_atlas_72
+    21300146: obj_misk_atlas_73
+    21300148: obj_misk_atlas_74
+    21300150: obj_misk_atlas_75
+    21300152: obj_misk_atlas_76
+    21300154: obj_misk_atlas_77
+    21300156: obj_misk_atlas_78
+    21300158: obj_misk_atlas_79
+    21300160: obj_misk_atlas_80
+    21300162: obj_misk_atlas_81
+    21300164: obj_misk_atlas_82
+    21300166: obj_misk_atlas_83
+    21300168: obj_misk_atlas_84
+    21300170: obj_misk_atlas_85
+    21300172: obj_misk_atlas_86
+    21300174: obj_misk_atlas_87
+    21300176: obj_misk_atlas_88
+    21300178: obj_misk_atlas_89
+    21300180: obj_misk_atlas_90
+    21300182: obj_misk_atlas_91
+    21300184: obj_misk_atlas_92
+    21300186: obj_misk_atlas_93
+    21300188: obj_misk_atlas_94
+    21300190: obj_misk_atlas_95
+    21300192: obj_misk_atlas_96
+    21300194: obj_misk_atlas_97
+    21300196: obj_misk_atlas_98
+    21300198: obj_misk_atlas_99
+    21300200: obj_misk_atlas_100
+    21300202: obj_misk_atlas_101
+    21300204: obj_misk_atlas_102
+    21300206: obj_misk_atlas_103
+    21300208: obj_misk_atlas_104
+    21300210: obj_misk_atlas_105
+    21300212: obj_misk_atlas_106
+    21300214: obj_misk_atlas_107
+    21300216: obj_misk_atlas_108
+    21300218: obj_misk_atlas_109
+    21300220: obj_misk_atlas_110
+    21300222: obj_misk_atlas_111
+    21300224: obj_misk_atlas_112
+    21300226: obj_misk_atlas_113
+    21300228: obj_misk_atlas_114
+    21300230: obj_misk_atlas_115
+    21300232: obj_misk_atlas_116
+    21300234: obj_misk_atlas_117
+    21300236: obj_misk_atlas_118
+    21300238: obj_misk_atlas_119
+    21300240: obj_misk_atlas_120
+    21300242: obj_misk_atlas_121
+    21300244: obj_misk_atlas_122
+    21300246: obj_misk_atlas_123
+    21300248: obj_misk_atlas_124
+    21300250: obj_misk_atlas_125
+    21300252: obj_misk_atlas_126
+    21300254: obj_misk_atlas_127
+    21300256: obj_misk_atlas_128
+    21300258: obj_misk_atlas_129
+    21300260: obj_misk_atlas_130
+    21300262: obj_misk_atlas_131
+    21300264: obj_misk_atlas_132
+    21300266: obj_misk_atlas_133
+    21300268: obj_misk_atlas_134
+    21300270: obj_misk_atlas_135
+    21300272: obj_misk_atlas_136
+    21300274: obj_misk_atlas_137
+    21300276: obj_misk_atlas_138
+    21300278: obj_misk_atlas_139
+    21300280: obj_misk_atlas_140
+    21300282: obj_misk_atlas_141
+    21300284: obj_misk_atlas_142
+    21300286: obj_misk_atlas_143
+    21300288: obj_misk_atlas_144
+    21300290: obj_misk_atlas_145
+    21300292: obj_misk_atlas_146
+    21300294: obj_misk_atlas_147
+    21300296: obj_misk_atlas_148
+    21300298: obj_misk_atlas_149
+    21300300: obj_misk_atlas_150
+    21300302: obj_misk_atlas_151
+    21300304: obj_misk_atlas_152
+    21300306: obj_misk_atlas_153
+    21300308: obj_misk_atlas_154
+    21300310: obj_misk_atlas_155
+    21300312: obj_misk_atlas_156
+    21300314: obj_misk_atlas_157
+    21300316: obj_misk_atlas_158
+    21300318: obj_misk_atlas_159
+    21300320: obj_misk_atlas_160
+    21300322: obj_misk_atlas_161
+    21300324: obj_misk_atlas_162
+    21300326: obj_misk_atlas_163
+    21300328: obj_misk_atlas_164
+    21300330: obj_misk_atlas_165
+    21300332: obj_misk_atlas_166
+    21300334: obj_misk_atlas_167
+    21300336: obj_misk_atlas_168
+    21300338: obj_misk_atlas_169
+    21300340: obj_misk_atlas_170
+    21300342: obj_misk_atlas_171
+    21300344: obj_misk_atlas_172
+    21300346: obj_misk_atlas_173
+    21300348: obj_misk_atlas_174
+    21300350: obj_misk_atlas_175
+    21300352: obj_misk_atlas_176
+    21300354: obj_misk_atlas_177
+    21300356: obj_misk_atlas_178
+    21300358: obj_misk_atlas_179
+    21300360: obj_misk_atlas_180
+    21300362: obj_misk_atlas_181
+    21300364: obj_misk_atlas_182
+    21300366: obj_misk_atlas_183
+    21300368: obj_misk_atlas_184
+    21300370: obj_misk_atlas_185
+    21300372: obj_misk_atlas_186
+    21300374: obj_misk_atlas_187
+    21300376: obj_misk_atlas_188
+    21300378: obj_misk_atlas_189
+    21300380: obj_misk_atlas_190
+    21300382: obj_misk_atlas_191
+    21300384: obj_misk_atlas_192
+    21300386: obj_misk_atlas_193
+    21300388: obj_misk_atlas_194
+    21300390: obj_misk_atlas_195
+    21300392: obj_misk_atlas_196
+    21300394: obj_misk_atlas_197
+    21300396: obj_misk_atlas_198
+    21300398: obj_misk_atlas_199
+    21300400: obj_misk_atlas_200
+    21300402: obj_misk_atlas_201
+    21300404: obj_misk_atlas_202
+    21300406: obj_misk_atlas_203
+    21300408: obj_misk_atlas_204
+    21300410: obj_misk_atlas_205
+    21300412: obj_misk_atlas_206
+    21300414: obj_misk_atlas_207
+    21300416: obj_misk_atlas_208
+    21300418: obj_misk_atlas_209
+    21300420: obj_misk_atlas_210
+    21300422: obj_misk_atlas_211
+    21300424: obj_misk_atlas_212
+    21300426: obj_misk_atlas_213
+    21300428: obj_misk_atlas_214
+    21300430: obj_misk_atlas_215
+    21300432: obj_misk_atlas_216
+    21300434: obj_misk_atlas_217
+    21300436: obj_misk_atlas_218
+    21300438: obj_misk_atlas_219
+    21300440: obj_misk_atlas_220
+    21300442: obj_misk_atlas_221
+    21300444: obj_misk_atlas_222
+    21300446: obj_misk_atlas_223
+    21300448: obj_misk_atlas_224
+    21300450: obj_misk_atlas_225
+    21300452: obj_misk_atlas_226
+    21300454: obj_misk_atlas_227
+    21300456: obj_misk_atlas_228
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 9
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 20, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: 0.04
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: obj_misk_atlas_0
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 997
+        width: 20
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_1
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 992
+        width: 21
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_2
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 993
+        width: 21
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_3
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 992
+        width: 25
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_4
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 997
+        width: 30
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_5
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 994
+        width: 25
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_6
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 997
+        width: 20
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_7
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 994
+        width: 21
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_8
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 997
+        width: 30
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_9
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 992
+        width: 25
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_10
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 993
+        width: 20
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_11
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 992
+        width: 21
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_12
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 997
+        width: 20
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_13
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 994
+        width: 21
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_14
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 997
+        width: 21
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_15
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 994
+        width: 25
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_16
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 930
+        width: 76
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_17
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 997
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_18
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 997
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_19
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 996
+        width: 26
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_20
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 998
+        width: 24
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_21
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 919
+        width: 96
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_22
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 896
+        width: 16
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_23
+      rect:
+        serializedVersion: 2
+        x: 920
+        y: 896
+        width: 16
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_24
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 919
+        width: 32
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_25
+      rect:
+        serializedVersion: 2
+        x: 1016
+        y: 983
+        width: 8
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_26
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 960
+        width: 21
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_27
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 960
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_28
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 960
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_29
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 960
+        width: 20
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_30
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 960
+        width: 25
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_31
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 960
+        width: 20
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_32
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 960
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_33
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 960
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_34
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 962
+        width: 25
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_35
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 960
+        width: 20
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_36
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 961
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_37
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 960
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_38
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 962
+        width: 21
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_39
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 962
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_40
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 962
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_41
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 962
+        width: 20
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_42
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 966
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_43
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 964
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_44
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 967
+        width: 25
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_45
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 966
+        width: 25
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_46
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 929
+        width: 21
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_47
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 928
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_48
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 929
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_49
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 928
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_50
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 929
+        width: 20
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_51
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 929
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_52
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 929
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_53
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 929
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_54
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 933
+        width: 20
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_55
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 928
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_56
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 929
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_57
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 928
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_58
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 933
+        width: 21
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_59
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 930
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_60
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 933
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_61
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 930
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_62
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 932
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_63
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 931
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_64
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 934
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_65
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 933
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_66
+      rect:
+        serializedVersion: 2
+        x: 1016
+        y: 919
+        width: 8
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_67
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 640
+        width: 224
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_68
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 896
+        width: 20
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_69
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 898
+        width: 21
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_70
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 896
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_71
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 897
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_72
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 896
+        width: 20
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_73
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 898
+        width: 25
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_74
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 898
+        width: 20
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_75
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 898
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_76
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 898
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_77
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 896
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_78
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 901
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_79
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 902
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_80
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 897
+        width: 29
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_81
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 899
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_82
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 899
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_83
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 902
+        width: 24
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_84
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 672
+        width: 107
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_85
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 672
+        width: 89
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_86
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 822
+        width: 64
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_87
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 544
+        width: 544
+        height: 352
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_88
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 624
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_89
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 608
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_90
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 612
+        width: 52
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_91
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 416
+        width: 352
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_92
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 480
+        width: 96
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_93
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 560
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_94
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 576
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_95
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 544
+        width: 64
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_96
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 544
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_97
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 486
+        width: 52
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_98
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 512
+        width: 44
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_99
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 512
+        width: 44
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_100
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 496
+        width: 32
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_101
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 512
+        width: 32
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_102
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 486
+        width: 60
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_103
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 160
+        width: 256
+        height: 368
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_104
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 480
+        width: 32
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_105
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 451
+        width: 73
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_106
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 454
+        width: 26
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_107
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 432
+        width: 32
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_108
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 448
+        width: 32
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_109
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 422
+        width: 60
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_110
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 456
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_111
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 441
+        width: 34
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_112
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 456
+        width: 28
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_113
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 416
+        width: 32
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_114
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 384
+        width: 24
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_115
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 424
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_116
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 429
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_117
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 384
+        width: 32
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_118
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 422
+        width: 55
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_119
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 390
+        width: 20
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_120
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 421
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_121
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 386
+        width: 28
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_122
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 342
+        width: 95
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_123
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 389
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_124
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 389
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_125
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 388
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_126
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 388
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_127
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 389
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_128
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 385
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_129
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 392
+        width: 28
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_130
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 384
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_131
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 398
+        width: 34
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_132
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 386
+        width: 55
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_133
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 370
+        width: 28
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_134
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 364
+        width: 44
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_135
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 376
+        width: 28
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_136
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 386
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_137
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 355
+        width: 28
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_138
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 355
+        width: 28
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_139
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 356
+        width: 28
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_140
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 355
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_141
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 354
+        width: 29
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_142
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 354
+        width: 29
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_143
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 353
+        width: 31
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_144
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 360
+        width: 28
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_145
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 373
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_146
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 357
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_147
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 375
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_148
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 364
+        width: 26
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_149
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 355
+        width: 29
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_150
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 355
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_151
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 357
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_152
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 354
+        width: 28
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_153
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 357
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_154
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 354
+        width: 28
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_155
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 322
+        width: 29
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_156
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 310
+        width: 41
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_157
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 328
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_158
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 310
+        width: 255
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_159
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 326
+        width: 31
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_160
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 317
+        width: 41
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_161
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 328
+        width: 55
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_162
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 324
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_163
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 261
+        width: 18
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_164
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 306
+        width: 29
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_165
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 296
+        width: 29
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_166
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 311
+        width: 32
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_167
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 291
+        width: 48
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_168
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 296
+        width: 56
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_169
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 294
+        width: 64
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_170
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 289
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_171
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 290
+        width: 29
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_172
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 294
+        width: 31
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_173
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 244
+        width: 26
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_174
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 260
+        width: 26
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_175
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 241
+        width: 29
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_176
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 161
+        width: 467
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_177
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 256
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_178
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 228
+        width: 26
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_179
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 192
+        width: 80
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_180
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 178
+        width: 31
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_181
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 194
+        width: 31
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_182
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 182
+        width: 42
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_183
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 170
+        width: 55
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_184
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 159
+        width: 123
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_185
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 129
+        width: 61
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_186
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 195
+        width: 28
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_187
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 162
+        width: 31
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_188
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 167
+        width: 31
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_189
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 128
+        width: 47
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_190
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 116
+        width: 27
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_191
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 132
+        width: 27
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_192
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 112
+        width: 48
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_193
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 135
+        width: 32
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_194
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 99
+        width: 127
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_195
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 97
+        width: 127
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_196
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 130
+        width: 48
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_197
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 103
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_198
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 0
+        width: 288
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_199
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 100
+        width: 27
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_200
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 103
+        width: 32
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_201
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 5
+        width: 64
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_202
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 98
+        width: 48
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_203
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 32
+        width: 51
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_204
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 0
+        width: 48
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_205
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 64
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_206
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 48
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_207
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 48
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_208
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 48
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_209
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 68
+        width: 61
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_210
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 64
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_211
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 0
+        width: 48
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_212
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 0
+        width: 48
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_213
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 64
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_214
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 64
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_215
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 0
+        width: 86
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_216
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 0
+        width: 26
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_217
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 33
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_218
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 32
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_219
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 16
+        width: 26
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_220
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 32
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_221
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 12
+        width: 28
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_222
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 0
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_223
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 16
+        width: 22
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_224
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 0
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_225
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 0
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_226
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 0
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_227
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 6
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: obj_misk_atlas_228
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 0
+        width: 22
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline:
+    - - {x: -506, y: -429}
+      - {x: -506, y: -512}
+      - {x: -454, y: -512}
+      - {x: -454, y: -429}
+    - - {x: -447, y: -491}
+      - {x: -444, y: -512}
+      - {x: -419, y: -512}
+      - {x: -417, y: -501}
+      - {x: -417, y: -454}
+      - {x: -447, y: -454}
+    - - {x: -403, y: -478}
+      - {x: -413, y: -485}
+      - {x: -413, y: -512}
+      - {x: -387, y: -512}
+      - {x: -387, y: -478}
+    - - {x: -367, y: -494}
+      - {x: -378, y: -506}
+      - {x: -381, y: -510}
+      - {x: -381, y: -512}
+      - {x: -355, y: -512}
+      - {x: -355, y: -495}
+      - {x: -358, y: -494}
+    - - {x: -248, y: -482}
+      - {x: -252, y: -486}
+      - {x: -252, y: -506}
+      - {x: -249, y: -512}
+      - {x: -233, y: -512}
+      - {x: -228, y: -503}
+      - {x: -228, y: -488}
+      - {x: -233, y: -482}
+    - - {x: -201, y: -482}
+      - {x: -216, y: -482}
+      - {x: -220, y: -492}
+      - {x: -220, y: -505}
+      - {x: -215, y: -511}
+      - {x: -212, y: -512}
+      - {x: -202, y: -512}
+      - {x: -196, y: -504}
+      - {x: -196, y: -491}
+      - {x: -198, y: -483}
+    - - {x: -126, y: -430}
+      - {x: -127, y: -428}
+      - {x: -194, y: -428}
+      - {x: -194, y: -510}
+      - {x: -192, y: -512}
+      - {x: -128, y: -512}
+      - {x: -127, y: -509}
+      - {x: -126, y: -484}
+    - - {x: -122, y: -428}
+      - {x: -122, y: -512}
+      - {x: -70, y: -512}
+      - {x: -70, y: -428}
+    - - {x: -50, y: -430}
+      - {x: -58, y: -431}
+      - {x: -58, y: -512}
+      - {x: -6, y: -512}
+      - {x: -6, y: -433}
+      - {x: -9, y: -430}
+    - - {x: 37, y: -483}
+      - {x: 33, y: -484}
+      - {x: 33, y: -501}
+      - {x: 36, y: -512}
+      - {x: 61, y: -512}
+      - {x: 63, y: -500}
+      - {x: 63, y: -485}
+      - {x: 61, y: -483}
+    - - {x: 72, y: -415}
+      - {x: 67, y: -507}
+      - {x: 67, y: -512}
+      - {x: 157, y: -512}
+      - {x: 157, y: -415}
+    - - {x: 447, y: -361}
+      - {x: 378, y: -360}
+      - {x: 255, y: -360}
+      - {x: 253, y: -368}
+      - {x: 254, y: -384}
+      - {x: 254, y: -474}
+      - {x: 250, y: -468}
+      - {x: 252, y: -462}
+      - {x: 253, y: -453}
+      - {x: 254, y: -433}
+      - {x: 254, y: -423}
+      - {x: 252, y: -401}
+      - {x: 250, y: -393}
+      - {x: 248, y: -391}
+      - {x: 251, y: -385}
+      - {x: 252, y: -372}
+      - {x: 257, y: -345}
+      - {x: 217, y: -327}
+      - {x: 255, y: -321}
+      - {x: 258, y: -296}
+      - {x: 245, y: -287}
+      - {x: 205, y: -271}
+      - {x: 185, y: -271}
+      - {x: 149, y: -281}
+      - {x: 128, y: -296}
+      - {x: 128, y: -394}
+      - {x: 150, y: -467}
+      - {x: 206, y: -488}
+      - {x: 219, y: -477}
+      - {x: 225, y: -452}
+      - {x: 223, y: -464}
+      - {x: 222, y: -512}
+      - {x: 512, y: -512}
+      - {x: 512, y: -366}
+      - {x: 511, y: -366}
+    - - {x: -274, y: -478}
+      - {x: -273, y: -476}
+      - {x: -267, y: -473}
+      - {x: -264, y: -470}
+      - {x: -264, y: -462}
+      - {x: -263, y: -470}
+      - {x: -266, y: -473}
+      - {x: -266, y: -475}
+      - {x: -263, y: -478}
+      - {x: -259, y: -478}
+      - {x: -255, y: -476}
+      - {x: -254, y: -469}
+      - {x: -254, y: -438}
+      - {x: -282, y: -382}
+      - {x: -318, y: -382}
+      - {x: -322, y: -414}
+      - {x: -322, y: -509}
+      - {x: -257, y: -509}
+      - {x: -254, y: -505}
+      - {x: -254, y: -480}
+      - {x: -256, y: -478}
+    - - {x: 197, y: -484}
+      - {x: 195, y: -489}
+      - {x: 195, y: -506}
+      - {x: 201, y: -508}
+      - {x: 217, y: -508}
+      - {x: 221, y: -503}
+      - {x: 221, y: -489}
+      - {x: 219, y: -484}
+    - - {x: 114, y: -446}
+      - {x: 105, y: -446}
+      - {x: 95, y: -452}
+      - {x: 95, y: -495}
+      - {x: 96, y: -502}
+      - {x: 121, y: -502}
+      - {x: 129, y: -495}
+      - {x: 129, y: -461}
+      - {x: 125, y: -454}
+    - - {x: 167, y: -462}
+      - {x: 160, y: -469}
+      - {x: 160, y: -493}
+      - {x: 163, y: -502}
+      - {x: 189, y: -502}
+      - {x: 192, y: -491}
+      - {x: 192, y: -469}
+      - {x: 184, y: -462}
+    - - {x: 42, y: -492}
+      - {x: 41, y: -492}
+      - {x: 42, y: -500}
+      - {x: 43, y: -499}
+    - - {x: 55, y: -492}
+      - {x: 54, y: -492}
+      - {x: 53, y: -498}
+      - {x: 54, y: -500}
+      - {x: 55, y: -499}
+    - - {x: -349, y: -478}
+      - {x: -349, y: -498}
+      - {x: -324, y: -498}
+      - {x: -323, y: -489}
+      - {x: -323, y: -478}
+    - - {x: 1, y: -458}
+      - {x: 1, y: -498}
+      - {x: 30, y: -498}
+      - {x: 31, y: -492}
+      - {x: 31, y: -461}
+      - {x: 29, y: -458}
+    - - {x: -215, y: -446}
+      - {x: -223, y: -459}
+      - {x: -223, y: -481}
+      - {x: -219, y: -482}
+      - {x: -193, y: -482}
+      - {x: -193, y: -460}
+      - {x: -201, y: -446}
+    - - {x: 36, y: -451}
+      - {x: 33, y: -454}
+      - {x: 33, y: -473}
+      - {x: 36, y: -482}
+      - {x: 59, y: -482}
+      - {x: 63, y: -476}
+      - {x: 63, y: -451}
+    - - {x: -245, y: -446}
+      - {x: -250, y: -447}
+      - {x: -254, y: -454}
+      - {x: -254, y: -469}
+      - {x: -249, y: -481}
+      - {x: -231, y: -481}
+      - {x: -226, y: -469}
+      - {x: -226, y: -453}
+      - {x: -231, y: -446}
+    - - {x: 10, y: -467}
+      - {x: 9, y: -467}
+      - {x: 10, y: -472}
+    - - {x: 23, y: -467}
+      - {x: 22, y: -467}
+      - {x: 22, y: -472}
+      - {x: 23, y: -472}
+    - - {x: -278, y: -463}
+      - {x: -278, y: -465}
+      - {x: -277, y: -465}
+    - - {x: -413, y: -430}
+      - {x: -415, y: -433}
+      - {x: -415, y: -466}
+      - {x: -385, y: -466}
+      - {x: -385, y: -430}
+    - - {x: -380, y: -438}
+      - {x: -383, y: -439}
+      - {x: -383, y: -460}
+      - {x: -382, y: -465}
+      - {x: -380, y: -466}
+      - {x: -354, y: -466}
+      - {x: -353, y: -456}
+      - {x: -353, y: -438}
+    - - {x: -346, y: -430}
+      - {x: -349, y: -431}
+      - {x: -349, y: -466}
+      - {x: -323, y: -466}
+      - {x: -323, y: -443}
+      - {x: -339, y: -430}
+    - - {x: -445, y: -414}
+      - {x: -447, y: -417}
+      - {x: -447, y: -450}
+      - {x: -417, y: -450}
+      - {x: -417, y: -414}
+    - - {x: 6, y: -414}
+      - {x: 4, y: -415}
+      - {x: 4, y: -450}
+      - {x: 30, y: -450}
+      - {x: 30, y: -427}
+      - {x: 14, y: -414}
+    - - {x: 48, y: -414}
+      - {x: 35, y: -421}
+      - {x: 34, y: -426}
+      - {x: 34, y: -450}
+      - {x: 60, y: -450}
+      - {x: 60, y: -414}
+    - - {x: 293, y: -421}
+      - {x: 382, y: -419}
+      - {x: 385, y: -416}
+      - {x: 384, y: -414}
+      - {x: 383, y: -416}
+      - {x: 386, y: -419}
+      - {x: 355, y: -428}
+      - {x: 344, y: -433}
+      - {x: 319, y: -430}
+      - {x: 318, y: -430}
+      - {x: 314, y: -434}
+    - - {x: -246, y: -414}
+      - {x: -286, y: -425}
+      - {x: -287, y: -429}
+      - {x: -287, y: -445}
+      - {x: -278, y: -446}
+      - {x: -227, y: -446}
+      - {x: -222, y: -431}
+      - {x: -222, y: -417}
+      - {x: -228, y: -414}
+    - - {x: 130, y: -291}
+      - {x: 130, y: -267}
+      - {x: 74, y: -222}
+      - {x: -341, y: -222}
+      - {x: -341, y: -267}
+      - {x: -336, y: -276}
+      - {x: -304, y: -385}
+      - {x: -270, y: -417}
+      - {x: -82, y: -417}
+      - {x: -56, y: -415}
+      - {x: -48, y: -409}
+      - {x: -36, y: -414}
+      - {x: -10, y: -360}
+    - - {x: -20, y: -383}
+      - {x: -34, y: -396}
+      - {x: -34, y: -408}
+      - {x: -21, y: -416}
+      - {x: 18, y: -416}
+      - {x: 18, y: -386}
+      - {x: 13, y: -383}
+    - - {x: -463, y: -385}
+      - {x: -479, y: -390}
+      - {x: -479, y: -412}
+      - {x: -472, y: -414}
+      - {x: -459, y: -414}
+      - {x: -451, y: -408}
+      - {x: -448, y: -393}
+      - {x: -448, y: -385}
+    - - {x: -347, y: -390}
+      - {x: -354, y: -397}
+      - {x: -354, y: -403}
+      - {x: -348, y: -411}
+      - {x: -319, y: -411}
+      - {x: -318, y: -407}
+      - {x: -318, y: -394}
+      - {x: -333, y: -390}
+    - - {x: 81, y: -351}
+      - {x: 62, y: -367}
+      - {x: 62, y: -398}
+      - {x: 67, y: -411}
+      - {x: 130, y: -411}
+      - {x: 130, y: -351}
+    - - {x: -407, y: -364}
+      - {x: -407, y: -381}
+      - {x: -406, y: -389}
+      - {x: -390, y: -402}
+      - {x: -378, y: -402}
+      - {x: -359, y: -394}
+      - {x: -355, y: -377}
+      - {x: -355, y: -367}
+      - {x: -369, y: -364}
+    - - {x: -490, y: -369}
+      - {x: -509, y: -370}
+      - {x: -511, y: -377}
+      - {x: -511, y: -392}
+      - {x: -506, y: -398}
+      - {x: -487, y: -398}
+      - {x: -480, y: -377}
+      - {x: -480, y: -369}
+    - - {x: -160, y: -383}
+      - {x: -161, y: -383}
+      - {x: -159, y: -387}
+      - {x: -158, y: -387}
+    - - {x: 22, y: -357}
+      - {x: 11, y: -351}
+      - {x: -12, y: -351}
+      - {x: -24, y: -364}
+      - {x: -24, y: -374}
+      - {x: -11, y: -384}
+      - {x: 28, y: -384}
+      - {x: 28, y: -360}
+      - {x: 27, y: -358}
+    - - {x: 264, y: -374}
+      - {x: 263, y: -374}
+      - {x: 263, y: -381}
+      - {x: 264, y: -381}
+    - - {x: 272, y: -374}
+      - {x: 271, y: -374}
+      - {x: 271, y: -381}
+      - {x: 272, y: -381}
+    - - {x: 280, y: -374}
+      - {x: 279, y: -374}
+      - {x: 279, y: -381}
+      - {x: 280, y: -381}
+    - - {x: 288, y: -374}
+      - {x: 287, y: -374}
+      - {x: 287, y: -381}
+      - {x: 288, y: -381}
+    - - {x: 296, y: -374}
+      - {x: 295, y: -374}
+      - {x: 295, y: -381}
+      - {x: 296, y: -381}
+    - - {x: 304, y: -374}
+      - {x: 303, y: -374}
+      - {x: 303, y: -381}
+      - {x: 304, y: -381}
+    - - {x: 312, y: -374}
+      - {x: 311, y: -374}
+      - {x: 311, y: -381}
+      - {x: 312, y: -381}
+    - - {x: 457, y: -374}
+      - {x: 456, y: -374}
+      - {x: 456, y: -381}
+      - {x: 457, y: -381}
+    - - {x: 465, y: -374}
+      - {x: 464, y: -374}
+      - {x: 464, y: -381}
+      - {x: 465, y: -381}
+    - - {x: 473, y: -374}
+      - {x: 472, y: -374}
+      - {x: 472, y: -381}
+      - {x: 473, y: -381}
+    - - {x: 481, y: -374}
+      - {x: 480, y: -374}
+      - {x: 480, y: -381}
+      - {x: 481, y: -381}
+    - - {x: 489, y: -374}
+      - {x: 488, y: -374}
+      - {x: 488, y: -381}
+      - {x: 489, y: -381}
+    - - {x: 497, y: -374}
+      - {x: 496, y: -374}
+      - {x: 496, y: -381}
+      - {x: 497, y: -381}
+    - - {x: 505, y: -374}
+      - {x: 504, y: -374}
+      - {x: 504, y: -381}
+      - {x: 505, y: -381}
+    - - {x: -434, y: -353}
+      - {x: -447, y: -353}
+      - {x: -463, y: -358}
+      - {x: -463, y: -373}
+      - {x: -462, y: -378}
+      - {x: -455, y: -382}
+      - {x: -449, y: -382}
+      - {x: -442, y: -381}
+      - {x: -432, y: -364}
+      - {x: -432, y: -355}
+    - - {x: -306, y: -358}
+      - {x: -332, y: -358}
+      - {x: -338, y: -360}
+      - {x: -338, y: -373}
+      - {x: -337, y: -374}
+      - {x: -331, y: -379}
+      - {x: -312, y: -379}
+      - {x: -303, y: -375}
+      - {x: -302, y: -370}
+      - {x: -302, y: -362}
+    - - {x: -165, y: -358}
+      - {x: -176, y: -353}
+      - {x: -181, y: -353}
+      - {x: -196, y: -352}
+      - {x: -194, y: -353}
+      - {x: -193, y: -352}
+      - {x: -184, y: -352}
+      - {x: -173, y: -351}
+      - {x: -166, y: -349}
+      - {x: -161, y: -344}
+      - {x: -161, y: -299}
+      - {x: -165, y: -294}
+      - {x: -173, y: -290}
+      - {x: -180, y: -290}
+      - {x: -181, y: -289}
+      - {x: -185, y: -290}
+      - {x: -122, y: -290}
+      - {x: -126, y: -289}
+      - {x: -127, y: -290}
+      - {x: -133, y: -290}
+      - {x: -138, y: -291}
+      - {x: -150, y: -293}
+      - {x: -159, y: -300}
+      - {x: -160, y: -347}
+      - {x: -147, y: -355}
+      - {x: -135, y: -354}
+      - {x: -126, y: -354}
+      - {x: -125, y: -355}
+      - {x: -122, y: -354}
+      - {x: -126, y: -353}
+      - {x: -127, y: -354}
+      - {x: -133, y: -354}
+      - {x: -138, y: -355}
+      - {x: -150, y: -357}
+      - {x: -159, y: -364}
+    - - {x: 472, y: -197}
+      - {x: 512, y: -197}
+      - {x: 512, y: 18}
+      - {x: 202, y: 18}
+      - {x: 196, y: 7}
+      - {x: 196, y: -168}
+      - {x: 251, y: -354}
+      - {x: 512, y: -354}
+      - {x: 512, y: -204}
+      - {x: 496, y: -209}
+    - - {x: -512, y: -311}
+      - {x: -512, y: -334}
+      - {x: -477, y: -352}
+      - {x: -447, y: -352}
+      - {x: -446, y: -351}
+      - {x: -446, y: -331}
+      - {x: -468, y: -311}
+    - - {x: -410, y: -296}
+      - {x: -416, y: -309}
+      - {x: -416, y: -334}
+      - {x: -390, y: -347}
+      - {x: -354, y: -347}
+      - {x: -351, y: -346}
+      - {x: -351, y: -320}
+      - {x: -374, y: -296}
+    - - {x: -18, y: -327}
+      - {x: -34, y: -332}
+      - {x: -34, y: -341}
+      - {x: -25, y: -347}
+      - {x: -2, y: -347}
+      - {x: 6, y: -345}
+      - {x: 6, y: -330}
+      - {x: 2, y: -327}
+    - - {x: 106, y: -311}
+      - {x: 104, y: -311}
+      - {x: 111, y: -311}
+      - {x: 114, y: -310}
+      - {x: 119, y: -308}
+      - {x: 119, y: -298}
+      - {x: 118, y: -295}
+      - {x: 116, y: -293}
+      - {x: 90, y: -293}
+      - {x: 68, y: -304}
+      - {x: 68, y: -338}
+      - {x: 74, y: -346}
+      - {x: 107, y: -346}
+      - {x: 119, y: -340}
+      - {x: 119, y: -318}
+      - {x: 118, y: -318}
+    - - {x: -296, y: -292}
+      - {x: -349, y: -292}
+      - {x: -354, y: -299}
+      - {x: -354, y: -326}
+      - {x: -332, y: -344}
+      - {x: -308, y: -344}
+      - {x: -297, y: -340}
+      - {x: -295, y: -339}
+      - {x: -295, y: -293}
+    - - {x: -440, y: -295}
+      - {x: -459, y: -295}
+      - {x: -465, y: -299}
+      - {x: -465, y: -319}
+      - {x: -461, y: -320}
+      - {x: -430, y: -320}
+      - {x: -430, y: -307}
+      - {x: -432, y: -299}
+    - - {x: 170, y: -303}
+      - {x: 167, y: -301}
+      - {x: 166, y: -301}
+      - {x: 166, y: -302}
+      - {x: 167, y: -302}
+      - {x: 170, y: -299}
+      - {x: 170, y: -292}
+      - {x: 167, y: -289}
+      - {x: 165, y: -290}
+      - {x: 169, y: -291}
+      - {x: 174, y: -291}
+      - {x: 177, y: -288}
+      - {x: 177, y: -287}
+      - {x: 176, y: -287}
+      - {x: 176, y: -288}
+      - {x: 179, y: -291}
+      - {x: 184, y: -291}
+    - - {x: 324, y: -292}
+      - {x: 378, y: -291}
+      - {x: 378, y: -317}
+      - {x: 326, y: -316}
+    - - {x: 390, y: -291}
+      - {x: 445, y: -291}
+      - {x: 443, y: -312}
+      - {x: 390, y: -317}
+    - - {x: 22, y: -297}
+      - {x: 18, y: -295}
+      - {x: 1, y: -295}
+      - {x: -17, y: -300}
+      - {x: -17, y: -309}
+      - {x: -8, y: -315}
+      - {x: 13, y: -315}
+      - {x: 23, y: -313}
+      - {x: 23, y: -298}
+    - - {x: 223, y: -294}
+      - {x: 218, y: -290}
+      - {x: 232, y: -290}
+      - {x: 231, y: -289}
+      - {x: 227, y: -293}
+      - {x: 226, y: -293}
+      - {x: 223, y: -296}
+      - {x: 224, y: -300}
+      - {x: 225, y: -299}
+    - - {x: -468, y: -263}
+      - {x: -479, y: -266}
+      - {x: -479, y: -280}
+      - {x: -477, y: -285}
+      - {x: -471, y: -286}
+      - {x: -463, y: -286}
+      - {x: -449, y: -282}
+      - {x: -449, y: -267}
+      - {x: -455, y: -263}
+    - - {x: -398, y: -245}
+      - {x: -402, y: -248}
+      - {x: -402, y: -270}
+      - {x: -396, y: -273}
+      - {x: -376, y: -273}
+      - {x: -369, y: -269}
+      - {x: -369, y: -250}
+      - {x: -377, y: -245}
+    - - {x: -503, y: -247}
+      - {x: -511, y: -250}
+      - {x: -511, y: -265}
+      - {x: -506, y: -270}
+      - {x: -497, y: -270}
+      - {x: -481, y: -266}
+      - {x: -481, y: -249}
+      - {x: -487, y: -247}
+    - - {x: -12, y: -267}
+      - {x: 22, y: -267}
+      - {x: 23, y: -268}
+      - {x: 28, y: -268}
+      - {x: 29, y: -269}
+      - {x: 40, y: -269}
+      - {x: 21, y: -268}
+      - {x: 20, y: -267}
+    - - {x: 133, y: -222}
+      - {x: 130, y: -225}
+      - {x: 130, y: -251}
+      - {x: 140, y: -258}
+      - {x: 156, y: -258}
+      - {x: 158, y: -256}
+      - {x: 158, y: -225}
+      - {x: 155, y: -222}
+    - - {x: -455, y: -231}
+      - {x: -463, y: -234}
+      - {x: -463, y: -247}
+      - {x: -460, y: -253}
+      - {x: -458, y: -254}
+      - {x: -449, y: -254}
+      - {x: -433, y: -251}
+      - {x: -433, y: -233}
+      - {x: -439, y: -231}
+    - - {x: 251, y: -162}
+      - {x: 232, y: -162}
+      - {x: 229, y: -163}
+      - {x: 229, y: -233}
+      - {x: 231, y: -251}
+      - {x: 237, y: -253}
+      - {x: 247, y: -253}
+      - {x: 249, y: -251}
+      - {x: 251, y: -208}
+    - - {x: 194, y: -190}
+      - {x: 194, y: -221}
+      - {x: 195, y: -225}
+      - {x: 218, y: -225}
+      - {x: 221, y: -224}
+      - {x: 222, y: -219}
+      - {x: 222, y: -190}
+    - - {x: -472, y: -204}
+      - {x: -480, y: -207}
+      - {x: -480, y: -215}
+      - {x: -465, y: -224}
+      - {x: -449, y: -224}
+      - {x: -447, y: -219}
+      - {x: -447, y: -206}
+      - {x: -450, y: -204}
+    - - {x: -297, y: -191}
+      - {x: -312, y: -206}
+      - {x: -311, y: -212}
+      - {x: -308, y: -216}
+      - {x: -302, y: -223}
+      - {x: -260, y: -223}
+      - {x: -260, y: -195}
+      - {x: -276, y: -191}
+    - - {x: 7, y: -199}
+      - {x: -2, y: -204}
+      - {x: -2, y: -215}
+      - {x: -1, y: -216}
+      - {x: 10, y: -220}
+      - {x: 24, y: -220}
+      - {x: 33, y: -216}
+      - {x: 33, y: -203}
+      - {x: 27, y: -199}
+    - - {x: 133, y: -193}
+      - {x: 126, y: -201}
+      - {x: 126, y: -217}
+      - {x: 131, y: -220}
+      - {x: 194, y: -220}
+      - {x: 194, y: -197}
+      - {x: 181, y: -193}
+    - - {x: -405, y: -176}
+      - {x: -405, y: -217}
+      - {x: -402, y: -218}
+      - {x: -374, y: -218}
+      - {x: -360, y: -209}
+      - {x: -360, y: -174}
+      - {x: -363, y: -168}
+      - {x: -388, y: -168}
+      - {x: -399, y: -172}
+    - - {x: 65, y: -165}
+      - {x: 66, y: -179}
+      - {x: 73, y: -183}
+      - {x: 62, y: -198}
+      - {x: 62, y: -206}
+      - {x: 76, y: -218}
+      - {x: 122, y: -218}
+      - {x: 122, y: -193}
+      - {x: 109, y: -165}
+    - - {x: -505, y: -188}
+      - {x: -512, y: -191}
+      - {x: -512, y: -199}
+      - {x: -497, y: -208}
+      - {x: -481, y: -208}
+      - {x: -479, y: -204}
+      - {x: -479, y: -190}
+      - {x: -483, y: -188}
+    - - {x: 323, y: -195}
+      - {x: 342, y: -194}
+      - {x: 323, y: -203}
+    - - {x: 426, y: -194}
+      - {x: 445, y: -195}
+      - {x: 445, y: -203}
+      - {x: 444, y: -202}
+    - - {x: -63, y: -140}
+      - {x: -61, y: -134}
+      - {x: -70, y: -130}
+      - {x: -142, y: -130}
+      - {x: -186, y: -134}
+      - {x: -290, y: -165}
+      - {x: -290, y: -189}
+      - {x: -275, y: -204}
+      - {x: 1, y: -204}
+      - {x: 1, y: -164}
+      - {x: -11, y: -130}
+      - {x: -63, y: -130}
+      - {x: -61, y: -135}
+    - - {x: -335, y: -182}
+      - {x: -346, y: -182}
+      - {x: -354, y: -190}
+      - {x: -354, y: -198}
+      - {x: -346, y: -203}
+      - {x: -321, y: -203}
+      - {x: -318, y: -199}
+      - {x: -318, y: -186}
+      - {x: -319, y: -185}
+    - - {x: 87, y: -195}
+      - {x: 90, y: -195}
+      - {x: 90, y: -194}
+      - {x: 87, y: -194}
+    - - {x: -457, y: -172}
+      - {x: -464, y: -175}
+      - {x: -464, y: -183}
+      - {x: -449, y: -192}
+      - {x: -433, y: -192}
+      - {x: -431, y: -188}
+      - {x: -431, y: -174}
+      - {x: -435, y: -172}
+    - - {x: 193, y: -164}
+      - {x: 191, y: -167}
+      - {x: 191, y: -190}
+      - {x: 208, y: -190}
+      - {x: 222, y: -189}
+      - {x: 225, y: -182}
+      - {x: 225, y: -164}
+    - - {x: 23, y: -167}
+      - {x: 14, y: -172}
+      - {x: 14, y: -183}
+      - {x: 15, y: -184}
+      - {x: 26, y: -188}
+      - {x: 40, y: -188}
+      - {x: 49, y: -184}
+      - {x: 49, y: -171}
+      - {x: 43, y: -167}
+    - - {x: 177, y: -164}
+      - {x: 136, y: -164}
+      - {x: 132, y: -172}
+      - {x: 132, y: -184}
+      - {x: 136, y: -186}
+      - {x: 187, y: -186}
+      - {x: 191, y: -182}
+      - {x: 191, y: -168}
+    - - {x: -275, y: -133}
+      - {x: -286, y: -101}
+      - {x: -287, y: -100}
+      - {x: -354, y: -100}
+      - {x: -354, y: -153}
+      - {x: -346, y: -172}
+      - {x: -283, y: -172}
+      - {x: -255, y: -155}
+      - {x: -255, y: -138}
+    - - {x: -67, y: -159}
+      - {x: -70, y: -158}
+      - {x: -74, y: -158}
+      - {x: -76, y: -160}
+      - {x: -73, y: -160}
+      - {x: -71, y: -157}
+      - {x: -69, y: -157}
+      - {x: -64, y: -152}
+      - {x: -65, y: -152}
+      - {x: -60, y: -158}
+      - {x: -55, y: -160}
+      - {x: -58, y: -160}
+      - {x: -63, y: -163}
+      - {x: -64, y: -164}
+      - {x: -63, y: -164}
+    - - {x: -480, y: -137}
+      - {x: -480, y: -152}
+      - {x: -467, y: -160}
+      - {x: -450, y: -160}
+      - {x: -448, y: -155}
+      - {x: -448, y: -137}
+    - - {x: -137, y: -130}
+      - {x: -157, y: -133}
+      - {x: -160, y: -141}
+      - {x: -160, y: -144}
+      - {x: -160, y: -139}
+      - {x: -159, y: -135}
+      - {x: -168, y: -130}
+      - {x: -183, y: -130}
+      - {x: -191, y: -140}
+      - {x: -191, y: -151}
+      - {x: -189, y: -156}
+      - {x: -183, y: -160}
+      - {x: -141, y: -160}
+      - {x: -132, y: -157}
+      - {x: -128, y: -154}
+      - {x: -127, y: -151}
+      - {x: -125, y: -156}
+      - {x: -117, y: -160}
+      - {x: -101, y: -160}
+      - {x: -95, y: -157}
+      - {x: -95, y: -143}
+      - {x: -103, y: -130}
+    - - {x: 128, y: -158}
+      - {x: 130, y: -160}
+      - {x: 158, y: -160}
+      - {x: 161, y: -159}
+      - {x: 161, y: -132}
+      - {x: 159, y: -129}
+      - {x: 137, y: -129}
+      - {x: 128, y: -132}
+    - - {x: -255, y: -132}
+      - {x: -255, y: -159}
+      - {x: -192, y: -159}
+      - {x: -192, y: -132}
+    - - {x: 190, y: -135}
+      - {x: 185, y: -130}
+      - {x: 192, y: -130}
+      - {x: 195, y: -129}
+      - {x: 248, y: -5}
+      - {x: 248, y: 66}
+      - {x: 136, y: 66}
+      - {x: 136, y: -159}
+      - {x: 221, y: -159}
+      - {x: 223, y: -155}
+      - {x: 221, y: -129}
+      - {x: 205, y: -128}
+    - - {x: 82, y: -141}
+      - {x: 73, y: -146}
+      - {x: 73, y: -151}
+      - {x: 75, y: -157}
+      - {x: 91, y: -157}
+      - {x: 95, y: -151}
+      - {x: 95, y: -145}
+      - {x: 89, y: -141}
+    - - {x: 114, y: -131}
+      - {x: 104, y: -137}
+      - {x: 101, y: -148}
+      - {x: 101, y: -153}
+      - {x: 105, y: -157}
+      - {x: 117, y: -157}
+      - {x: 124, y: -156}
+      - {x: 127, y: -147}
+      - {x: 127, y: -136}
+      - {x: 121, y: -131}
+    - - {x: 248, y: -132}
+      - {x: 232, y: -132}
+      - {x: 226, y: -134}
+      - {x: 226, y: -153}
+      - {x: 236, y: -157}
+      - {x: 248, y: -157}
+      - {x: 254, y: -152}
+      - {x: 254, y: -136}
+    - - {x: 4, y: -134}
+      - {x: 0, y: -139}
+      - {x: 0, y: -154}
+      - {x: 32, y: -154}
+      - {x: 32, y: -140}
+      - {x: 18, y: -134}
+    - - {x: -406, y: -142}
+      - {x: -398, y: -150}
+      - {x: -358, y: -150}
+      - {x: -358, y: -120}
+      - {x: -360, y: -117}
+      - {x: -388, y: -117}
+      - {x: -395, y: -118}
+      - {x: -406, y: -128}
+    - - {x: 241, y: -144}
+      - {x: 242, y: -145}
+      - {x: 239, y: -145}
+      - {x: 238, y: -144}
+    - - {x: -512, y: -121}
+      - {x: -512, y: -136}
+      - {x: -499, y: -144}
+      - {x: -482, y: -144}
+      - {x: -480, y: -139}
+      - {x: -480, y: -121}
+    - - {x: 86, y: -104}
+      - {x: 73, y: -104}
+      - {x: 65, y: -106}
+      - {x: 65, y: -141}
+      - {x: 99, y: -141}
+      - {x: 99, y: -121}
+      - {x: 94, y: -109}
+    - - {x: 323, y: -131}
+      - {x: 342, y: -130}
+      - {x: 323, y: -139}
+    - - {x: 426, y: -130}
+      - {x: 445, y: -131}
+      - {x: 445, y: -139}
+      - {x: 444, y: -138}
+    - - {x: -28, y: -118}
+      - {x: -32, y: -123}
+      - {x: -32, y: -138}
+      - {x: 0, y: -138}
+      - {x: 0, y: -124}
+      - {x: -14, y: -118}
+    - - {x: -222, y: -62}
+      - {x: -224, y: -63}
+      - {x: -224, y: -113}
+      - {x: -219, y: -126}
+      - {x: -213, y: -130}
+      - {x: -200, y: -130}
+      - {x: -196, y: -124}
+      - {x: -196, y: -64}
+      - {x: -197, y: -62}
+    - - {x: -59, y: -108}
+      - {x: -61, y: -109}
+      - {x: -61, y: -125}
+      - {x: -52, y: -129}
+      - {x: -42, y: -129}
+      - {x: -36, y: -125}
+      - {x: -36, y: -116}
+      - {x: -41, y: -108}
+    - - {x: -464, y: -105}
+      - {x: -464, y: -120}
+      - {x: -451, y: -128}
+      - {x: -434, y: -128}
+      - {x: -432, y: -123}
+      - {x: -432, y: -105}
+    - - {x: 107, y: -96}
+      - {x: 95, y: -96}
+      - {x: 89, y: -101}
+      - {x: 89, y: -122}
+      - {x: 92, y: -128}
+      - {x: 111, y: -128}
+      - {x: 127, y: -114}
+      - {x: 127, y: -106}
+      - {x: 119, y: -98}
+    - - {x: 208, y: -97}
+      - {x: 204, y: -99}
+      - {x: 194, y: -105}
+      - {x: 194, y: -123}
+      - {x: 205, y: -128}
+      - {x: 236, y: -128}
+      - {x: 249, y: -125}
+      - {x: 253, y: -117}
+      - {x: 253, y: -105}
+      - {x: 240, y: -97}
+    - - {x: -144, y: -106}
+      - {x: -154, y: -117}
+      - {x: -154, y: -124}
+      - {x: -149, y: -126}
+      - {x: -139, y: -126}
+      - {x: -133, y: -117}
+      - {x: -133, y: -108}
+      - {x: -138, y: -106}
+    - - {x: -120, y: -101}
+      - {x: -125, y: -106}
+      - {x: -125, y: -121}
+      - {x: -122, y: -126}
+      - {x: -104, y: -126}
+      - {x: -99, y: -123}
+      - {x: -99, y: -104}
+      - {x: -107, y: -101}
+    - - {x: -237, y: -103}
+      - {x: -242, y: -103}
+      - {x: -249, y: -107}
+      - {x: -249, y: -124}
+      - {x: -247, y: -125}
+      - {x: -234, y: -125}
+      - {x: -229, y: -124}
+      - {x: -229, y: -113}
+      - {x: -230, y: -109}
+    - - {x: -179, y: -104}
+      - {x: -184, y: -108}
+      - {x: -185, y: -111}
+      - {x: -185, y: -117}
+      - {x: -180, y: -125}
+      - {x: -173, y: -125}
+      - {x: -167, y: -118}
+      - {x: -167, y: -111}
+      - {x: -176, y: -104}
+    - - {x: -85, y: -105}
+      - {x: -90, y: -106}
+      - {x: -90, y: -123}
+      - {x: -86, y: -125}
+      - {x: -66, y: -125}
+      - {x: -66, y: -106}
+      - {x: -68, y: -105}
+    - - {x: 147, y: -81}
+      - {x: 136, y: -81}
+      - {x: 132, y: -93}
+      - {x: 132, y: -124}
+      - {x: 154, y: -124}
+      - {x: 156, y: -118}
+      - {x: 156, y: -94}
+    - - {x: 28, y: -102}
+      - {x: 23, y: -102}
+      - {x: 16, y: -108}
+      - {x: 16, y: -116}
+      - {x: 24, y: -122}
+      - {x: 46, y: -122}
+      - {x: 48, y: -117}
+      - {x: 48, y: -111}
+      - {x: 39, y: -104}
+    - - {x: -274, y: -106}
+      - {x: -283, y: -111}
+      - {x: -283, y: -116}
+      - {x: -278, y: -121}
+      - {x: -263, y: -121}
+      - {x: -261, y: -116}
+      - {x: -261, y: -111}
+      - {x: -267, y: -106}
+    - - {x: -512, y: -53}
+      - {x: -512, y: -89}
+      - {x: -480, y: -98}
+      - {x: -446, y: -98}
+      - {x: -446, y: -63}
+      - {x: -457, y: -53}
+    - - {x: -224, y: 152}
+      - {x: -226, y: 150}
+      - {x: -226, y: 135}
+      - {x: -229, y: 139}
+      - {x: -232, y: 142}
+      - {x: -238, y: 143}
+      - {x: -229, y: 147}
+      - {x: -226, y: 150}
+      - {x: -227, y: 156}
+      - {x: -230, y: 159}
+      - {x: -282, y: 168}
+      - {x: -287, y: 152}
+      - {x: -283, y: 150}
+      - {x: -278, y: 150}
+      - {x: -277, y: 149}
+      - {x: -282, y: 150}
+      - {x: -285, y: 150}
+      - {x: -288, y: 147}
+      - {x: -286, y: 160}
+      - {x: -286, y: 384}
+      - {x: -288, y: 386}
+      - {x: -305, y: 386}
+      - {x: -298, y: 387}
+      - {x: -294, y: 388}
+      - {x: -296, y: 402}
+      - {x: -512, y: 402}
+      - {x: -512, y: 44}
+      - {x: -475, y: 28}
+      - {x: -446, y: 27}
+      - {x: -429, y: 63}
+      - {x: -422, y: 105}
+      - {x: -355, y: 143}
+      - {x: -326, y: 75}
+      - {x: -318, y: 69}
+      - {x: -311, y: 67}
+      - {x: -305, y: 66}
+      - {x: -305, y: 68}
+      - {x: -320, y: 66}
+      - {x: -322, y: 64}
+      - {x: -350, y: 85}
+      - {x: -376, y: 102}
+      - {x: -404, y: 96}
+      - {x: -418, y: 75}
+      - {x: -422, y: 45}
+      - {x: -393, y: 33}
+      - {x: -384, y: 29}
+      - {x: -357, y: 30}
+      - {x: -355, y: 32}
+      - {x: -354, y: 42}
+      - {x: -354, y: -96}
+      - {x: -355, y: -98}
+      - {x: -167, y: -98}
+      - {x: -83, y: -78}
+      - {x: 32, y: 118}
+      - {x: 32, y: 180}
+      - {x: -31, y: 193}
+    - - {x: -54, y: -76}
+      - {x: -61, y: -76}
+      - {x: -61, y: -89}
+      - {x: -57, y: -97}
+      - {x: -47, y: -97}
+      - {x: -37, y: -91}
+      - {x: -37, y: -83}
+      - {x: -42, y: -77}
+    - - {x: -143, y: -74}
+      - {x: -154, y: -85}
+      - {x: -154, y: -91}
+      - {x: -149, y: -94}
+      - {x: -143, y: -94}
+      - {x: -133, y: -86}
+      - {x: -133, y: -76}
+      - {x: -134, y: -74}
+    - - {x: -110, y: -69}
+      - {x: -119, y: -69}
+      - {x: -125, y: -77}
+      - {x: -125, y: -83}
+      - {x: -121, y: -89}
+      - {x: -118, y: -94}
+      - {x: -105, y: -94}
+      - {x: -99, y: -92}
+      - {x: -99, y: -74}
+      - {x: -101, y: -71}
+    - - {x: -245, y: -71}
+      - {x: -249, y: -75}
+      - {x: -249, y: -93}
+      - {x: -233, y: -93}
+      - {x: -230, y: -91}
+      - {x: -230, y: -77}
+      - {x: -234, y: -71}
+    - - {x: -180, y: -72}
+      - {x: -185, y: -75}
+      - {x: -185, y: -89}
+      - {x: -180, y: -93}
+      - {x: -171, y: -93}
+      - {x: -168, y: -87}
+      - {x: -168, y: -75}
+      - {x: -175, y: -72}
+    - - {x: -85, y: -73}
+      - {x: -90, y: -77}
+      - {x: -90, y: -88}
+      - {x: -81, y: -93}
+      - {x: -72, y: -93}
+      - {x: -67, y: -87}
+      - {x: -67, y: -76}
+      - {x: -68, y: -73}
+    - - {x: -367, y: -37}
+      - {x: -410, y: -37}
+      - {x: -418, y: -54}
+      - {x: -418, y: -85}
+      - {x: -414, y: -90}
+      - {x: -401, y: -92}
+      - {x: -354, y: -92}
+      - {x: -354, y: -64}
+      - {x: -363, y: -39}
+    - - {x: 13, y: -74}
+      - {x: 5, y: -78}
+      - {x: 5, y: -85}
+      - {x: 11, y: -90}
+      - {x: 25, y: -90}
+      - {x: 27, y: -85}
+      - {x: 27, y: -79}
+      - {x: 21, y: -74}
+    - - {x: 252, y: -82}
+      - {x: 247, y: -83}
+      - {x: 255, y: -86}
+      - {x: 254, y: -83}
+    - - {x: 86, y: -53}
+      - {x: 74, y: -53}
+      - {x: 68, y: -58}
+      - {x: 68, y: -79}
+      - {x: 71, y: -85}
+      - {x: 90, y: -85}
+      - {x: 106, y: -71}
+      - {x: 106, y: -63}
+      - {x: 98, y: -55}
+    - - {x: -19, y: -58}
+      - {x: -27, y: -62}
+      - {x: -27, y: -69}
+      - {x: -21, y: -74}
+      - {x: -7, y: -74}
+      - {x: -5, y: -69}
+      - {x: -5, y: -63}
+      - {x: -11, y: -58}
+    - - {x: -431, y: -41}
+      - {x: -436, y: -37}
+      - {x: -455, y: -37}
+      - {x: -466, y: -39}
+      - {x: -466, y: -58}
+      - {x: -462, y: -63}
+      - {x: -457, y: -66}
+      - {x: -433, y: -66}
+      - {x: -430, y: -59}
+      - {x: -430, y: -47}
+    - - {x: 382, y: -35}
+      - {x: 385, y: -32}
+      - {x: 384, y: -30}
+      - {x: 383, y: -32}
+      - {x: 386, y: -35}
+      - {x: 449, y: -46}
+      - {x: 445, y: -50}
+      - {x: 419, y: -41}
+      - {x: 410, y: -50}
+      - {x: 357, y: -42}
+      - {x: 348, y: -42}
+    - - {x: -97, y: -39}
+      - {x: -113, y: -46}
+      - {x: -113, y: -51}
+      - {x: -107, y: -58}
+      - {x: -80, y: -58}
+      - {x: -73, y: -56}
+      - {x: -73, y: -41}
+      - {x: -78, y: -39}
+    - - {x: 29, y: -42}
+      - {x: 21, y: -46}
+      - {x: 21, y: -53}
+      - {x: 27, y: -58}
+      - {x: 41, y: -58}
+      - {x: 43, y: -53}
+      - {x: 43, y: -47}
+      - {x: 37, y: -42}
+    - - {x: 102, y: -38}
+      - {x: 97, y: -38}
+      - {x: 90, y: -44}
+      - {x: 90, y: -52}
+      - {x: 98, y: -58}
+      - {x: 120, y: -58}
+      - {x: 122, y: -53}
+      - {x: 122, y: -47}
+      - {x: 113, y: -40}
+    - - {x: -485, y: 11}
+      - {x: -508, y: 11}
+      - {x: -512, y: 7}
+      - {x: -512, y: -14}
+      - {x: -505, y: -19}
+      - {x: -481, y: -34}
+      - {x: -447, y: -34}
+      - {x: -446, y: -33}
+      - {x: -446, y: -10}
+      - {x: -453, y: 4}
+    - - {x: -32, y: 118}
+      - {x: -34, y: 70}
+      - {x: -34, y: -34}
+      - {x: 66, y: -34}
+      - {x: 66, y: 40}
+      - {x: 60, y: 118}
+    - - {x: -340, y: -15}
+      - {x: -328, y: -12}
+      - {x: -327, y: -29}
+      - {x: -345, y: -29}
+    - - {x: -306, y: -15}
+      - {x: -275, y: -15}
+      - {x: -263, y: -29}
+      - {x: -313, y: -29}
+    - - {x: -404, y: 27}
+      - {x: -418, y: 20}
+      - {x: -418, y: -17}
+      - {x: -402, y: -28}
+      - {x: -354, y: -28}
+      - {x: -354, y: 6}
+      - {x: -364, y: 27}
+    - - {x: 68, y: 66}
+      - {x: 68, y: -25}
+      - {x: 74, y: -28}
+      - {x: 124, y: -28}
+      - {x: 124, y: 66}
+    - - {x: -46, y: 56}
+      - {x: -117, y: 56}
+      - {x: -117, y: -27}
+      - {x: -43, y: -27}
+      - {x: -43, y: 53}
+    - - {x: -459, y: 27}
+      - {x: -466, y: 25}
+      - {x: -466, y: 4}
+      - {x: -464, y: -1}
+      - {x: -462, y: -2}
+      - {x: -433, y: -2}
+      - {x: -430, y: 0}
+      - {x: -430, y: 21}
+      - {x: -434, y: 27}
+    - - {x: 264, y: 10}
+      - {x: 263, y: 10}
+      - {x: 263, y: 3}
+      - {x: 264, y: 3}
+    - - {x: 272, y: 10}
+      - {x: 271, y: 10}
+      - {x: 271, y: 3}
+      - {x: 272, y: 3}
+    - - {x: 280, y: 10}
+      - {x: 279, y: 10}
+      - {x: 279, y: 3}
+      - {x: 280, y: 3}
+    - - {x: 288, y: 10}
+      - {x: 287, y: 10}
+      - {x: 287, y: 3}
+      - {x: 288, y: 3}
+    - - {x: 296, y: 10}
+      - {x: 295, y: 10}
+      - {x: 295, y: 3}
+      - {x: 296, y: 3}
+    - - {x: 304, y: 10}
+      - {x: 303, y: 10}
+      - {x: 303, y: 3}
+      - {x: 304, y: 3}
+    - - {x: 312, y: 10}
+      - {x: 311, y: 10}
+      - {x: 311, y: 3}
+      - {x: 312, y: 3}
+    - - {x: 457, y: 10}
+      - {x: 456, y: 10}
+      - {x: 456, y: 3}
+      - {x: 457, y: 3}
+    - - {x: 465, y: 10}
+      - {x: 464, y: 10}
+      - {x: 464, y: 3}
+      - {x: 465, y: 3}
+    - - {x: 473, y: 10}
+      - {x: 472, y: 10}
+      - {x: 472, y: 3}
+      - {x: 473, y: 3}
+    - - {x: 481, y: 10}
+      - {x: 480, y: 10}
+      - {x: 480, y: 3}
+      - {x: 481, y: 3}
+    - - {x: 489, y: 10}
+      - {x: 488, y: 10}
+      - {x: 488, y: 3}
+      - {x: 489, y: 3}
+    - - {x: 497, y: 10}
+      - {x: 496, y: 10}
+      - {x: 496, y: 3}
+      - {x: 497, y: 3}
+    - - {x: 505, y: 10}
+      - {x: 504, y: 10}
+      - {x: 504, y: 3}
+      - {x: 505, y: 3}
+    - - {x: 26, y: 29}
+      - {x: 29, y: 32}
+      - {x: 29, y: 23}
+      - {x: 3, y: 23}
+    - - {x: 472, y: 187}
+      - {x: 511, y: 190}
+      - {x: 512, y: 191}
+      - {x: 512, y: 371}
+      - {x: 503, y: 386}
+      - {x: 373, y: 386}
+      - {x: 361, y: 256}
+      - {x: 361, y: 251}
+      - {x: 361, y: 255}
+      - {x: 360, y: 258}
+      - {x: 350, y: 258}
+      - {x: 330, y: 384}
+      - {x: 328, y: 386}
+      - {x: 320, y: 386}
+      - {x: 318, y: 384}
+      - {x: 309, y: 386}
+      - {x: 195, y: 386}
+      - {x: 185, y: 378}
+      - {x: 184, y: 284}
+      - {x: 235, y: 257}
+      - {x: 314, y: 260}
+      - {x: 302, y: 258}
+      - {x: 251, y: 256}
+      - {x: 221, y: 253}
+      - {x: 135, y: 292}
+      - {x: -34, y: 288}
+      - {x: -34, y: 209}
+      - {x: 74, y: 62}
+      - {x: 122, y: 68}
+      - {x: 124, y: 75}
+      - {x: 124, y: 79}
+      - {x: 126, y: 68}
+      - {x: 128, y: 66}
+      - {x: 131, y: 66}
+      - {x: 164, y: 63}
+      - {x: 163, y: 68}
+      - {x: 163, y: 107}
+      - {x: 164, y: 106}
+      - {x: 169, y: 106}
+      - {x: 167, y: 106}
+      - {x: 163, y: 101}
+      - {x: 163, y: 82}
+      - {x: 165, y: 75}
+      - {x: 196, y: 60}
+      - {x: 231, y: 60}
+      - {x: 253, y: 66}
+      - {x: 256, y: 66}
+      - {x: 258, y: 68}
+      - {x: 315, y: 66}
+      - {x: 256, y: 66}
+      - {x: 254, y: 64}
+      - {x: 251, y: 30}
+      - {x: 512, y: 30}
+      - {x: 512, y: 167}
+    - - {x: -286, y: 77}
+      - {x: -281, y: 87}
+      - {x: -281, y: 106}
+      - {x: -287, y: 136}
+      - {x: -268, y: 140}
+      - {x: -261, y: 141}
+      - {x: -255, y: 142}
+      - {x: -258, y: 142}
+      - {x: -261, y: 139}
+      - {x: -275, y: 134}
+      - {x: -261, y: 107}
+      - {x: -237, y: 96}
+      - {x: -241, y: 92}
+      - {x: -244, y: 95}
+      - {x: -248, y: 96}
+      - {x: -253, y: 92}
+      - {x: -257, y: 83}
+      - {x: -258, y: 73}
+      - {x: -258, y: 69}
+      - {x: -254, y: 65}
+      - {x: -252, y: 65}
+      - {x: -251, y: 66}
+      - {x: -293, y: 67}
+    - - {x: -241, y: 65}
+      - {x: -235, y: 65}
+      - {x: -230, y: 69}
+      - {x: -244, y: 66}
+    - - {x: 324, y: 92}
+      - {x: 378, y: 93}
+      - {x: 378, y: 67}
+      - {x: 326, y: 68}
+    - - {x: 390, y: 93}
+      - {x: 445, y: 93}
+      - {x: 443, y: 72}
+      - {x: 390, y: 67}
+    - - {x: -284, y: 95}
+      - {x: -288, y: 90}
+      - {x: -288, y: 79}
+      - {x: -284, y: 68}
+      - {x: -261, y: 68}
+      - {x: -261, y: 83}
+      - {x: -271, y: 95}
+    - - {x: 3, y: 93}
+      - {x: 29, y: 93}
+      - {x: 29, y: 87}
+      - {x: 3, y: 87}
+    - - {x: -129, y: 93}
+      - {x: -130, y: 93}
+      - {x: -130, y: 89}
+      - {x: -129, y: 89}
+    - - {x: 157, y: 92}
+      - {x: 156, y: 93}
+      - {x: 156, y: 89}
+      - {x: 156, y: 90}
+    - - {x: 189, y: 92}
+      - {x: 188, y: 93}
+      - {x: 188, y: 89}
+      - {x: 188, y: 90}
+    - - {x: 195, y: 93}
+      - {x: 194, y: 92}
+      - {x: 195, y: 89}
+      - {x: 196, y: 89}
+    - - {x: 220, y: 92}
+      - {x: 219, y: 93}
+      - {x: 219, y: 89}
+      - {x: 219, y: 90}
+    - - {x: -349, y: 96}
+      - {x: -328, y: 96}
+      - {x: -323, y: 97}
+      - {x: -323, y: 121}
+      - {x: -333, y: 130}
+      - {x: -339, y: 130}
+      - {x: -349, y: 125}
+    - - {x: -386, y: 157}
+      - {x: -411, y: 132}
+      - {x: -411, y: 105}
+      - {x: -410, y: 101}
+      - {x: -377, y: 98}
+      - {x: -356, y: 98}
+      - {x: -355, y: 99}
+      - {x: -355, y: 142}
+      - {x: -362, y: 157}
+    - - {x: 152, y: 107}
+      - {x: 151, y: 106}
+      - {x: 156, y: 103}
+      - {x: 156, y: 104}
+    - - {x: 184, y: 107}
+      - {x: 183, y: 106}
+      - {x: 188, y: 103}
+      - {x: 188, y: 104}
+    - - {x: 200, y: 106}
+      - {x: 199, y: 107}
+      - {x: 195, y: 103}
+      - {x: 196, y: 103}
+    - - {x: 215, y: 107}
+      - {x: 214, y: 106}
+      - {x: 219, y: 103}
+      - {x: 219, y: 104}
+    - - {x: 137, y: 106}
+      - {x: 136, y: 107}
+      - {x: 133, y: 104}
+      - {x: 134, y: 104}
+    - - {x: 233, y: 106}
+      - {x: 232, y: 107}
+      - {x: 229, y: 104}
+      - {x: 230, y: 104}
+    - - {x: 248, y: 107}
+      - {x: 247, y: 106}
+      - {x: 251, y: 104}
+      - {x: 251, y: 105}
+    - - {x: -285, y: 129}
+      - {x: -285, y: 107}
+      - {x: -277, y: 104}
+      - {x: -257, y: 104}
+      - {x: -255, y: 107}
+      - {x: -255, y: 129}
+    - - {x: 164, y: 155}
+      - {x: 161, y: 158}
+      - {x: 158, y: 158}
+      - {x: 155, y: 155}
+      - {x: 133, y: 163}
+      - {x: 161, y: 161}
+      - {x: 228, y: 160}
+      - {x: 220, y: 159}
+      - {x: 218, y: 155}
+      - {x: 189, y: 159}
+      - {x: 187, y: 155}
+      - {x: 166, y: 122}
+      - {x: 163, y: 119}
+      - {x: 164, y: 119}
+    - - {x: 34, y: 178}
+      - {x: 32, y: 176}
+      - {x: 32, y: 120}
+      - {x: 34, y: 118}
+      - {x: 62, y: 118}
+      - {x: 64, y: 120}
+      - {x: 64, y: 176}
+      - {x: 62, y: 178}
+    - - {x: 66, y: 178}
+      - {x: 64, y: 176}
+      - {x: 64, y: 120}
+      - {x: 66, y: 118}
+      - {x: 94, y: 118}
+      - {x: 96, y: 120}
+      - {x: 96, y: 176}
+      - {x: 94, y: 178}
+    - - {x: -129, y: 125}
+      - {x: -130, y: 125}
+      - {x: -130, y: 121}
+      - {x: -129, y: 121}
+    - - {x: -247, y: 128}
+      - {x: -247, y: 122}
+      - {x: -243, y: 120}
+      - {x: -228, y: 120}
+      - {x: -226, y: 124}
+      - {x: -226, y: 127}
+      - {x: -229, y: 128}
+    - - {x: -172, y: 213}
+      - {x: -172, y: 369}
+      - {x: -182, y: 398}
+      - {x: -212, y: 398}
+      - {x: -216, y: 395}
+      - {x: -245, y: 377}
+      - {x: -246, y: 373}
+      - {x: -247, y: 368}
+      - {x: -245, y: 366}
+      - {x: -255, y: 374}
+      - {x: -283, y: 362}
+      - {x: -283, y: 327}
+      - {x: -247, y: 301}
+      - {x: -249, y: 278}
+      - {x: -247, y: 272}
+      - {x: -245, y: 270}
+      - {x: -255, y: 278}
+      - {x: -283, y: 266}
+      - {x: -283, y: 203}
+      - {x: -268, y: 165}
+      - {x: -262, y: 158}
+      - {x: -204, y: 158}
+      - {x: -174, y: 169}
+      - {x: -190, y: 190}
+      - {x: -198, y: 195}
+      - {x: -194, y: 197}
+    - - {x: -89, y: 203}
+      - {x: -67, y: 225}
+      - {x: -57, y: 246}
+      - {x: -84, y: 291}
+      - {x: -99, y: 286}
+      - {x: -101, y: 284}
+      - {x: -100, y: 286}
+      - {x: -96, y: 287}
+      - {x: -96, y: 289}
+      - {x: -100, y: 294}
+      - {x: -89, y: 299}
+      - {x: -67, y: 321}
+      - {x: -66, y: 331}
+      - {x: -66, y: 310}
+      - {x: -64, y: 308}
+      - {x: 0, y: 308}
+      - {x: 2, y: 310}
+      - {x: 2, y: 381}
+      - {x: -71, y: 398}
+      - {x: -129, y: 398}
+      - {x: -158, y: 372}
+      - {x: -158, y: 173}
+      - {x: -145, y: 158}
+      - {x: -83, y: 158}
+      - {x: -78, y: 183}
+      - {x: -90, y: 195}
+      - {x: -100, y: 198}
+    - - {x: 259, y: 189}
+      - {x: 295, y: 189}
+      - {x: 263, y: 173}
+    - - {x: 323, y: 189}
+      - {x: 342, y: 190}
+      - {x: 323, y: 181}
+    - - {x: 426, y: 190}
+      - {x: 445, y: 189}
+      - {x: 445, y: 181}
+      - {x: 444, y: 182}
+    - - {x: 196, y: 278}
+      - {x: 192, y: 276}
+      - {x: 192, y: 256}
+      - {x: 220, y: 256}
+      - {x: 224, y: 258}
+      - {x: 224, y: 278}
+    - - {x: 155, y: 273}
+      - {x: 150, y: 275}
+      - {x: 138, y: 275}
+      - {x: 133, y: 273}
+      - {x: 131, y: 270}
+      - {x: 131, y: 263}
+      - {x: 133, y: 260}
+      - {x: 138, y: 258}
+      - {x: 150, y: 258}
+      - {x: 155, y: 260}
+      - {x: 157, y: 263}
+      - {x: 157, y: 270}
+    - - {x: 185, y: 271}
+      - {x: 180, y: 273}
+      - {x: 172, y: 273}
+      - {x: 167, y: 271}
+      - {x: 165, y: 268}
+      - {x: 165, y: 265}
+      - {x: 167, y: 262}
+      - {x: 172, y: 260}
+      - {x: 180, y: 260}
+      - {x: 185, y: 262}
+      - {x: 187, y: 265}
+      - {x: 187, y: 268}
+    - - {x: 131, y: 308}
+      - {x: 131, y: 300}
+      - {x: 137, y: 290}
+      - {x: 151, y: 290}
+      - {x: 158, y: 298}
+      - {x: 158, y: 308}
+    - - {x: 179, y: 303}
+      - {x: 170, y: 303}
+      - {x: 165, y: 301}
+      - {x: 165, y: 296}
+      - {x: 172, y: 291}
+      - {x: 182, y: 291}
+      - {x: 185, y: 292}
+      - {x: 185, y: 297}
+      - {x: 184, y: 302}
+    - - {x: 131, y: 348}
+      - {x: 130, y: 340}
+      - {x: 130, y: 320}
+      - {x: 157, y: 320}
+      - {x: 159, y: 321}
+      - {x: 159, y: 344}
+      - {x: 158, y: 348}
+    - - {x: 163, y: 348}
+      - {x: 162, y: 340}
+      - {x: 162, y: 320}
+      - {x: 189, y: 320}
+      - {x: 191, y: 321}
+      - {x: 191, y: 344}
+      - {x: 190, y: 348}
+    - - {x: 43, y: 344}
+      - {x: 40, y: 340}
+      - {x: 36, y: 332}
+      - {x: 36, y: 327}
+      - {x: 41, y: 323}
+      - {x: 54, y: 323}
+      - {x: 62, y: 332}
+      - {x: 62, y: 336}
+      - {x: 61, y: 344}
+    - - {x: 6, y: 342}
+      - {x: 3, y: 336}
+      - {x: 3, y: 325}
+      - {x: 4, y: 324}
+      - {x: 22, y: 324}
+      - {x: 30, y: 327}
+      - {x: 30, y: 337}
+      - {x: 23, y: 342}
+    - - {x: 87, y: 348}
+      - {x: 77, y: 343}
+      - {x: 72, y: 334}
+      - {x: 72, y: 324}
+      - {x: 90, y: 324}
+      - {x: 93, y: 329}
+      - {x: 93, y: 347}
+      - {x: 92, y: 348}
+    - - {x: 2, y: 374}
+      - {x: 2, y: 357}
+      - {x: 5, y: 354}
+      - {x: 23, y: 354}
+      - {x: 29, y: 357}
+      - {x: 29, y: 370}
+      - {x: 21, y: 374}
+    - - {x: 79, y: 380}
+      - {x: 70, y: 373}
+      - {x: 70, y: 355}
+      - {x: 75, y: 354}
+      - {x: 91, y: 354}
+      - {x: 94, y: 359}
+      - {x: 94, y: 367}
+      - {x: 83, y: 380}
+    - - {x: 109, y: 382}
+      - {x: 99, y: 375}
+      - {x: 99, y: 355}
+      - {x: 122, y: 355}
+      - {x: 125, y: 358}
+      - {x: 125, y: 374}
+      - {x: 115, y: 382}
+    - - {x: 138, y: 378}
+      - {x: 133, y: 372}
+      - {x: 133, y: 357}
+      - {x: 134, y: 355}
+      - {x: 154, y: 355}
+      - {x: 159, y: 361}
+      - {x: 159, y: 377}
+      - {x: 155, y: 378}
+    - - {x: 173, y: 381}
+      - {x: 167, y: 371}
+      - {x: 167, y: 359}
+      - {x: 169, y: 355}
+      - {x: 186, y: 355}
+      - {x: 191, y: 357}
+      - {x: 191, y: 369}
+      - {x: 182, y: 381}
+    - - {x: 264, y: 371}
+      - {x: 261, y: 367}
+      - {x: 261, y: 357}
+      - {x: 266, y: 355}
+      - {x: 280, y: 355}
+      - {x: 283, y: 359}
+      - {x: 283, y: 369}
+      - {x: 278, y: 371}
+    - - {x: 295, y: 374}
+      - {x: 293, y: 372}
+      - {x: 293, y: 359}
+      - {x: 296, y: 355}
+      - {x: 309, y: 355}
+      - {x: 315, y: 358}
+      - {x: 315, y: 367}
+      - {x: 313, y: 374}
+    - - {x: 44, y: 376}
+      - {x: 39, y: 375}
+      - {x: 36, y: 369}
+      - {x: 36, y: 356}
+      - {x: 63, y: 356}
+      - {x: 63, y: 375}
+      - {x: 60, y: 376}
+    - - {x: 472, y: 386}
+      - {x: 470, y: 384}
+      - {x: 470, y: 375}
+      - {x: 472, y: 373}
+      - {x: 488, y: 373}
+      - {x: 490, y: 375}
+      - {x: 490, y: 384}
+      - {x: 488, y: 386}
+    - - {x: -278, y: 398}
+      - {x: -284, y: 397}
+      - {x: -284, y: 382}
+      - {x: -280, y: 382}
+      - {x: -260, y: 393}
+      - {x: -261, y: 396}
+      - {x: -265, y: 398}
+    - - {x: -147, y: 398}
+      - {x: -153, y: 395}
+      - {x: -156, y: 385}
+      - {x: -155, y: 382}
+      - {x: -152, y: 382}
+      - {x: -132, y: 393}
+      - {x: -133, y: 396}
+      - {x: -137, y: 398}
+    - - {x: -2, y: 418}
+      - {x: -2, y: 404}
+      - {x: 4, y: 382}
+      - {x: 28, y: 382}
+      - {x: 34, y: 407}
+      - {x: 34, y: 418}
+    - - {x: 342, y: 512}
+      - {x: 342, y: 384}
+      - {x: 344, y: 382}
+      - {x: 360, y: 382}
+      - {x: 362, y: 384}
+      - {x: 362, y: 512}
+    - - {x: 406, y: 512}
+      - {x: 406, y: 384}
+      - {x: 408, y: 382}
+      - {x: 424, y: 382}
+      - {x: 426, y: 384}
+      - {x: 426, y: 512}
+    - - {x: -209, y: 385}
+      - {x: -208, y: 386}
+      - {x: -214, y: 384}
+      - {x: -213, y: 383}
+    - - {x: -184, y: 398}
+      - {x: -184, y: 384}
+      - {x: -182, y: 383}
+      - {x: -177, y: 383}
+      - {x: -164, y: 393}
+      - {x: -164, y: 397}
+      - {x: -168, y: 398}
+    - - {x: 101, y: 408}
+      - {x: 96, y: 406}
+      - {x: 96, y: 388}
+      - {x: 99, y: 383}
+      - {x: 122, y: 383}
+      - {x: 129, y: 384}
+      - {x: 129, y: 404}
+      - {x: 124, y: 408}
+    - - {x: -246, y: 398}
+      - {x: -248, y: 394}
+      - {x: -248, y: 384}
+      - {x: -236, y: 384}
+      - {x: -224, y: 385}
+      - {x: -223, y: 386}
+      - {x: -223, y: 390}
+      - {x: -229, y: 398}
+    - - {x: -92, y: 398}
+      - {x: -92, y: 387}
+      - {x: -91, y: 384}
+      - {x: -72, y: 384}
+      - {x: -70, y: 385}
+      - {x: -68, y: 389}
+      - {x: -68, y: 398}
+    - - {x: -46, y: 402}
+      - {x: -56, y: 395}
+      - {x: -56, y: 387}
+      - {x: -55, y: 384}
+      - {x: -51, y: 384}
+      - {x: -41, y: 386}
+      - {x: -36, y: 392}
+      - {x: -36, y: 394}
+      - {x: -40, y: 402}
+    - - {x: -19, y: 398}
+      - {x: -24, y: 396}
+      - {x: -24, y: 384}
+      - {x: -20, y: 384}
+      - {x: -4, y: 393}
+      - {x: -5, y: 396}
+      - {x: -8, y: 398}
+    - - {x: 132, y: 389}
+      - {x: 135, y: 385}
+      - {x: 158, y: 385}
+      - {x: 158, y: 403}
+      - {x: 155, y: 409}
+      - {x: 138, y: 409}
+      - {x: 132, y: 404}
+    - - {x: 171, y: 412}
+      - {x: 167, y: 406}
+      - {x: 167, y: 389}
+      - {x: 169, y: 385}
+      - {x: 184, y: 385}
+      - {x: 187, y: 386}
+      - {x: 190, y: 394}
+      - {x: 190, y: 397}
+      - {x: 176, y: 412}
+    - - {x: 42, y: 410}
+      - {x: 37, y: 404}
+      - {x: 37, y: 389}
+      - {x: 38, y: 387}
+      - {x: 58, y: 387}
+      - {x: 63, y: 393}
+      - {x: 63, y: 409}
+      - {x: 59, y: 410}
+    - - {x: 73, y: 413}
+      - {x: 70, y: 406}
+      - {x: 70, y: 392}
+      - {x: 74, y: 388}
+      - {x: 89, y: 388}
+      - {x: 90, y: 391}
+      - {x: 90, y: 409}
+      - {x: 86, y: 413}
+    - - {x: 195, y: 403}
+      - {x: 195, y: 393}
+      - {x: 201, y: 388}
+      - {x: 217, y: 388}
+      - {x: 223, y: 394}
+      - {x: 223, y: 399}
+      - {x: 221, y: 403}
+    - - {x: 221, y: 512}
+      - {x: 194, y: 501}
+      - {x: 194, y: 441}
+      - {x: 218, y: 405}
+      - {x: 320, y: 405}
+      - {x: 322, y: 407}
+      - {x: 322, y: 512}
+    - - {x: 446, y: 512}
+      - {x: 446, y: 407}
+      - {x: 448, y: 405}
+      - {x: 480, y: 405}
+      - {x: 482, y: 407}
+      - {x: 482, y: 512}
+    - - {x: 502, y: 448}
+      - {x: 502, y: 407}
+      - {x: 504, y: 405}
+      - {x: 512, y: 405}
+      - {x: 512, y: 450}
+      - {x: 504, y: 450}
+    - - {x: -472, y: 415}
+      - {x: -469, y: 414}
+      - {x: -452, y: 414}
+      - {x: -452, y: 421}
+      - {x: -457, y: 430}
+      - {x: -472, y: 430}
+    - - {x: -409, y: 430}
+      - {x: -412, y: 423}
+      - {x: -412, y: 414}
+      - {x: -401, y: 414}
+      - {x: -392, y: 421}
+      - {x: -392, y: 425}
+      - {x: -394, y: 430}
+    - - {x: -206, y: 434}
+      - {x: -216, y: 427}
+      - {x: -216, y: 423}
+      - {x: -200, y: 414}
+      - {x: -196, y: 414}
+      - {x: -196, y: 423}
+      - {x: -201, y: 434}
+    - - {x: -143, y: 434}
+      - {x: -155, y: 429}
+      - {x: -156, y: 425}
+      - {x: -156, y: 416}
+      - {x: -155, y: 414}
+      - {x: -149, y: 414}
+      - {x: -136, y: 420}
+      - {x: -136, y: 434}
+    - - {x: -504, y: 430}
+      - {x: -504, y: 415}
+      - {x: -491, y: 415}
+      - {x: -479, y: 419}
+      - {x: -479, y: 427}
+      - {x: -490, y: 430}
+    - - {x: -440, y: 430}
+      - {x: -440, y: 417}
+      - {x: -438, y: 415}
+      - {x: -434, y: 415}
+      - {x: -425, y: 421}
+      - {x: -425, y: 427}
+      - {x: -427, y: 430}
+    - - {x: -385, y: 419}
+      - {x: -380, y: 415}
+      - {x: -368, y: 415}
+      - {x: -361, y: 419}
+      - {x: -361, y: 427}
+      - {x: -362, y: 430}
+      - {x: -378, y: 430}
+      - {x: -385, y: 425}
+    - - {x: -347, y: 430}
+      - {x: -348, y: 429}
+      - {x: -348, y: 423}
+      - {x: -345, y: 416}
+      - {x: -344, y: 415}
+      - {x: -332, y: 415}
+      - {x: -328, y: 416}
+      - {x: -328, y: 429}
+      - {x: -330, y: 430}
+    - - {x: -310, y: 434}
+      - {x: -312, y: 431}
+      - {x: -312, y: 415}
+      - {x: -305, y: 415}
+      - {x: -296, y: 417}
+      - {x: -296, y: 434}
+    - - {x: -280, y: 430}
+      - {x: -280, y: 416}
+      - {x: -278, y: 415}
+      - {x: -276, y: 415}
+      - {x: -260, y: 425}
+      - {x: -261, y: 429}
+      - {x: -266, y: 430}
+    - - {x: -182, y: 434}
+      - {x: -184, y: 431}
+      - {x: -184, y: 415}
+      - {x: -177, y: 415}
+      - {x: -168, y: 417}
+      - {x: -168, y: 434}
+    - - {x: -79, y: 434}
+      - {x: -92, y: 428}
+      - {x: -92, y: 422}
+      - {x: -78, y: 416}
+      - {x: -72, y: 416}
+      - {x: -72, y: 433}
+      - {x: -74, y: 434}
+    - - {x: -14, y: 434}
+      - {x: -24, y: 427}
+      - {x: -24, y: 419}
+      - {x: -23, y: 416}
+      - {x: -19, y: 416}
+      - {x: -9, y: 418}
+      - {x: -4, y: 424}
+      - {x: -4, y: 426}
+      - {x: -8, y: 434}
+    - - {x: 77, y: 497}
+      - {x: 75, y: 497}
+      - {x: 73, y: 496}
+      - {x: 76, y: 497}
+      - {x: 79, y: 501}
+      - {x: 78, y: 504}
+      - {x: 69, y: 509}
+      - {x: 60, y: 509}
+      - {x: 58, y: 505}
+      - {x: 57, y: 511}
+      - {x: 56, y: 512}
+      - {x: 16, y: 512}
+      - {x: 8, y: 509}
+      - {x: 8, y: 496}
+      - {x: 10, y: 495}
+      - {x: 19, y: 491}
+      - {x: 13, y: 490}
+      - {x: 11, y: 488}
+      - {x: 8, y: 479}
+      - {x: 8, y: 416}
+      - {x: 88, y: 416}
+      - {x: 88, y: 501}
+      - {x: 84, y: 506}
+    - - {x: 144, y: 441}
+      - {x: 139, y: 440}
+      - {x: 132, y: 431}
+      - {x: 132, y: 418}
+      - {x: 134, y: 417}
+      - {x: 147, y: 417}
+      - {x: 158, y: 432}
+      - {x: 158, y: 437}
+      - {x: 154, y: 441}
+    - - {x: 104, y: 444}
+      - {x: 98, y: 434}
+      - {x: 98, y: 418}
+      - {x: 124, y: 418}
+      - {x: 126, y: 424}
+      - {x: 126, y: 443}
+      - {x: 125, y: 444}
+    - - {x: -231, y: 434}
+      - {x: -245, y: 434}
+      - {x: -247, y: 431}
+      - {x: -247, y: 419}
+      - {x: -225, y: 419}
+      - {x: -223, y: 421}
+      - {x: -223, y: 426}
+    - - {x: -110, y: 434}
+      - {x: -120, y: 428}
+      - {x: -129, y: 423}
+      - {x: -129, y: 421}
+      - {x: -128, y: 419}
+      - {x: -106, y: 419}
+      - {x: -104, y: 421}
+      - {x: -104, y: 432}
+      - {x: -106, y: 434}
+    - - {x: -46, y: 434}
+      - {x: -55, y: 428}
+      - {x: -55, y: 422}
+      - {x: -53, y: 419}
+      - {x: -40, y: 419}
+      - {x: -40, y: 432}
+      - {x: -42, y: 434}
+    - - {x: 211, y: 444}
+      - {x: 197, y: 434}
+      - {x: 197, y: 420}
+      - {x: 198, y: 419}
+      - {x: 220, y: 419}
+      - {x: 220, y: 434}
+      - {x: 219, y: 437}
+      - {x: 215, y: 442}
+      - {x: 213, y: 444}
+    - - {x: 180, y: 444}
+      - {x: 165, y: 434}
+      - {x: 165, y: 420}
+      - {x: 177, y: 420}
+      - {x: 189, y: 425}
+      - {x: 189, y: 444}
+    - - {x: 15, y: 445}
+      - {x: 18, y: 446}
+      - {x: 18, y: 449}
+      - {x: 15, y: 450}
+      - {x: 13, y: 448}
+    - - {x: -498, y: 462}
+      - {x: -504, y: 460}
+      - {x: -504, y: 453}
+      - {x: -494, y: 446}
+      - {x: -480, y: 446}
+      - {x: -479, y: 452}
+      - {x: -479, y: 458}
+      - {x: -488, y: 462}
+    - - {x: -468, y: 462}
+      - {x: -471, y: 459}
+      - {x: -472, y: 455}
+      - {x: -456, y: 446}
+      - {x: -454, y: 446}
+      - {x: -452, y: 448}
+      - {x: -455, y: 460}
+      - {x: -461, y: 462}
+    - - {x: -440, y: 462}
+      - {x: -440, y: 448}
+      - {x: -438, y: 447}
+      - {x: -436, y: 447}
+      - {x: -434, y: 449}
+      - {x: -426, y: 446}
+      - {x: -421, y: 446}
+      - {x: -420, y: 448}
+      - {x: -420, y: 454}
+      - {x: -427, y: 462}
+    - - {x: -394, y: 462}
+      - {x: -402, y: 462}
+      - {x: -408, y: 460}
+      - {x: -412, y: 449}
+      - {x: -412, y: 446}
+      - {x: -388, y: 446}
+      - {x: -388, y: 454}
+      - {x: -390, y: 460}
+    - - {x: -375, y: 462}
+      - {x: -383, y: 456}
+      - {x: -385, y: 454}
+      - {x: -384, y: 451}
+      - {x: -360, y: 446}
+      - {x: -357, y: 446}
+      - {x: -356, y: 448}
+      - {x: -359, y: 460}
+      - {x: -364, y: 462}
+    - - {x: -344, y: 462}
+      - {x: -347, y: 461}
+      - {x: -348, y: 458}
+      - {x: -347, y: 455}
+      - {x: -328, y: 446}
+      - {x: -324, y: 446}
+      - {x: -324, y: 453}
+      - {x: -331, y: 462}
+    - - {x: -302, y: 466}
+      - {x: -312, y: 459}
+      - {x: -312, y: 455}
+      - {x: -298, y: 446}
+      - {x: -294, y: 446}
+      - {x: -292, y: 447}
+      - {x: -292, y: 454}
+      - {x: -296, y: 464}
+      - {x: -298, y: 466}
+    - - {x: -260, y: 461}
+      - {x: -264, y: 462}
+      - {x: -276, y: 462}
+      - {x: -280, y: 457}
+      - {x: -280, y: 447}
+      - {x: -264, y: 446}
+      - {x: -261, y: 446}
+      - {x: -260, y: 448}
+    - - {x: -220, y: 458}
+      - {x: -219, y: 455}
+      - {x: -201, y: 446}
+      - {x: -196, y: 446}
+      - {x: -196, y: 454}
+      - {x: -199, y: 460}
+      - {x: -202, y: 462}
+      - {x: -216, y: 462}
+      - {x: -219, y: 461}
+    - - {x: -156, y: 462}
+      - {x: -156, y: 446}
+      - {x: -145, y: 446}
+      - {x: -136, y: 448}
+      - {x: -136, y: 462}
+    - - {x: -188, y: 452}
+      - {x: -185, y: 447}
+      - {x: -168, y: 447}
+      - {x: -168, y: 458}
+      - {x: -170, y: 462}
+      - {x: -185, y: 462}
+      - {x: -188, y: 459}
+    - - {x: -236, y: 462}
+      - {x: -247, y: 462}
+      - {x: -252, y: 459}
+      - {x: -252, y: 457}
+      - {x: -246, y: 450}
+      - {x: -239, y: 448}
+      - {x: -230, y: 448}
+      - {x: -223, y: 452}
+      - {x: -223, y: 458}
+    - - {x: -114, y: 462}
+      - {x: -122, y: 460}
+      - {x: -129, y: 455}
+      - {x: -129, y: 453}
+      - {x: -128, y: 451}
+      - {x: -108, y: 448}
+      - {x: -105, y: 448}
+      - {x: -104, y: 450}
+      - {x: -105, y: 459}
+      - {x: -109, y: 462}
+    - - {x: -88, y: 462}
+      - {x: -91, y: 461}
+      - {x: -92, y: 458}
+      - {x: -92, y: 454}
+      - {x: -77, y: 448}
+      - {x: -72, y: 448}
+      - {x: -72, y: 460}
+      - {x: -75, y: 462}
+    - - {x: -47, y: 466}
+      - {x: -60, y: 460}
+      - {x: -60, y: 454}
+      - {x: -46, y: 448}
+      - {x: -40, y: 448}
+      - {x: -40, y: 465}
+      - {x: -42, y: 466}
+    - - {x: -28, y: 462}
+      - {x: -28, y: 451}
+      - {x: -27, y: 448}
+      - {x: -8, y: 448}
+      - {x: -6, y: 449}
+      - {x: -4, y: 453}
+      - {x: -4, y: 462}
+    - - {x: 20, y: 449}
+      - {x: 23, y: 450}
+      - {x: 23, y: 453}
+      - {x: 20, y: 454}
+      - {x: 18, y: 452}
+    - - {x: 150, y: 474}
+      - {x: 133, y: 464}
+      - {x: 133, y: 452}
+      - {x: 134, y: 450}
+      - {x: 149, y: 450}
+      - {x: 161, y: 456}
+      - {x: 161, y: 467}
+      - {x: 156, y: 474}
+    - - {x: 103, y: 456}
+      - {x: 105, y: 452}
+      - {x: 123, y: 452}
+      - {x: 123, y: 466}
+      - {x: 120, y: 473}
+      - {x: 108, y: 473}
+      - {x: 103, y: 469}
+    - - {x: 179, y: 477}
+      - {x: 162, y: 464}
+      - {x: 162, y: 459}
+      - {x: 169, y: 453}
+      - {x: 182, y: 453}
+      - {x: 189, y: 455}
+      - {x: 191, y: 461}
+      - {x: 191, y: 475}
+      - {x: 188, y: 477}
+    - - {x: 502, y: 512}
+      - {x: 502, y: 471}
+      - {x: 504, y: 469}
+      - {x: 512, y: 469}
+      - {x: 512, y: 512}
+    - - {x: -466, y: 494}
+      - {x: -472, y: 492}
+      - {x: -472, y: 485}
+      - {x: -462, y: 478}
+      - {x: -448, y: 478}
+      - {x: -447, y: 484}
+      - {x: -447, y: 490}
+      - {x: -456, y: 494}
+    - - {x: -411, y: 494}
+      - {x: -412, y: 491}
+      - {x: -412, y: 478}
+      - {x: -382, y: 478}
+      - {x: -351, y: 483}
+      - {x: -351, y: 494}
+    - - {x: -277, y: 494}
+      - {x: -280, y: 488}
+      - {x: -280, y: 480}
+      - {x: -279, y: 479}
+      - {x: -239, y: 478}
+      - {x: -196, y: 478}
+      - {x: -196, y: 485}
+      - {x: -199, y: 494}
+    - - {x: -149, y: 494}
+      - {x: -161, y: 488}
+      - {x: -161, y: 484}
+      - {x: -156, y: 478}
+      - {x: -151, y: 478}
+      - {x: -138, y: 483}
+      - {x: -136, y: 486}
+      - {x: -136, y: 490}
+      - {x: -140, y: 494}
+    - - {x: -440, y: 494}
+      - {x: -440, y: 479}
+      - {x: -423, y: 479}
+      - {x: -416, y: 480}
+      - {x: -415, y: 481}
+      - {x: -415, y: 487}
+      - {x: -423, y: 494}
+    - - {x: -193, y: 483}
+      - {x: -188, y: 479}
+      - {x: -176, y: 479}
+      - {x: -169, y: 483}
+      - {x: -169, y: 491}
+      - {x: -170, y: 494}
+      - {x: -186, y: 494}
+      - {x: -193, y: 489}
+    - - {x: -348, y: 489}
+      - {x: -342, y: 482}
+      - {x: -338, y: 480}
+      - {x: -326, y: 480}
+      - {x: -319, y: 483}
+      - {x: -319, y: 490}
+      - {x: -332, y: 494}
+      - {x: -343, y: 494}
+      - {x: -348, y: 491}
+    - - {x: -82, y: 494}
+      - {x: -90, y: 492}
+      - {x: -97, y: 487}
+      - {x: -97, y: 485}
+      - {x: -96, y: 483}
+      - {x: -76, y: 480}
+      - {x: -73, y: 480}
+      - {x: -72, y: 482}
+      - {x: -73, y: 491}
+      - {x: -77, y: 494}
+    - - {x: -13, y: 494}
+      - {x: -22, y: 494}
+      - {x: -33, y: 488}
+      - {x: -33, y: 484}
+      - {x: -32, y: 483}
+      - {x: -26, y: 480}
+      - {x: -15, y: 480}
+      - {x: -4, y: 487}
+      - {x: -4, y: 490}
+      - {x: -5, y: 492}
+    - - {x: 186, y: 509}
+      - {x: 182, y: 509}
+      - {x: 177, y: 507}
+      - {x: 162, y: 490}
+      - {x: 162, y: 484}
+      - {x: 163, y: 482}
+      - {x: 168, y: 482}
+      - {x: 181, y: 488}
+      - {x: 192, y: 493}
+      - {x: 192, y: 506}
+    - - {x: -498, y: 494}
+      - {x: -503, y: 492}
+      - {x: -503, y: 485}
+      - {x: -501, y: 483}
+      - {x: -481, y: 483}
+      - {x: -479, y: 485}
+      - {x: -480, y: 488}
+      - {x: -490, y: 494}
+    - - {x: -302, y: 498}
+      - {x: -311, y: 492}
+      - {x: -311, y: 485}
+      - {x: -309, y: 483}
+      - {x: -289, y: 483}
+      - {x: -287, y: 484}
+      - {x: -287, y: 488}
+      - {x: -295, y: 498}
+    - - {x: -108, y: 494}
+      - {x: -120, y: 494}
+      - {x: -129, y: 487}
+      - {x: -129, y: 486}
+      - {x: -128, y: 483}
+      - {x: -107, y: 483}
+      - {x: -105, y: 485}
+      - {x: -105, y: 493}
+    - - {x: -46, y: 498}
+      - {x: -56, y: 492}
+      - {x: -65, y: 487}
+      - {x: -65, y: 485}
+      - {x: -64, y: 483}
+      - {x: -42, y: 483}
+      - {x: -40, y: 485}
+      - {x: -40, y: 496}
+      - {x: -42, y: 498}
+    - - {x: 70, y: 484}
+      - {x: 65, y: 484}
+      - {x: 66, y: 483}
+    - - {x: 103, y: 504}
+      - {x: 100, y: 500}
+      - {x: 100, y: 487}
+      - {x: 107, y: 483}
+      - {x: 124, y: 483}
+      - {x: 125, y: 485}
+      - {x: 125, y: 501}
+      - {x: 119, y: 504}
+    - - {x: 135, y: 504}
+      - {x: 132, y: 500}
+      - {x: 132, y: 487}
+      - {x: 139, y: 483}
+      - {x: 156, y: 483}
+      - {x: 157, y: 485}
+      - {x: 157, y: 501}
+      - {x: 151, y: 504}
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
