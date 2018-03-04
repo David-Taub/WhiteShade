@@ -3,7 +3,7 @@ using System;
 using System.Linq;
 using UnityEngine;
 
-partial class Unit : MonoBehaviour
+partial class Unit : PhysicalObject
 {
     public GameObject BulletPrefab;
     public float AimRange = 10.0f;
@@ -18,6 +18,41 @@ partial class Unit : MonoBehaviour
         Reload = new Progressable(1, 1);
     }
 
+    private void UpdateShooter()
+    {
+        if (_target == null)
+        {
+            if (Reload != null && Reload.IsDone && !ShouldHoldFire)
+            {
+                var passingHostile = SearchAimableTarget();
+                if (passingHostile != null)
+                    ShootAt(passingHostile);
+            }
+            return;
+        }
+
+        if (IsMoving && CanAimAt(transform.position, _target))
+        {
+            //halt if moving and target in sight unexpectedly
+            Halt();
+            return;
+        }
+
+        if (Reload.IsDone)
+        {
+            if (CanAimAt(transform.position, _target))
+            {
+                //shoot when reloaded and target in sight
+                ShootAt(_target);
+            }
+            else if (!IsMoving || (IsMoving && ShouldRepairRoute()))
+            {
+                //chase target if can't shoot
+                GetInAimPosToTarget(_target);
+            }
+        }
+    }
+
     void ShootAt(Unit unit)
     {
 
@@ -27,6 +62,7 @@ partial class Unit : MonoBehaviour
         GameObject bullet = Instantiate(BulletPrefab, transform.position, Quaternion.identity);
         //bullet.transform.SetParent(transform);
         BulletControl bulletControl = bullet.GetComponentInChildren<BulletControl>();
+        bulletControl.init(gameObject, new Ray(transform.position, (unit.transform.position - transform.position).normalized));
         bulletControl.Owner = gameObject;
         bulletControl.Direction = new Ray(transform.position, (unit.transform.position - transform.position).normalized);
         Reload.Reset();

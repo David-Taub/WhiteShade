@@ -1,7 +1,5 @@
-﻿using System.Collections.Generic;
-using System.Linq;
+﻿using System.Linq;
 using UnityEngine;
-using UnityEditor;
 
 public partial class Unit
 {
@@ -21,7 +19,6 @@ public partial class Unit
         LineRenderer pathLines = GetComponent<LineRenderer>();
         if (pathLines == null)
             return;
-        //pathLines.material.SetColor("_TintColor", );
         if (pathLines.positionCount != Path.Count)
         {
             pathLines.positionCount = Path.Count;

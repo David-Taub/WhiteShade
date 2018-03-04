@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using System.Linq;
 
-partial class Unit : MonoBehaviour
+partial class Unit : PhysicalObject
 {
     private const float WalkSpeed = 10.0f;
     private AnimatedWalker _animatedWalker;
@@ -25,6 +25,14 @@ partial class Unit : MonoBehaviour
         get { return Path != null && Path.Count > 0; }
     }
 
+    public void WalkerStart()
+    {
+        Path = new LinkedList<Vector3>();
+        DestinationPlaceholder = Instantiate(_gameController.DestinationPlaceholderPrefab);
+        DestinationPlaceholder.transform.SetParent(transform);
+        DestinationPlaceholder.GetComponent<DestinationPlaceholder>().Owner = this;
+        _animatedWalker = GetComponent<AnimatedWalker>();
+    }
     public void Halt()
     {
         if (Path.Count <= 1) return;
@@ -75,41 +83,6 @@ partial class Unit : MonoBehaviour
             if (action != null)
                 action();
         });
-    }
-
-    private void UpdateShooter()
-    {
-        if (_target == null)
-        {
-            if (Reload.IsDone && !ShouldHoldFire)
-            {
-                var passingHostile = SearchAimableTarget();
-                if (passingHostile != null)
-                    ShootAt(passingHostile);
-            }
-            return;
-        }
-
-        if (IsMoving && CanAimAt(transform.position, _target))
-        {
-            //halt if moving and target in sight unexpectedly
-            Halt();
-            return;
-        }
-
-        if (Reload.IsDone)
-        {
-            if (CanAimAt(transform.position, _target))
-            {
-                //shoot when reloaded and target in sight
-                ShootAt(_target);
-            }
-            else if (!IsMoving || (IsMoving && ShouldRepairRoute()))
-            {
-                //chase target if can't shoot
-                GetInAimPosToTarget(_target);
-            }
-        }
     }
 
     private void UpdatePosition()

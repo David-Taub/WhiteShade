@@ -1,15 +1,16 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Networking.NetworkSystem;
 
 public class BulletControl : MonoBehaviour
 {
-    public float DamageImpact = 1.0f;
-    public Ray Direction;
-    public float Speed = 2.0f;
-    public float DisappearRange = 20.0f;
-    public GameObject Owner;
+    private float DamageImpact = 10.0f;
+    private Ray Direction;
+    private float Speed = 2.0f;
+    private float DisappearRange = 20.0f;
+    private GameObject Owner;
 	
     
 	// Update is called once per frame
@@ -35,5 +36,12 @@ public class BulletControl : MonoBehaviour
             interactionable.ReceiveDamage(DamageImpact);
         }
         Destroy(gameObject);
+    }
+
+    internal void init(GameObject owner, Ray ray)
+    {
+        Owner = owner;
+        Direction = ray;
+
     }
 }

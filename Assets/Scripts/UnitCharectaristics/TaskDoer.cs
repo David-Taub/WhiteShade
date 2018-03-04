@@ -5,14 +5,14 @@ using UnityEditor;
 using UnityEngine;
 using UnityEngine.UI;
 
-partial class Unit : MonoBehaviour
+partial class Unit
 {
     public Progressable CurrentTask = null;
     public Slider ProgressSlider;
 
     void UpdateTask()
     {
-        if (!Reload.IsDone && ((IsMoving && CanReloadWhileWalking) || !IsMoving))
+        if (Reload != null && !Reload.IsDone && ((IsMoving && CanReloadWhileWalking) || !IsMoving))
             CurrentTask = Reload;
         if (CurrentTask == null)
             return;

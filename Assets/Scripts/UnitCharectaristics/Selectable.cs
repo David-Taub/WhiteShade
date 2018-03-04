@@ -5,7 +5,7 @@ using UnityEditor;
 using UnityEngine;
 using UnityEngine.UI;
 
-partial class Unit : MonoBehaviour
+partial class Unit : PhysicalObject
 {
 
     public GameObject SelectionCircle;
